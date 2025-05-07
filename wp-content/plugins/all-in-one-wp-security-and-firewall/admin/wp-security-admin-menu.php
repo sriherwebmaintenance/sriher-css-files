@@ -66,7 +66,7 @@ abstract class AIOWPSecurity_Admin_Menu {
 		echo '<h2 class="nav-tab-wrapper">';
 		foreach ($this->menu_tabs as $tab_key => $tab_info) {
 			$active = $current_tab == $tab_key ? 'nav-tab-active' : '';
-			echo '<a class="nav-tab ' . $active . '" href="?page=' . $this->menu_page_slug . '&tab=' . $tab_key . '">' . esc_html($tab_info['title']) . '</a>';
+			echo '<a class="nav-tab ' . esc_attr($active) . '" href="?page=' . esc_attr($this->menu_page_slug) . '&tab=' . esc_attr($tab_key) . '">' . esc_html($tab_info['title']) . '</a>';
 		}
 		echo '</h2>';
 	}
@@ -79,10 +79,12 @@ abstract class AIOWPSecurity_Admin_Menu {
 	protected function get_current_tab() {
 		if (is_array($this->menu_tabs) && !empty($this->menu_tabs)) {
 			$tab_keys = array_keys($this->menu_tabs);
+			// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- PCP warning. No nonce available.
 			if (empty($_GET['tab'])) {
 				return $tab_keys[0];
 			} else {
-				$current_tab = sanitize_text_field($_GET['tab']);
+				// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- PCP warning. No nonce available.
+				$current_tab = sanitize_text_field(wp_unslash($_GET['tab']));
 				return in_array($current_tab, $tab_keys) ? $current_tab : $tab_keys[0];
 			}
 		} else {
@@ -98,14 +100,7 @@ abstract class AIOWPSecurity_Admin_Menu {
 	 * @return boolean - true if the tab should be displayed or false to hide it
 	 */
 	protected function should_display_tab($tab_info) {
-		if (!empty($tab_info['display_condition_callback']) && is_callable($tab_info['display_condition_callback'])) {
-			return call_user_func($tab_info['display_condition_callback']);
-		} elseif (!empty($tab_info['display_condition_callback']) && !is_callable($tab_info['display_condition_callback'])) {
-			error_log("Callback function set but not callable (coding error)");
-			return false;
-		} else {
-			return true;
-		}
+		return AIOWPSecurity_Utility::apply_callback_filter($tab_info, 'display_condition_callback');
 	}
 
 	/**
@@ -118,11 +113,11 @@ abstract class AIOWPSecurity_Admin_Menu {
 	protected function postbox_toggle($id, $title, $content) {
 		//Always send string with translation markers in it
 		?>
-		<div id="<?php echo $id; ?>" class="postbox">
-			<div class="handlediv" title="<?php echo __('Press to toggle', 'all-in-one-wp-security-and-firewall'); ?>"><br /></div>
-			<h3 class="hndle"><span><?php echo $title; ?></span></h3>
+		<div id="<?php echo esc_attr($id); ?>" class="postbox">
+			<div class="handlediv" title="<?php echo esc_html__('Press to toggle', 'all-in-one-wp-security-and-firewall'); ?>"><br /></div>
+			<h3 class="hndle"><span><?php echo esc_html($title); ?></span></h3>
 			<div class="inside">
-			<?php echo $content; ?>
+			<?php echo wp_kses_post($content); ?>
 			</div>
 		</div>
 		<?php
@@ -145,9 +140,9 @@ abstract class AIOWPSecurity_Admin_Menu {
 		// Always send string with translation markers in it
 		?>
 		<div class="postbox">
-			<h3 class="hndle"><label for="title"><?php echo $title; ?></label></h3>
+			<h3 class="hndle"><label for="title"><?php echo esc_html($title); ?></label></h3>
 			<div class="inside">
-				<?php echo $content; ?>
+				<?php echo wp_kses_post($content); ?>
 			</div>
 		</div>
 		<?php
@@ -162,9 +157,26 @@ abstract class AIOWPSecurity_Admin_Menu {
 	 */
 	public function show_msg_settings_updated($return_instead_of_echo = false) {
 		$message = '<div id="aios_message" class="updated fade"><p><strong>';
-		$message .= __('The settings have been successfully updated.', 'all-in-one-wp-security-and-firewall');
+		$message .= esc_html__('The settings have been successfully updated.', 'all-in-one-wp-security-and-firewall');
 		$message .= '</strong></p></div>';
 		if ($return_instead_of_echo) return $message;
+		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Variable contains escaped HTML.
+		echo $message;
+	}
+
+	/**
+	 * Render settings successfully updated message
+	 *
+	 * @param bool $return_instead_of_echo - This is used for when the function needs to return the message
+	 *
+	 * @return string|void
+	 */
+	public static function show_msg_settings_updated_st($return_instead_of_echo = false) {
+		$message = '<div id="aios_message" class="updated fade"><p><strong>';
+		$message .= esc_html__('The settings have been successfully updated.', 'all-in-one-wp-security-and-firewall');
+		$message .= '</strong></p></div>';
+		if ($return_instead_of_echo) return $message;
+		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Variable contains escaped HTML.
 		echo $message;
 	}
 
@@ -201,6 +213,7 @@ abstract class AIOWPSecurity_Admin_Menu {
 		$message .= wp_kses_post($msg);
 		$message .= '</strong></p></div>';
 		if ($return_instead_of_echo) return $message;
+		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Variable contains escaped HTML.
 		echo $message;
 	}
 	
@@ -217,6 +230,7 @@ abstract class AIOWPSecurity_Admin_Menu {
 		$message .= wp_kses_post($msg);
 		$message .= '</strong></p></div>';
 		if ($return_instead_of_echo) return $message;
+		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Variable contains escaped HTML.
 		echo $message;
 	}
 	
@@ -233,6 +247,7 @@ abstract class AIOWPSecurity_Admin_Menu {
 		$message .= wp_kses_post($error_msg);
 		$message .= '</strong></p></div>';
 		if ($return_instead_of_echo) return $message;
+		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Variable contains escaped HTML.
 		echo $message;
 	}
 
@@ -249,6 +264,7 @@ abstract class AIOWPSecurity_Admin_Menu {
 		$message .= wp_kses_post($error_msg);
 		$message .= '</strong></p></div>';
 		if ($return_instead_of_echo) return $message;
+		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Variable contains escaped HTML.
 		echo $message;
 	}
 	
@@ -261,5 +277,4 @@ abstract class AIOWPSecurity_Admin_Menu {
 		ob_end_clean();
 		return $output;
 	}
-
 }

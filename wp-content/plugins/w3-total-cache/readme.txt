@@ -1,9 +1,9 @@
 === W3 Total Cache ===
-Contributors: boldgrid, fredericktownes, maxicusc, gidomanders, bwmarkle, harryjackson1221, joemoto, vmarko, jacobd91
-Tags: seo, cache, CDN, pagespeed, caching, performance, compression, optimize, cloudflare, nginx, apache, varnish, redis, aws, amazon web services, s3, cloudfront, azure
+Contributors: boldgrid, fredericktownes, maxicusc, gidomanders, bwmarkle, harryjackson1221, joemoto, vmarko, jacobd91, avonville1
+Tags: CDN, pagespeed, caching, performance, optimize
 Requires at least: 5.3
-Tested up to: 6.6
-Stable tag: 2.7.4
+Tested up to: 6.8
+Stable tag: 2.8.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,86 @@ W3TC is the **only** web host agnostic Web Performance Optimization (WPO) framew
 * Extension framework for customization or extensibility for Cloudflare, WPML and much more
 * Reverse proxy integration via Nginx or Varnish
 * WebP Converter extension provides WebP image format conversion from common image formats (on upload and on demand)
+
+<h3>W3 Total Cache Pro Features</h3>
+
+With over a million active installs, W3 Total Cache is the most comprehensive WordPress caching plugin available and has robust premium features that help deliver an exceptional user experience.
+
+* Full Site Delivery: Serve your entire site from a Content Delivery Network (CDN), ensuring faster load times worldwide.
+* Fragment Cache: Optimize the caching of dynamic content while still improving performance.
+* REST API Caching: Speed up your headless WordPress site by caching REST API calls.
+* Eliminate Render-Blocking CSS: Ensure your CSS doesn't hold up page loading, providing faster initial paint.
+* Delay Scripts: Improve performance by delaying the loading of non-essential scripts until they are needed.
+* Preload Requests: Boost page performance by preloading critical resources before they're requested.
+* Remove CSS/JS: Clean up unnecessary CSS and JavaScript files that slow down your pages.
+* Lazy Load Google Maps: Load Google Maps only when it's visible, reducing unnecessary requests.
+* WPML Extension: Optimize performance on multilingual sites powered by WPML.
+* Caching Statistics: Get detailed insights on cache usage and performance improvements.
+* Purge Logs: Keep your site clean by automatically purging unnecessary cache logs.
+
+<h3>30-Day Money-Back Guarantee</h3>
+
+Try [W3 Total Cache Pro](https://www.boldgrid.com/w3-total-cache/) risk-free with our 30-day money-back guarantee. If you're not satisfied, we will refund your purchase.
+
+<h3>PAGESPEED SCORE IMPROVEMENTS</h3>
+
+To help you understand the impact of individual features on your website's performance, we've tested each feature separately to see its effect on Google PageSpeed scores. While optimal results come from configuring several different caching tools together, the following individual features also show significant improvements on their own:
+
+<h4>Remove Unused CSS/JS</h4>
+
+This feature removes CSS and JavaScript files that are not needed for the current page, reducing the load time.
+
+* Added over 27 points to the Google PageSpeed score (Before: 57.2 / After: 86.7)
+* Reduced the Potential Savings From Unused JavaScript from 127.5 KiB to 84 KiB
+* [View the test results](https://www.boldgrid.com/support/w3-total-cache/pagespeed-tests/remove-scripts/)
+
+<h4>Full Site Delivery</h4>
+
+Full Site Delivery optimizes the delivery of your entire site, enhancing the server response time.
+
+* Added a 99% performance enhancement  to the Average Server Response Time (Before: 3413 ms / After: 34 ms)
+* [View the test results](https://www.boldgrid.com/support/w3-total-cache/pagespeed-tests/fsd-full-site-delivery/)
+
+<h4>Eliminate Render Blocking CSS</h4>
+
+This feature eliminates CSS that blocks the rendering of your page, speeding up the initial load time.
+
+* Added over 17 points to the Google PageSpeed score (Before: 53.75 / After: 71)
+* Reduced the Potential Savings From Render-Blocking Resources by over 94% (Before: 2432.5 ms / After: 125 ms)
+* Improved the Largest Contentful Paint time by over 56% (Before: 7s / After: 3.04s)
+* [View the test results](https://www.boldgrid.com/support/w3-total-cache/pagespeed-tests/eliminate-render-blocking-css/)
+
+<h4>Delay Scripts</h4>
+
+Delay Scripts postpones the loading of certain scripts until they are needed, reducing initial load times.
+
+* Added 14 points to the Google PageSpeed Performance score (Before: 54.25 / After: 68.5)
+* Reduced the Time Third-Party Code Blocked The Main Thread For by 62% (Before: 825 ms / After: 197.5 ms)
+* [View the test results](https://www.boldgrid.com/support/w3-total-cache/pagespeed-tests/delay-scripts-test/)
+
+<h4>Rest API Caching</h4>
+
+This feature caches API responses, reducing server load and speeding up API interactions.
+
+* Reduced the Average Server Load by 40% (Before: 0.62 / After: 0.37)
+* Sped up API Responses by 84.5% (Before: 968ms / After: 150ms)
+* Reduced the Average Server Load by 24% under during a major traffic spike (Before: 34.55 / After: 26.19)
+* [View the test results](https://www.boldgrid.com/support/w3-total-cache/pagespeed-tests/rest-api-testing/)
+
+<h4>WebP Images</h4>
+
+Converts images to the WebP format, which is more efficient and faster to load.
+
+* Added over 9 points to the Google PageSpeed score (Before: 84.67 / After: 93.83)
+* [View the test results](https://www.boldgrid.com/support/w3-total-cache/pagespeed-tests/webp/)
+
+<h4>Lazy Load Google Maps</h4>
+
+Delays the loading of Google Maps until the user interacts with them, reducing initial load time.
+
+* Added 10 points to the Google PageSpeed score (Before: 66 / After: 76)
+* Reduced the Total Blocking Time Performance score by 72% (Before: 287.5 ms / After: 80 ms)
+* [View the test results](https://www.boldgrid.com/support/w3-total-cache/pagespeed-tests/lazy-load-maps/)
 
 Speed up your site tremendously, improve core web vitals and the overall user experience for your visitors without having to change your WordPress host, theme, plugins or your content production workflow.
 
@@ -276,10 +356,112 @@ It's quite difficult to recall all of the innovators that have shared their thou
 * [Gopal Vijayaraghavan](http://notmysock.org/)
 * [Bart Vanbraban](http://eaccelerator.net/)
 * [mOo](http://xcache.lighttpd.net/)
+* [villu164] (https://www.wordfence.com/threat-intel/vulnerabilities/researchers/villu164)
 
 Please reach out to all of these people and support their projects if you're so inclined.
 
 == Changelog ==
+
+= 2.8.8 =
+* Fix: Usage Statistics JavaScript error
+* Fix: Regex matching for Cookie Cache Groups
+* Fix: Image Service: Error when get_current_screen() is run before admin_init
+* Fix: _load_textdomain_just_in_time timing issue for WP-CLI and the Setup Guide
+* Fix: "DOMDocument::loadHTML(): ID  already defined in Entity" errors
+* Fix: Cloudflare: Saving settings with a value of 0
+* Update: Removed StackPath, Limelight, and Highwinds CDNs due to end of service
+
+= 2.8.7 =
+* Fix: Exit survey email field submission
+* Fix: Setup Guide analytics
+* Update: Allow deleting plugin data when skipping the exit survey on deactivation
+* Update: aws/aws-php-sns-message-validator (1.9.0 => 1.9.1)
+
+= 2.8.6 =
+* Fix: Error deactivating when selected to delete plugin data
+* Fix: WP-CLI: Enable Object Cache depending on settings
+* Fix: Delete all plugin WordPress Options if selected on deactivation
+* Enhancement: Automatically disable Object Cache after plugin update if set to Disk and display a notice
+* Enhancement: WP-CLI: Added settings to enable Object and DB Cache for WP-CLI
+* Enhancement: Added an email field to the exit survey for requesting help
+* Enhancement: Added a popup modal to accept the risk when enabling Object Cache using Disk
+
+= 2.8.5 =
+* Fix: CDN: Amazon S3 long hostname for default region
+* Fix: WP-CLI: Error running "wp w3tc alwayscached_*" commands
+* Fix: WP-CLI: Remove HTML in output
+* Enhancement: Simplified license messsaging
+
+= 2.8.4 =
+* Fix: Deactivation modal JS error
+
+= 2.8.3 =
+* Fix: HTTP API calls for checking required files
+* Fix: script-src-elem and style-src-attr security headers
+* Fix: Handle multiple line srcset attributes for CDN URL replacement
+* Fix: Fragment Cache: Fixed logic for navigation links
+* Fix: Check for modified advanced-cache.php dropin/addin file
+* Fix: Log directory name is made unique
+* Enhancement: Added an exit survey with option to delete plugin data on deactivation
+* Enhancement: Fragment Cache: Added notices for configuration
+* Enhancement: Use admin-ajax for settings help tab content links
+* Update: Handle XML MIME types in cache by default
+* Update: Added "immutable" options for cache-control headers
+* Update: Added WP-CLI command descriptions
+* Update: CDN widget notices for BunnyCDN
+* Update: WebP Converter widget notice
+
+= 2.8.2 =
+* Fix: Added additional user capability checks
+* Fix: Ensure Object Cache garbage collection (disk) WP Cron event is scheduled
+* Fix: Added additional checks when loading the Object Cache dropin
+* Fix: Disable Database, Object, and Fragment Cache when using WP-CLI
+* Fix: Object Cache debug logging
+* Fix: FAQ help tabs
+* Update: Coding standards
+
+= 2.8.1=
+* Fix: Ensure WP Cron events get scheduled when using the Setup Guide wizard and on upgrade
+* Fix: Undefined variable when the Object Cache purge debug log is enabled
+* Update: Added warnings in the Setup Guide and the General Settings page when using Disk for Database and Object Caches
+* Update: Skip Database and Object caches when using WP-CLI
+
+= 2.8.0 =
+* Feature: Always Cached extension
+* Feature: Purge caches on WP-Cron schedules
+* Fix: Cloudflare: Some settings were not saved correctly
+* Fix: Check and update file mode/permissions for cache files
+* Fix: Issue prompting for credentials for some non-direct filesystem types
+* Enhancement: Added an admin notice if WP-Cron is not functioning correctly
+* Enhancement: Added Browser Cache filters
+* Update: Upgraded JSMin library to 2.4.3
+* Update: Added Premium Services tabs
+
+= 2.7.7 =
+* Update: CDN: Added support for Microsoft Azure EntraID Managed identities
+
+= 2.7.6 =
+* Fix: Improved cache flushing on actions/updates
+* Fix: Google PageSpeed authorization
+* Fix: Remove Fragment Cache link if extension is disabled
+* Fix: License status fix
+* Fix: Statistics PHP warning when some data is stale
+* Fix: API improvement for non-200 responses
+* Enhancement: Added notices when choosing Disk for object and database cache engines
+* Update: Object cache improvements
+* Update: Allow WPML extension activation for TranslatePress
+* Update: Added more information for selections in the setup guide wizard
+* Update: Updated cache header directive choices (no-cache/no-store)
+* Update: Nginx configuration examples
+
+= 2.7.5 =
+* Feature: Added dismissible notifications
+* Fix: PHP error in Page Cache when deleting media
+* Fix: PHP warning in Page Cache when modifying an attachment
+* Update: Added additional default query strings for page cache exemptions
+* Update: Removed obsolete Google PageSpeed metrics
+* Update: Condensed Google PageSpeed proof block format for certain settings/features
+* Update: Added missing Google PageSpeed score block for PageCache Lazy Loading Google Maps setting on General Settings page
 
 = 2.7.4 =
 * Fix: WP-CLI get option output for array type
@@ -1067,6 +1249,12 @@ Please reach out to all of these people and support their projects if you're so 
 
 
 == Upgrade Notice ==
+
+= 2.8.2
+This is a security update.  All users are encouraged to update to this version.
+
+= 2.8.1 =
+Users with Object Cache enabled using Disk storage should upgrade to this version to ensure proper garbage collection.  A memory-based engine is recommended for database and object cache engines.  Using the Disk option can lead to a large number of cache files.  Hosting accounts with inode limits may experience issues, including downtime, if limits are reached.
 
 = 2.7.3 =
 Thanks for using W3 Total Cache! The minimum required PHP version has been raised to PHP 7.2.5.  We recommend using PHP 8.  StackPath CDN has cased all operations and will be removed in a future release.  We recommend switching to Bunny CDN.

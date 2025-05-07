@@ -12,7 +12,9 @@ namespace W3TC;
  */
 class PgCache_QsExempts {
 	/**
-	 * Returns list of default accepted QS key/values to be ignored when generating the Page Cache.
+	 * Retrieves an array of query string parameters that are exempt from processing.
+	 *
+	 * @return array List of query string parameter names that are exempt.
 	 */
 	public static function get_qs_exempts() {
 		return array(
@@ -28,8 +30,10 @@ class PgCache_QsExempts {
 			'ao_noptimize',
 			'campaignid',
 			'campid',
+			'click_id',
 			'cn-reloaded',
 			'customid',
+			'dicbo',
 			'dm_i',
 			'ef_id',
 			'epik',
@@ -53,6 +57,7 @@ class PgCache_QsExempts {
 			'hsa_tgt',
 			'hsa_ver',
 			'igshid',
+			'li_fat_id',
 			'matomo_campaign',
 			'matomo_cid',
 			'matomo_content',
@@ -94,13 +99,17 @@ class PgCache_QsExempts {
 			's_kwcid',
 			's_kwcid',
 			'sb_referer_host',
+			'ScCid',
 			'si',
 			'sscid',
+			'tblci',
 			'toolid',
 			'trk_contact',
 			'trk_module',
 			'trk_msg',
 			'trk_sid',
+			'ttclid',
+			'twclid',
 			'usqp',
 			'utm_campaign',
 			'utm_content',
@@ -109,6 +118,7 @@ class PgCache_QsExempts {
 			'utm_medium',
 			'utm_source',
 			'utm_term',
+			'wbraid',
 		);
 	}
 }

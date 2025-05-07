@@ -20,6 +20,7 @@ class AIOWPSecurity_Cronjob_Handler {
 		add_action('aios_change_auth_keys_and_salt', 'AIOWPSecurity_Utility::change_salt_postfixes');
 		add_action('aiowps_purge_old_debug_logs', array($this, 'purge_old_debug_logs'));
 		add_action('aiowps_send_lockout_email', array($this, 'send_lockout_email'));
+		add_action('aios_update_googlebot_ip_ranges', array($this, 'aios_update_googlebot_ip_ranges'));
 	}
 
 	/**
@@ -85,6 +86,7 @@ class AIOWPSecurity_Cronjob_Handler {
 		do_action('aiowps_purge_old_debug_logs');
 		do_action('aiowps_send_lockout_email');
 		do_action('aios_perform_update_antibot_keys');
+		do_action('aios_update_googlebot_ip_ranges');
 	}
 
 	/**
@@ -106,9 +108,9 @@ class AIOWPSecurity_Cronjob_Handler {
 
 		$after_days = empty($after_days) ? 90 : $after_days;
 		$older_than_date_time = strtotime('-' . $after_days . ' days', time());
-		
-		$query = 'DELETE FROM ' . $debug_tbl_name . ' WHERE logtime < %s';
-		$ret = $wpdb->query($wpdb->prepare($query, $older_than_date_time));
+
+		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery -- PCP warning. Ignore
+		$ret = $wpdb->query($wpdb->prepare('DELETE FROM ' . $debug_tbl_name . ' WHERE logtime < %s', $older_than_date_time));
 		if (false === $ret) {
 			$error_msg = empty($wpdb->last_error) ? 'Could not receive the reason for the failure' : $wpdb->last_error;
 			$aio_wp_security->debug_logger->log_debug_cron("Failed to purge older debug logs : {$error_msg}", 4);
@@ -122,5 +124,34 @@ class AIOWPSecurity_Cronjob_Handler {
 	public function send_lockout_email() {
 		global $aio_wp_security;
 		$aio_wp_security->user_login_obj->send_login_lockout_emails();
+	}
+
+	/**
+	 * Update Googlebot IP ranges for the firewall configuration.
+	 *
+	 * This function updates the Googlebot IP ranges in the firewall configuration.
+	 * It checks if the 'Block fake Googlebots' feature is enabled and then retrieves
+	 * the validated Googlebot IP ranges. If the IP ranges are retrieved successfully,
+	 * they are saved to the firewall configuration. If there is an error in retrieving
+	 * the IP ranges, a debug message is logged.
+	 *
+	 * @global object $aio_wp_security The main AIO WP Security object.
+	 * @global object $aiowps_firewall_config The AIO WP Security firewall configuration object.
+	 *
+	 * @return void
+	 */
+	public function aios_update_googlebot_ip_ranges() {
+		global $aio_wp_security;
+		$aiowps_firewall_config = AIOS_Firewall_Resource::request(AIOS_Firewall_Resource::CONFIG);
+
+		if ($aiowps_firewall_config->get_value('aiowps_block_fake_googlebots')) {
+			$validated_ip_list_array = AIOWPSecurity_Utility::get_googlebot_ip_ranges();
+
+			if (is_wp_error($validated_ip_list_array)) {
+				$aio_wp_security->debug_logger->log_debug('The attempt to save the IP addresses failed, because it was not possible to validate the Googlebot IP addresses: ' . $validated_ip_list_array->get_error_message(), 4);
+			}
+
+			$aiowps_firewall_config->set_value('aiowps_googlebot_ip_ranges', $validated_ip_list_array);
+		}
 	}
 }

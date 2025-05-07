@@ -1,15 +1,15 @@
-# Copyright (C) 2024 The Events Calendar
+# Copyright (C) 2025 The Events Calendar
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Tribe Common 6.4.0\n"
+"Project-Id-Version: Tribe Common 6.5.5.1\n"
 "Report-Msgid-Bugs-To: https://evnt.is/191x\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-04T14:31:49+00:00\n"
+"POT-Creation-Date: 2025-04-28T18:06:34+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: tribe-common\n"
@@ -27,6 +27,7 @@ msgstr ""
 #. Author of the plugin
 #: tribe-common.php
 #: src/admin-views/help-calendar.php:105
+#: src/Common/Admin/Abstract_Admin_Page.php:430
 #: src/Tribe/Admin/Help_Page.php:171
 #: src/Tribe/Customizer.php:664
 #: src/Tribe/Plugins_API.php:25
@@ -426,7 +427,6 @@ msgstr ""
 #: src/admin-views/help-calendar.php:168
 #: src/admin-views/help-community.php:153
 #: src/admin-views/help-ticketing.php:186
-#: src/Common/Event_Automator/Admin/Tabs/Integrations.php:52
 msgid "Integrations"
 msgstr ""
 
@@ -738,25 +738,25 @@ msgstr ""
 msgid "Iframe Content"
 msgstr ""
 
-#: src/admin-views/help-hub/support/iframe-content.php:34
+#: src/admin-views/help-hub/support/iframe-content.php:44
 msgid "Star Icon"
 msgstr ""
 
-#: src/admin-views/help-hub/support/iframe-content.php:37
+#: src/admin-views/help-hub/support/iframe-content.php:47
 msgid "Our AI Chatbot can help you find solutions quickly."
 msgstr ""
 
-#: src/admin-views/help-hub/support/iframe-content.php:39
+#: src/admin-views/help-hub/support/iframe-content.php:49
 msgid "To enhance your experience, we require your consent to collect and share some of your website’s data with our AI chatbot."
 msgstr ""
 
 #. translators: 1: the opening tag to the chatbot link, 2: the closing tag.
-#: src/admin-views/help-hub/support/iframe-content.php:45
+#: src/admin-views/help-hub/support/iframe-content.php:55
 msgctxt "Text for opting out of chatbot and linking to The Events Calendar’s Knowledgebase"
 msgid "If you do not wish to consent, you could chat with the bot on %1$sThe Events Calendar’s Knowledgebase%2$s."
 msgstr ""
 
-#: src/admin-views/help-hub/support/iframe-content.php:55
+#: src/admin-views/help-hub/support/iframe-content.php:65
 msgid "Manage my data sharing consent"
 msgstr ""
 
@@ -834,7 +834,7 @@ msgid "(Event Tickets Plus)"
 msgstr ""
 
 #: src/admin-views/help.php:38
-#: src/Tribe/Settings.php:808
+#: src/Tribe/Settings.php:811
 msgid "Help"
 msgstr ""
 
@@ -1303,8 +1303,8 @@ msgid "License & Usage"
 msgstr ""
 
 #: src/admin-views/troubleshooting/ea-status/license-key.php:43
-#: src/Tribe/PUE/Checker.php:705
-#: src/Tribe/PUE/Checker.php:716
+#: src/Tribe/PUE/Checker.php:820
+#: src/Tribe/PUE/Checker.php:831
 msgid "License Key"
 msgstr ""
 
@@ -1678,6 +1678,39 @@ msgstr ""
 #: src/admin-views/zapier/dashboard/table.php:23
 msgctxt "The legend for the Zapier endpoint dashboard."
 msgid "Endpoint Dashboard"
+msgstr ""
+
+#: src/Common/Admin/Abstract_Custom_List_Table.php:70
+msgid "Number of entries per page:"
+msgstr ""
+
+#: src/Common/Admin/Abstract_Custom_List_Table.php:176
+msgid "Apply Filters"
+msgstr ""
+
+#: src/Common/Admin/Abstract_Custom_List_Table.php:353
+msgid "From"
+msgstr ""
+
+#: src/Common/Admin/Abstract_Custom_List_Table.php:363
+#: src/Common/Admin/Abstract_Custom_List_Table.php:377
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: src/Common/Admin/Abstract_Custom_List_Table.php:367
+msgid "to"
+msgstr ""
+
+#: src/Common/Admin/Abstract_Custom_List_Table.php:421
+msgid "All Events"
+msgstr ""
+
+#: src/Common/Admin/Abstract_Custom_List_Table.php:426
+msgid "Filter By Event"
+msgstr ""
+
+#: src/Common/Admin/Abstract_Custom_List_Table.php:433
+msgid "Searching..."
 msgstr ""
 
 #: src/Common/Admin/Entities/Heading.php:101
@@ -2595,44 +2628,44 @@ msgctxt "Notice message after updating plugins to the merged version."
 msgid "Thanks for upgrading %1$s now with even more value! Learn more about the latest changes %2$shere%3$s."
 msgstr ""
 
-#: src/Common/Notifications/Controller.php:85
+#: src/Common/Notifications/Controller.php:94
 msgid "Read notifications"
 msgstr ""
 
-#: src/Common/Notifications/Controller.php:213
+#: src/Common/Notifications/Controller.php:222
 msgid "Enable this option to receive notifications about The Events Calendar, including updates, fixes, and features. This is enabled if you have opted in to Telemetry."
 msgstr ""
 
-#: src/Common/Notifications/Controller.php:224
+#: src/Common/Notifications/Controller.php:233
 msgid "In-App Notifications"
 msgstr ""
 
-#: src/Common/Notifications/Notifications.php:153
-#: src/Common/Notifications/Notifications.php:171
-#: src/Common/Notifications/Notifications.php:219
-#: src/Common/Notifications/Notifications.php:247
-#: src/Common/Notifications/Notifications.php:273
+#: src/Common/Notifications/Notifications.php:143
+#: src/Common/Notifications/Notifications.php:161
+#: src/Common/Notifications/Notifications.php:210
+#: src/Common/Notifications/Notifications.php:238
+#: src/Common/Notifications/Notifications.php:264
 msgid "Invalid nonce"
 msgstr ""
 
-#: src/Common/Notifications/Notifications.php:159
+#: src/Common/Notifications/Notifications.php:149
 msgid "Notifications opt-in successful"
 msgstr ""
 
-#: src/Common/Notifications/Notifications.php:226
-#: src/Common/Notifications/Notifications.php:254
+#: src/Common/Notifications/Notifications.php:217
+#: src/Common/Notifications/Notifications.php:245
 msgid "Invalid notification slug"
 msgstr ""
 
-#: src/Common/Notifications/Notifications.php:233
+#: src/Common/Notifications/Notifications.php:224
 msgid "Notification dismissed"
 msgstr ""
 
-#: src/Common/Notifications/Notifications.php:261
+#: src/Common/Notifications/Notifications.php:252
 msgid "Notification marked as read"
 msgstr ""
 
-#: src/Common/Notifications/Notifications.php:284
+#: src/Common/Notifications/Notifications.php:275
 msgid "All notifications marked as read"
 msgstr ""
 
@@ -2682,7 +2715,7 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
-#: src/functions/template-tags/html.php:103
+#: src/functions/template-tags/html.php:104
 msgctxt "The associated field is required."
 msgid "( required )"
 msgstr ""
@@ -4778,99 +4811,99 @@ msgstr ""
 msgid "Null logger (will log nothing)"
 msgstr ""
 
-#: src/Tribe/Main.php:267
+#: src/Tribe/Main.php:279
 msgctxt "Copy to clipboard success message"
 msgid "Copied to Clipboard!"
 msgstr ""
 
-#: src/Tribe/Main.php:268
+#: src/Tribe/Main.php:280
 msgctxt "Copy to clipboard failed message"
 msgid "Failed to copy."
 msgstr ""
 
-#: src/Tribe/Main.php:419
+#: src/Tribe/Main.php:431
 msgid ": activate to sort column ascending"
 msgstr ""
 
-#: src/Tribe/Main.php:420
+#: src/Tribe/Main.php:432
 msgid ": activate to sort column descending"
 msgstr ""
 
-#: src/Tribe/Main.php:422
+#: src/Tribe/Main.php:434
 msgid "Show _MENU_ entries"
 msgstr ""
 
-#: src/Tribe/Main.php:423
+#: src/Tribe/Main.php:435
 msgid "No data available in table"
 msgstr ""
 
-#: src/Tribe/Main.php:424
+#: src/Tribe/Main.php:436
 msgid "Showing _START_ to _END_ of _TOTAL_ entries"
 msgstr ""
 
-#: src/Tribe/Main.php:425
+#: src/Tribe/Main.php:437
 msgid "Showing 0 to 0 of 0 entries"
 msgstr ""
 
-#: src/Tribe/Main.php:426
+#: src/Tribe/Main.php:438
 msgid "(filtered from _MAX_ total entries)"
 msgstr ""
 
-#: src/Tribe/Main.php:427
+#: src/Tribe/Main.php:439
 msgid "No matching records found"
 msgstr ""
 
-#: src/Tribe/Main.php:428
+#: src/Tribe/Main.php:440
 msgid "Search:"
 msgstr ""
 
-#: src/Tribe/Main.php:429
+#: src/Tribe/Main.php:441
 msgid "All items on this page were selected. "
 msgstr ""
 
-#: src/Tribe/Main.php:430
+#: src/Tribe/Main.php:442
 msgid "Select all pages"
 msgstr ""
 
-#: src/Tribe/Main.php:431
+#: src/Tribe/Main.php:443
 msgid "Clear Selection."
 msgstr ""
 
-#: src/Tribe/Main.php:433
+#: src/Tribe/Main.php:445
 msgid "All"
 msgstr ""
 
-#: src/Tribe/Main.php:434
-#: src/Tribe/Main.php:451
+#: src/Tribe/Main.php:446
+#: src/Tribe/Main.php:463
 msgid "Next"
 msgstr ""
 
-#: src/Tribe/Main.php:435
+#: src/Tribe/Main.php:447
 msgid "Previous"
 msgstr ""
 
-#: src/Tribe/Main.php:440
+#: src/Tribe/Main.php:452
 msgid ": Selected %d rows"
 msgstr ""
 
-#: src/Tribe/Main.php:441
+#: src/Tribe/Main.php:453
 msgid ": Selected 1 row"
 msgstr ""
 
-#: src/Tribe/Main.php:452
+#: src/Tribe/Main.php:464
 msgid "Prev"
 msgstr ""
 
-#: src/Tribe/Main.php:453
-#: src/Tribe/Main.php:455
+#: src/Tribe/Main.php:465
+#: src/Tribe/Main.php:467
 msgid "Today"
 msgstr ""
 
-#: src/Tribe/Main.php:454
+#: src/Tribe/Main.php:466
 msgid "Done"
 msgstr ""
 
-#: src/Tribe/Main.php:456
+#: src/Tribe/Main.php:468
 msgid "Clear"
 msgstr ""
 
@@ -5151,129 +5184,129 @@ msgstr ""
 msgid "Promoter Key"
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:689
+#: src/Tribe/PUE/Checker.php:804
 msgid "A valid license key is required for support and updates"
 msgstr ""
 
 #. Translators: %1$s and %2$s are opening and closing <a> tags, respectively.
-#: src/Tribe/PUE/Checker.php:693
+#: src/Tribe/PUE/Checker.php:808
 msgid "%1$sBuy a license%2$s for the Event Aggregator service to access additional import features."
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:725
-#: src/Tribe/PUE/Checker.php:759
+#: src/Tribe/PUE/Checker.php:840
+#: src/Tribe/PUE/Checker.php:874
 msgid "License Key Status:"
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:734
+#: src/Tribe/PUE/Checker.php:849
 msgid "Override network license key"
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:735
+#: src/Tribe/PUE/Checker.php:850
 msgid "Check this box if you wish to override the network license key with your own"
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:746
+#: src/Tribe/PUE/Checker.php:861
 msgid "Site License Key"
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:847
+#: src/Tribe/PUE/Checker.php:976
 msgid "License key(s) updated."
 msgstr ""
 
 #. Translators: %1$s and %2$s are opening and closing <a> tags, respectively.
-#: src/Tribe/PUE/Checker.php:1104
+#: src/Tribe/PUE/Checker.php:1240
 msgid "Hmmm... something's wrong with this validator. Please contact %1$ssupport%2$s."
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:1123
+#: src/Tribe/PUE/Checker.php:1260
 msgid "unknown date"
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:1129
+#: src/Tribe/PUE/Checker.php:1266
 msgid "Sorry, key validation server is not available."
 msgstr ""
 
 #. Translators: %s is the expiration date.
-#: src/Tribe/PUE/Checker.php:1158
+#: src/Tribe/PUE/Checker.php:1295
 msgid "Valid Key! Expires on %s"
 msgstr ""
 
 #. Translators: %s is the expiration date.
-#: src/Tribe/PUE/Checker.php:1169
+#: src/Tribe/PUE/Checker.php:1306
 msgid "Thanks for setting up a valid key. It will expire on %s"
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:1207
-#: src/Tribe/PUE/Notices.php:360
+#: src/Tribe/PUE/Checker.php:1344
+#: src/Tribe/PUE/Notices.php:480
 msgid "Renew Your License Now"
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:1209
-#: src/Tribe/PUE/Notices.php:362
+#: src/Tribe/PUE/Checker.php:1346
+#: src/Tribe/PUE/Notices.php:482
 msgid " (opens in a new window)"
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:1226
+#: src/Tribe/PUE/Checker.php:1363
 msgid "Please refresh the page and try your request again."
 msgstr ""
 
 #. Translators: %1$s is the plugin name. %2$s and %3$s are opening and closing <a> tags, respectively.
-#: src/Tribe/PUE/Checker.php:1247
+#: src/Tribe/PUE/Checker.php:1385
 msgid "There is an update for %1$s. You'll need to %2$scheck your license%3$s to have access to updates, downloads, and support."
 msgstr ""
 
 #. Translators: %1$s is the plugin name. %2$s and %3$s are opening and closing <a> tags, respectively.
-#: src/Tribe/PUE/Checker.php:1311
+#: src/Tribe/PUE/Checker.php:1449
 msgid "There is an update for %1$s. %2$sRenew your license%3$s to get access to bug fixes, security updates, and new features."
 msgstr ""
 
 #. Translators: %s is the plugin version number.
-#: src/Tribe/PUE/Checker.php:1343
+#: src/Tribe/PUE/Checker.php:1481
 msgid "Update now to version %s."
 msgstr ""
 
 #. Translators: %1$s is the plugin name. %2$s is the update now link.
-#: src/Tribe/PUE/Checker.php:1358
+#: src/Tribe/PUE/Checker.php:1496
 msgid "There is a new version of %1$s available. %2$s"
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:1974
+#: src/Tribe/PUE/Checker.php:2187
 msgid "A valid license has been entered by your network administrator."
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:1975
+#: src/Tribe/PUE/Checker.php:2188
 msgid "No license entered. Consult your network administrator."
 msgstr ""
 
-#: src/Tribe/PUE/Checker.php:1976
+#: src/Tribe/PUE/Checker.php:2189
 msgid "Expired license. Consult your network administrator."
 msgstr ""
 
-#: src/Tribe/PUE/Notices.php:293
+#: src/Tribe/PUE/Notices.php:413
 msgid "It looks like you're using %1$s, but the license key is invalid. Please download the latest version %2$sfrom your account%3$s."
 msgid_plural "It looks like you're using %1$s, but the license keys are invalid. Please download the latest versions %2$sfrom your account%3$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Tribe/PUE/Notices.php:347
+#: src/Tribe/PUE/Notices.php:467
 msgid "There is an update available for %1$s but your license has expired. %2$sVisit the Events Calendar website to renew your license.%3$s"
 msgid_plural "Updates are available for %1$s but your license keys have expired. %2$sVisit the Events Calendar website to renew your licenses.%3$s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Tribe/PUE/Notices.php:388
+#: src/Tribe/PUE/Notices.php:508
 msgid "You have a license key for %1$s but the key is out of installs. %2$sVisit the Events Calendar website%3$s to manage your installs, upgrade your license, or purchase a new one."
 msgid_plural "You have license keys for %1$s but your keys are out of installs. %2$sVisit the Events Calendar website%3$s to manage your installs, upgrade your licenses, or purchase new ones."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Tribe/PUE/Notices.php:430
+#: src/Tribe/PUE/Notices.php:550
 msgid "You can always check the status of your licenses by logging in to %1$syour account on theeventscalendar.com%2$s."
 msgstr ""
 
-#: src/Tribe/PUE/Notices.php:485
-#: src/Tribe/PUE/Notices.php:528
+#: src/Tribe/PUE/Notices.php:605
+#: src/Tribe/PUE/Notices.php:648
 msgctxt "formatted plugin list"
 msgid "%1$s and %2$s"
 msgstr ""
@@ -5286,7 +5319,7 @@ msgstr ""
 msgid "Could not delete post with ID "
 msgstr ""
 
-#: src/Tribe/Service_Providers/Onboarding.php:111
+#: src/Tribe/Service_Providers/Onboarding.php:113
 msgid "Got it"
 msgstr ""
 
@@ -5299,11 +5332,11 @@ msgstr ""
 msgid "%s Settings"
 msgstr ""
 
-#: src/Tribe/Settings.php:750
+#: src/Tribe/Settings.php:753
 msgid "You've requested a non-existent tab."
 msgstr ""
 
-#: src/Tribe/Settings.php:805
+#: src/Tribe/Settings.php:808
 msgid "Save Changes"
 msgstr ""
 

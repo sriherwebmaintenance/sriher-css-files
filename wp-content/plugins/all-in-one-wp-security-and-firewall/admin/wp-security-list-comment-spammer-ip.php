@@ -23,18 +23,15 @@ class AIOWPSecurity_List_Comment_Spammer_IP extends AIOWPSecurity_List_Table {
 	}
 		
 	public function column_comment_author_IP($item) {
-		$tab = 'comment-spam-ip-monitoring';
 		//Build row actions
-		if (!is_main_site()) {
-			//Suppress the block link if site is a multi site AND not the main site
+		if (!is_main_site() || 'blocked' === $item['status']) {
+			//Suppress the block link if site is a multi site AND not the main site or the status is blocked
 			$actions = array(); //blank array
 		} else {
-			$block_url = sprintf('admin.php?page=%s&tab=%s&action=%s&spammer_ip=%s', AIOWPSEC_SPAM_MENU_SLUG, $tab, 'block_spammer_ip', $item['comment_author_IP']);
-			//Add nonce to block URL
-			$block_url_nonce = wp_nonce_url($block_url, "block_spammer_ip", "aiowps_nonce");
-			
+			//Add IP to block URL
+			$ip = $item['comment_author_IP'];
 			$actions = array(
-				'block' => '<a href="'.$block_url_nonce.'" onclick="return confirm(\'Are you sure you want to permanently block this IP address?\')">Block</a>',
+				'block' => '<a class="aios-block-author-ip" data-ip="'.esc_attr($ip).'" data-message="'.esc_js(__('Are you sure you want to permanently block this IP address?', 'all-in-one-wp-security-and-firewall')).'" href="">'.__('Block', 'all-in-one-wp-security-and-firewall').'</a>',
 			);
 		}
 		
@@ -91,20 +88,25 @@ class AIOWPSecurity_List_Comment_Spammer_IP extends AIOWPSecurity_List_Table {
 	 * @return void
 	 */
 	private function process_bulk_action() {
+		// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- This IS the nonce check.
 		if (empty($_REQUEST['_wpnonce']) || !isset($_REQUEST['_wp_http_referer'])) return;
+		// phpcs:ignore WordPress.Security.NonceVerification.Recommended, WordPress.Security.ValidatedSanitizedInput -- This IS the nonce check.
 		$result = AIOWPSecurity_Utility_Permissions::check_nonce_and_user_cap($_REQUEST['_wpnonce'], 'bulk-items');
 		if (is_wp_error($result)) return;
 		
 
 		if ('block' === $this->current_action()) {
 			//Process block bulk actions
-			if (!isset($_REQUEST['item'])) {
+			if (!isset($_REQUEST['item'])) { // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Nonce already checked above.
 				$error_msg = '<div id="message" class="error"><p><strong>';
-				$error_msg .= __('Please select some records using the checkboxes', 'all-in-one-wp-security-and-firewall');
+				$error_msg .= esc_html__('Please select some records using the checkboxes', 'all-in-one-wp-security-and-firewall');
 				$error_msg .= '</strong></p></div>';
+
+				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- PCP error. Output already escaped.
 				echo $error_msg;
 			} else {
-				$this->block_spammer_ip_records(($_REQUEST['item']));
+				// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Nonce already checked above.
+				$this->block_spammer_ip_records((filter_var(wp_unslash($_REQUEST['item']), FILTER_VALIDATE_IP)));
 			}
 		}
 	}
@@ -125,11 +127,6 @@ class AIOWPSecurity_List_Comment_Spammer_IP extends AIOWPSecurity_List_Table {
 			foreach ($entries as $ip_add) {
 				AIOWPSecurity_Blocking::add_ip_to_block_list($ip_add, 'spam');
 			}
-		} elseif (null != $entries) {
-			$entries = esc_sql($entries);
-
-			//individual entry where "block" link was clicked
-			AIOWPSecurity_Blocking::add_ip_to_block_list($entries, 'spam');
 		}
 
 		AIOWPSecurity_Admin_Menu::show_msg_updated_st(__('The selected IP addresses are now permanently blocked.', 'all-in-one-wp-security-and-firewall'));
@@ -159,8 +156,8 @@ class AIOWPSecurity_List_Comment_Spammer_IP extends AIOWPSecurity_List_Table {
 		}
 		// Ordering parameters
 		//Parameters that are going to be used to order the result
-		isset($_GET["orderby"]) ? $orderby = strip_tags($_GET["orderby"]) : $orderby = '';
-		isset($_GET["order"]) ? $order = strip_tags($_GET["order"]) : $order = '';
+		isset($_GET["orderby"]) ? $orderby = wp_strip_all_tags(wp_unslash($_GET["orderby"])) : $orderby = ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- No nonce to check.
+		isset($_GET["order"]) ? $order = wp_strip_all_tags(wp_unslash($_GET["order"])) : $order = ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- No nonce to check.
 
 		$orderby = !empty($orderby) ? esc_sql($orderby) : 'amount';
 		$order = !empty($order) ? esc_sql($order) : 'DESC';
@@ -177,6 +174,7 @@ class AIOWPSecurity_List_Comment_Spammer_IP extends AIOWPSecurity_List_Table {
 				HAVING   amount >= %d
 				", $minimum_comments_per_ip);
 		} else {
+			// phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- $orderby cannot be prepared.
 			$sql = $wpdb->prepare("SELECT comment_author_IP, COUNT(*) AS amount
 				FROM     $wpdb->comments 
 				WHERE    comment_approved = 'spam'
@@ -184,10 +182,13 @@ class AIOWPSecurity_List_Comment_Spammer_IP extends AIOWPSecurity_List_Table {
 				HAVING   amount >= %d
 				ORDER BY $orderby $order
 				", $minimum_comments_per_ip);
+			// phpcs:enable WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- $orderby cannot be prepared.
 		}
+
+		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery -- Preparing done in conditional above.
 		$data = $wpdb->get_results($sql, ARRAY_A);
 
-		// Get all permamnetly blocked IP addresses
+		// Get all permanently blocked IP addresses
 		$block_list = AIOWPSecurity_Blocking::get_list_blocked_ips();
 		
 		foreach ($data as $key => $value) {

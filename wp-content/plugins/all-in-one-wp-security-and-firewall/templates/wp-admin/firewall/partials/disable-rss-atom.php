@@ -1,11 +1,13 @@
 <?php if (!defined('ABSPATH')) die('Access denied.'); ?>
-<div class="postbox">
+<div class="postbox aio_hidden" data-template="disable-rss-atom">
 			<h3 class="hndle"><?php _e('Disable WordPress RSS and ATOM feeds', 'all-in-one-wp-security-and-firewall'); ?></h3>
 			<div class="inside">
-				<?php
-				//Display security info badge
-				$aiowps_feature_mgr->output_feature_details_badge("firewall-disable-rss-and-atom");
-				?>
+				<div id="firewall-disable-rss-and-atom-badge">
+					<?php
+					//Display security info badge
+					$aiowps_feature_mgr->output_feature_details_badge("firewall-disable-rss-and-atom");
+					?>
+				</div>
 				<table class="form-table">
 					<tr valign="top">
 						<th scope="row"><?php _e('Disable RSS and ATOM feeds:', 'all-in-one-wp-security-and-firewall'); ?></th>
@@ -16,7 +18,7 @@
 								<div class="aiowps_more_info_body">
 									<?php
 									echo '<p class="description">'.__('Most users will want to share their site content widely, but some may prefer to prevent automated site scraping.', 'all-in-one-wp-security-and-firewall').'</p>';
-									echo '<p class="description">'.sprintf(__('For more information, check the %s', 'all-in-one-wp-security-and-firewall'), '<a target="_blank" href="https://aiosplugin.com/should-i-turn-the-disable-rss-and-atom-feeds-feature-on/">'.__('FAQs', 'all-in-one-wp-security-and-firewall').'</a>').'</p>';
+									echo '<p class="description">'.sprintf(__('For more information, check the %s', 'all-in-one-wp-security-and-firewall'), '<a target="_blank" href="https://teamupdraft.com/documentation/all-in-one-security/?utm_source=aios-plugin&utm_medium=referral&utm_campaign=paac&utm_content=php-rules-faq&utm_creative_format=text">'.__('documentation', 'all-in-one-wp-security-and-firewall').'</a>').'</p>';
 									?>
 								</div>
 							</div>

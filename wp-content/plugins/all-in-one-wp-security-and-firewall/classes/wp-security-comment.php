@@ -70,11 +70,14 @@ class AIOWPSecurity_Comment {
 	public function comment_spam_status_change($comment_data) {
 		global $wpdb, $aio_wp_security;
 		$comment_ip = $comment_data->comment_author_IP;
-		$sql = $wpdb->prepare("SELECT COUNT(*) FROM {$wpdb->comments} WHERE comment_author_IP = %s AND comment_approved = 'spam'", $comment_ip);
-		$total_spam_comment = $wpdb->get_var($sql);
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery -- Direct query necessary. No caching required.
+		$total_spam_comment = $wpdb->get_var(
+			$wpdb->prepare("SELECT COUNT(*) FROM {$wpdb->comments} WHERE comment_author_IP = %s AND comment_approved = 'spam'", $comment_ip)
+		);
 		$min_comment_before_block = $aio_wp_security->configs->get_value('aiowps_spam_ip_min_comments_block');
 		if ($total_spam_comment < $min_comment_before_block) {
 			$where = array('blocked_ip' => $comment_ip, 'block_reason' => 'spam');
+			// phpcs:ignore WordPress.DB.DirectDatabaseQuery -- Direct query necessary. No caching required.
 			$wpdb->delete(AIOWPSEC_TBL_PERM_BLOCK, $where, array('%s'));
 		}
 	}
@@ -86,10 +89,12 @@ class AIOWPSecurity_Comment {
 	 */
 	public static function is_comment_spam_detected() {
 		$return = false;
-		if (empty($_SERVER['HTTP_REFERER']) || false === stristr($_SERVER['HTTP_REFERER'], parse_url(home_url(), PHP_URL_HOST)) || empty($_SERVER['HTTP_USER_AGENT'])) {
-			$return = true;
-		} elseif (self::is_bot_detected()) {
-			$return = true;
+		if (!is_user_logged_in()) {
+			if (empty($_SERVER['HTTP_REFERER']) || false === stristr(sanitize_url(wp_unslash($_SERVER['HTTP_REFERER'])), wp_parse_url(home_url(), PHP_URL_HOST)) || empty($_SERVER['HTTP_USER_AGENT'])) {
+				$return = true;
+			} elseif (self::is_bot_detected()) {
+				$return = true;
+			}
 		}
 		return apply_filters('aiowps_is_comment_spam_detected', $return);
 	}
@@ -100,15 +105,17 @@ class AIOWPSecurity_Comment {
 	 * @return boolean
 	 */
 	public static function is_bot_detected() {
+		global $aio_wp_security;
 		$return = false;
 		$key_map_arr = self::generate_antibot_keys();
 		foreach ($key_map_arr[0] as $key) {
-			if (empty($_POST[$key[0]]) || sanitize_text_field($_POST[$key[0]]) != $key[1]) {
+			// phpcs:ignore WordPress.Security.NonceVerification.Missing -- PCP warning. Nonce checked in earlier function.
+			if (empty($_POST[$key[0]]) || sanitize_text_field(wp_unslash($_POST[$key[0]])) != $key[1]) {
 				$return = true;
 				break;
 			}
 		}
-		if (!$return) {
+		if (!$return && '1' == $aio_wp_security->configs->get_value('aiowps_spambot_detect_usecookies')) {
 			foreach ($key_map_arr[1] as $key) {
 				if (AIOWPSecurity_Utility::get_cookie_value($key[0]) != $key[1]) {
 					$return = true;
@@ -146,6 +153,15 @@ class AIOWPSecurity_Comment {
 		foreach ($key_map_arr[0] as $key) {
 			$antibot_hidden_fields .='<input type="hidden" name="' . esc_attr($key[0]) . '" value="'.esc_attr($key[1]).'" >';
 		}
+		if (isset($key_map_arr[2])) {
+			$antibot_hidden_fields .='<input type="hidden" name="aios_antibot_keys_expiry" id="aios_antibot_keys_expiry" value="'.esc_attr($key_map_arr[2]).'">';
+		}
+		wp_register_script('aios-front-js', AIO_WP_SECURITY_URL. '/js/wp-security-front-script.js', array('jquery'), AIO_WP_SECURITY_VERSION, true);
+		wp_enqueue_script('aios-front-js');
+		wp_localize_script('aios-front-js', 'AIOS_FRONT', array(
+			'ajaxurl' => admin_url('admin-ajax.php'), // URL to wp-admin/admin-ajax.php to process the request
+			'ajax_nonce' => wp_create_nonce('wp-security-ajax-nonce'),
+		));
 		$html_antibot_hidden_fields = sprintf($html_antibot_hidden_fields, $antibot_hidden_fields);
 		return $html_antibot_hidden_fields;
 	}
@@ -162,10 +178,13 @@ class AIOWPSecurity_Comment {
 		if (!$update && is_array($key_map_arr)) {
 			return $key_map_arr;
 		}
+		if ($update && is_array($key_map_arr) && isset($key_map_arr[2]) && $key_map_arr[2] > time()) {
+			return $key_map_arr;
+		}
 		$key_map_arr = array();
 		
 		// values for to check post back key
-		$max = rand(2, 4);
+		$max = wp_rand(2, 4);
 		for ($i = 1; $i <= $max; $i++) {
 			$string1 = AIOWPSecurity_Utility::generate_alpha_numeric_random_string(8);
 			$string2 = AIOWPSecurity_Utility::generate_alpha_numeric_random_string(12);
@@ -173,12 +192,15 @@ class AIOWPSecurity_Comment {
 		}
 
 		// values for to check for cookie back key
-		$max = rand(2, 4);
+		$max = wp_rand(2, 4);
 		for ($i = 1; $i <= $max; $i++) {
 			$string1 = AIOWPSecurity_Utility::generate_alpha_numeric_random_string(8);
 			$string2 = AIOWPSecurity_Utility::generate_alpha_numeric_random_string(12);
 			$key_map_arr[1][] = array($string1, $string2);
 		}
+		// expiration time of keys
+		$current_time = time();
+		$key_map_arr[2] = (($current_time - ($current_time % 86400)) + AIOS_UPDATE_ANTIBOT_KEYS_AFTER_DAYS * 86400);
 		update_site_option('aios_antibot_key_map_info', $key_map_arr);
 		return $key_map_arr;
 	}
@@ -189,6 +211,6 @@ class AIOWPSecurity_Comment {
 	 * @return void
 	 */
 	public function update_antibot_keys() {
-		if ((intval(date('z')) % AIOS_UPDATE_ANTIBOT_KEYS_AFTER_DAYS) == 0) self::generate_antibot_keys(true);
+		if ((intval(gmdate('z')) % AIOS_UPDATE_ANTIBOT_KEYS_AFTER_DAYS) == 0) self::generate_antibot_keys(true);
 	}
 }
