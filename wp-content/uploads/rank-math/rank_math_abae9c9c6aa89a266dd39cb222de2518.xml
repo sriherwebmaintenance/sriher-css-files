@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//css.sriher.acodez.ca/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://css.sriher.acodez.ca/programmes/</loc>
+		<lastmod>2024-07-18T08:41:21+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://css.sriher.acodez.ca/programmes/b-sc-hons-sports-exercise-sciences/</loc>
+		<lastmod>2024-07-18T08:41:21+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://css.sriher.acodez.ca/programmes/m-sc-sports-and-exercise-psychology/</loc>
+		<lastmod>2024-04-30T05:37:05+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://css.sriher.acodez.ca/programmes/mpt-sports-physiotherapy/</loc>
+		<lastmod>2024-04-30T05:36:56+00:00</lastmod>
+	</url>
+</urlset>

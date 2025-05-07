@@ -1,0 +1,3408 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 637a54ff789a197f3b0df3b99529153f\n"
+"POT-Creation-Date: 2022-01-31 22:12-0600\n"
+"PO-Revision-Date: 2023-09-15 13:51-0500\n"
+"Last-Translator: \n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Crowdin-Project: 637a54ff789a197f3b0df3b99529153f\n"
+"X-Crowdin-Project-ID: 17\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /[awesomemotive.instagram-feed-pro] master/languages/instagram-feed.pot\n"
+"X-Crowdin-File-ID: 1239\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: EDD_SL_Plugin_Updater.php:243
+#, php-format
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sZobacz informacje %2$s o wersji%3$s."
+
+#: EDD_SL_Plugin_Updater.php:251
+#, php-format
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sZobacz informacje %2$s o wersji%3$s lub %4$sulepsz teraz%5$s."
+
+#: admin/SBI_About_Us.php:61 admin/SBI_About_Us.php:62
+#: admin/SBI_About_Us.php:187 inc/Builder/SBI_Feed_Builder.php:1402
+msgid "About Us"
+msgstr "O nas"
+
+#: admin/SBI_About_Us.php:186 admin/SBI_Support.php:159
+#: admin/SBI_oEmbeds.php:186 inc/Builder/SBI_Feed_Builder.php:540
+#: inc/Builder/SBI_Feed_Builder.php:1145
+msgid "Help"
+msgstr "Pomoc"
+
+#: admin/SBI_About_Us.php:188
+msgid "Our Other Social Media Feed Plugins"
+msgstr "Inne nasze wtyczki do kanałów mediów społecznościowych"
+
+#: admin/SBI_About_Us.php:189
+msgid "Plugins we recommend"
+msgstr "Polecane wtyczki"
+
+#: admin/SBI_About_Us.php:190
+msgid "We’re more than just an Instagram plugin! Check out our other plugins and add more content to your site."
+msgstr "Oferujemy znacznie więcej niż tylko wtyczkę do Instagramu! Wypróbuj nasze inne wtyczki i dodawaj inne treści do swojej witryny."
+
+#: admin/SBI_About_Us.php:193
+msgid "At Smash Balloon, we build software that helps you create beautiful responsive social media feeds for your website in minutes."
+msgstr "W Smash Balloon tworzymy oprogramowanie, dzięki któremu z łatwością w kilka minut utworzysz w swojej witrynie internetowej atrakcyjne, responsywne kanały mediów społecznościowych."
+
+#: admin/SBI_About_Us.php:194
+msgid "We're on a mission to make it super simple to add social media feeds in WordPress. No more complicated setup steps, ugly iframe widgets, or negative page speed scores."
+msgstr "Chcemy sprawić, by dodawanie kanałów mediów społecznościowych do WordPressa było niezwykle proste. Koniec ze skomplikowaną konfiguracją, brzydkimi widżetami iframe czy słabymi wynikami pomiarów szybkości stron."
+
+#: admin/SBI_About_Us.php:195
+msgid "Our plugins aren't just easy to use, but completely customizable, reliable, and fast! Which is why over 1.6 million awesome users, just like you, choose to use them on their site."
+msgstr "Nasze wtyczki są nie tylko łatwe w użyciu, ale też w pełni konfigurowalne, niezawodne i szybkie! To właśnie dlatego używa ich w swoich witrynach ponad 1,6 miliona tak wspaniałych użytkowników jak ty."
+
+#: admin/SBI_About_Us.php:197
+msgid "Smash Balloon Team"
+msgstr "Zespół Smash Balloon"
+
+#: admin/SBI_About_Us.php:203 inc/admin/actions.php:38 inc/admin/actions.php:39
+#: inc/admin/class-sbi-sitehealth.php:62 inc/class-sb-instagram-widget.php:20
+msgid "Instagram Feed"
+msgstr "Kanał Instagramu"
+
+#: admin/SBI_About_Us.php:204
+msgid "A quick and elegant way to add your Instagram posts to your website. "
+msgstr "Szybki i elegancki sposób na dodawanie swoich wpisów z Instagramu do witryny internetowej. "
+
+#: admin/SBI_About_Us.php:211
+msgid "Custom Facebook Feed"
+msgstr "Custom Facebook Feed"
+
+#: admin/SBI_About_Us.php:212
+msgid "Add Facebook posts from your timeline, albums and much more."
+msgstr "Dodawaj wpisy z osi czasu, albumy i wiele innych elementów z Facebooka."
+
+#: admin/SBI_About_Us.php:220
+msgid "Custom Twitter Feeds"
+msgstr "Custom Twitter Feeds"
+
+#: admin/SBI_About_Us.php:221
+msgid "A customizable way to display tweets from your Twitter account. "
+msgstr "Konfigurowalny sposób na wyświetlanie tweetów ze swojego konta na Twitterze. "
+
+#: admin/SBI_About_Us.php:229 inc/Builder/SBI_Feed_Builder.php:957
+msgid "Feeds for YouTube"
+msgstr "Kanały YouTube"
+
+#: admin/SBI_About_Us.php:230
+msgid "A simple yet powerful way to display videos from YouTube. "
+msgstr "Prosty, ale fantastyczny sposób na wyświetlanie filmów z YouTube. "
+
+#: admin/SBI_About_Us.php:238 inc/Builder/SBI_Feed_Builder.php:255
+#: inc/Builder/SBI_Feed_Builder.php:1793
+msgid "Social Wall"
+msgstr "Social Wall"
+
+#: admin/SBI_About_Us.php:239
+msgid "Combine feeds from all of our plugins into a single wall"
+msgstr "Połącz kanały ze wszystkich naszych wtyczek na jednej tablicy"
+
+#: admin/SBI_About_Us.php:249
+msgid "WPForms"
+msgstr "WPForms"
+
+#: admin/SBI_About_Us.php:250
+msgid "The most beginner friendly drag & drop WordPress forms plugin allowing you to create beautiful contact forms, subscription forms, payment forms, and more in minutes, not hours!"
+msgstr "Najbardziej przyjazna dla początkujących wtyczka do tworzenia formularzy w WordPressie oparta na technice przeciągania elementów, która pozwala na łatwe tworzenie atrakcyjnych formularzy kontaktowych, formularzy subskrypcji, formularzy płatności i innych w czasie rzędu minut, a nie godzin!"
+
+#: admin/SBI_About_Us.php:258
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: admin/SBI_About_Us.php:259
+msgid "MonsterInsights makes it “effortless” to properly connect your WordPress site with Google Analytics, so you can start making data-driven decisions to grow your business."
+msgstr "MonsterInsights znacznie ułatwia prawidłowe połączenie witryny w WordPressie z narzędziem Google Analytics, dzięki czemu możesz zacząć podejmować oparte na danych decyzje w celu rozwijania działalności."
+
+#: admin/SBI_About_Us.php:267
+msgid "OptinMonster"
+msgstr "OptinMonster"
+
+#: admin/SBI_About_Us.php:268
+msgid "Our high-converting optin forms like Exit-Intent® popups, Fullscreen Welcome Mats, and Scroll boxes help you dramatically boost conversions and get more email subscribers."
+msgstr "Nasze efektywne formularze zgody, takie jak popupy Exit-Intent®, pełnoekranowe okna typu Welcome Mat i okna oparte na przewijaniu, pomagają w znacznym zwiększeniu współczynnika konwersji oraz liczby subskrybentów firmowych e-maili."
+
+#: admin/SBI_About_Us.php:276
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: admin/SBI_About_Us.php:277
+msgid "Make sure your website's emails reach the inbox. Our goal is to make email deliverability easy and reliable. Trusted by over 1 million websites."
+msgstr "Dopilnuj, aby e-maile z twojej witryny docierały do adresatów. Naszym celem jest umożliwienie łatwego i skutecznego dostarczania e-maili. Zaufali nam właściciele ponad miliona witryn."
+
+#: admin/SBI_About_Us.php:285
+msgid "RafflePress"
+msgstr "RafflePress"
+
+#: admin/SBI_About_Us.php:286
+msgid "Turn your visitors into brand ambassadors! Easily grow your email list, website traffic, and social media followers with powerful viral giveaways & contests."
+msgstr "Zmieniaj osoby odwiedzające w ambasadorów swojej marki! Łatwo powiększaj listę adresów e-mail, ruch w witrynie oraz grono obserwujących w mediach społecznościowych za pomocą wiralowych rozdań i konkursów."
+
+#: admin/SBI_About_Us.php:294
+msgid "All in One SEO Pack"
+msgstr "Pakiet All in One SEO"
+
+#: admin/SBI_About_Us.php:295
+msgid "Out-of-the-box SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, or ecommerce sites, and much more."
+msgstr "Gotowe rozwiązanie SEO do WordPressa. Funkcje takie jak mapy witryny XML, SEO dla własnych typów treści, SEO dla blogów, witryn firmowych lub witryn e-handlowych i wiele więcej."
+
+#: admin/SBI_About_Us.php:302 inc/Builder/SBI_Feed_Builder.php:512
+msgid "Add"
+msgstr "Dodaj"
+
+#: admin/SBI_About_Us.php:303 inc/Builder/SBI_Feed_Builder.php:515
+msgid "View Demo"
+msgstr "Zobacz prezentację"
+
+#: admin/SBI_About_Us.php:304 inc/Builder/SBI_Feed_Builder.php:619
+msgid "Install"
+msgstr "Zainstaluj"
+
+#: admin/SBI_About_Us.php:305 inc/Builder/SBI_Feed_Builder.php:620
+msgid "Installed"
+msgstr "Zainstalowano"
+
+#: admin/SBI_About_Us.php:306 admin/SBI_Global_Settings.php:889
+#: inc/Builder/SBI_Feed_Builder.php:621
+msgid "Activate"
+msgstr "Włącz"
+
+#: admin/SBI_About_Us.php:307 admin/SBI_Global_Settings.php:888
+msgid "Deactivate"
+msgstr "Wyłącz"
+
+#: admin/SBI_About_Us.php:308 templates/item.php:130
+msgid "Open"
+msgstr "Otwórz"
+
+#: admin/SBI_Global_Settings.php:205
+msgid "License key required!"
+msgstr "Wymagany jest klucz licencyjny!"
+
+#: admin/SBI_Global_Settings.php:688
+msgid "You have reached the maximum number of sites available in your plan"
+msgstr "Osiągnięto maksymalną liczbę witryn dostępnych w używanym planie"
+
+#: admin/SBI_Global_Settings.php:691
+msgid "Learn more about it"
+msgstr "Dowiedz się więcej na ten temat"
+
+#: admin/SBI_Global_Settings.php:694
+msgid "or upgrade your plan."
+msgstr "lub ulepsz plan."
+
+#: admin/SBI_Global_Settings.php:696 admin/SBI_Global_Settings.php:887
+#: inc/Builder/SBI_Feed_Builder.php:507
+msgid "Upgrade"
+msgstr "Uaktualnienie"
+
+#: admin/SBI_Global_Settings.php:709
+msgid "The license expired on "
+msgstr "Licencja wygasła "
+
+#: admin/SBI_Global_Settings.php:711
+msgid "Please renew it and try again."
+msgstr "Odnów ją i spróbuj ponownie."
+
+#: admin/SBI_Global_Settings.php:713
+msgid "Renew"
+msgstr "Odnów"
+
+#: admin/SBI_Global_Settings.php:750 inc/Builder/SBI_Feed_Builder.php:496
+#: inc/Builder/SBI_Feed_Builder.php:508 inc/Builder/SBI_Feed_Builder.php:1124
+#: inc/Builder/SBI_Feed_Builder.php:1165 inc/Builder/SBI_Feed_Builder.php:1399
+#: inc/Builder/Tabs/SBI_Builder_Customizer_Tab.php:35 inc/admin/actions.php:105
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: admin/SBI_Global_Settings.php:751
+msgid "Settings "
+msgstr "Ustawienia "
+
+#: admin/SBI_Global_Settings.php:871
+msgid "License Key"
+msgstr "Klucz licencyjny"
+
+#: admin/SBI_Global_Settings.php:872
+msgid "Your license key provides access to updates and support"
+msgstr "Klucz licencyjny zapewnia dostęp do aktualizacji i pomocy technicznej"
+
+#: admin/SBI_Global_Settings.php:873
+msgid "Your <strong>Instagram Feed Pro</strong> license is Active!"
+msgstr "Twoja licencja <strong>Instagram Feed Pro</strong> jest włączona!"
+
+#: admin/SBI_Global_Settings.php:874
+msgid "Your <strong>Instagram Feed Pro</strong> license is Inactive!"
+msgstr "Twoja licencja <strong>Instagram Feed Pro</strong> nie jest włączona!"
+
+#: admin/SBI_Global_Settings.php:875
+msgid "Already purchased? Simply enter your license key below to activate Instagram Feed Pro."
+msgstr "Zakup dokonany? Wpisz klucz licencyjny poniżej, aby włączyć wtyczkę Instagram Feed Pro."
+
+#: admin/SBI_Global_Settings.php:876
+msgid "Paste license key here"
+msgstr "Wklej tutaj klucz licencyjny"
+
+#: admin/SBI_Global_Settings.php:877
+msgid "You are using the Lite version of the plugin–no license needed. Enjoy! 🙂 To unlock more features, consider <a href=\""
+msgstr "Korzystasz z wersji Lite wtyczki — do tego nie potrzeba licencji. Powodzenia! 🙂 Aby uzyskać dostęp do dodatkowych funkcji, rozważ <a href=\""
+
+#: admin/SBI_Global_Settings.php:878
+msgid "As a valued user of our Lite plugin, you receive 50% OFF - automatically applied at checkout!"
+msgstr "Doceniamy to, że korzystasz z wtyczki Lite, dlatego otrzymujesz od nas 50% ZNIŻKI, która zostanie automatycznie zastosowana na etapie płatności!"
+
+#: admin/SBI_Global_Settings.php:879
+msgid "Manage License"
+msgstr "Zarządzaj licencją"
+
+#: admin/SBI_Global_Settings.php:880
+msgid "Test Connection"
+msgstr "Przetestuj połączenie"
+
+#: admin/SBI_Global_Settings.php:881
+msgid "Recheck license"
+msgstr "Sprawdź ponownie licencję"
+
+#: admin/SBI_Global_Settings.php:882
+msgid "License valid"
+msgstr "Licencja prawidłowa"
+
+#: admin/SBI_Global_Settings.php:883
+msgid "License expired"
+msgstr "Licencja wygasła"
+
+#: admin/SBI_Global_Settings.php:884
+msgid "Connection successful"
+msgstr "Połączenie się powiodło"
+
+#: admin/SBI_Global_Settings.php:885
+msgid "Connection failed"
+msgstr "Połączenie się nie powiodło"
+
+#: admin/SBI_Global_Settings.php:886
+msgid "View error"
+msgstr "Zobacz błąd"
+
+#: admin/SBI_Global_Settings.php:892
+msgid "Manage Sources"
+msgstr "Zarządzaj źródłami"
+
+#: admin/SBI_Global_Settings.php:893
+msgid "Add or remove connected Instagram accounts"
+msgstr "Dodawaj lub usuwaj połączone konta na Instagramie"
+
+#: admin/SBI_Global_Settings.php:896
+msgid "Preserve settings if plugin is removed"
+msgstr "Zachowaj ustawienia po usunięciu wtyczki"
+
+#: admin/SBI_Global_Settings.php:897
+msgid "This will make sure that all of your feeds and settings are still saved even if the plugin is uninstalled"
+msgstr "Dzięki temu wszystkie kanały i ustawienia zostaną zachowane nawet w przypadku odinstalowania wtyczki"
+
+#: admin/SBI_Global_Settings.php:900
+msgid "Import Feed Settings"
+msgstr "Zaimportuj ustawienia kanałów"
+
+#: admin/SBI_Global_Settings.php:901
+msgid "You will need a JSON file previously exported from the Instagram Feed Plugin"
+msgstr "Będziesz potrzebować pliku JSON wyeksportowanego wcześniej z wtyczki Instagram Feed"
+
+#: admin/SBI_Global_Settings.php:902
+msgid "Import"
+msgstr "Importuj"
+
+#: admin/SBI_Global_Settings.php:905
+msgid "Export Feed Settings"
+msgstr "Wyeksportuj ustawienia kanałów"
+
+#: admin/SBI_Global_Settings.php:906
+msgid "Export settings for one or more of your feeds"
+msgstr "Wyeksportuj ustawienia dowolnych kanałów"
+
+#: admin/SBI_Global_Settings.php:907 admin/SBI_Support.php:182
+msgid "Export"
+msgstr "Eksport"
+
+#: admin/SBI_Global_Settings.php:912
+msgid "Localization"
+msgstr "Ustawienia regionalne"
+
+#: admin/SBI_Global_Settings.php:916 inc/Builder/SBI_Feed_Builder.php:1267
+msgid "Timezone"
+msgstr "Strefa czasowa"
+
+#: admin/SBI_Global_Settings.php:919
+msgid "Caching"
+msgstr "Buforowanie"
+
+#: admin/SBI_Global_Settings.php:920
+msgid "When the Page loads"
+msgstr "Podczas wczytywania strony"
+
+#: admin/SBI_Global_Settings.php:921
+msgid "In the Background"
+msgstr "W tle"
+
+#: admin/SBI_Global_Settings.php:923 instagram-feed.php:258
+msgid "Every 30 minutes"
+msgstr "Co 30 minut"
+
+#: admin/SBI_Global_Settings.php:924
+msgid "Every hour"
+msgstr "Co godzinę"
+
+#: admin/SBI_Global_Settings.php:925
+msgid "Every 12 hours"
+msgstr "Co 12 godzin"
+
+#: admin/SBI_Global_Settings.php:926
+msgid "Every 24 hours"
+msgstr "Co 24 godzin"
+
+#: admin/SBI_Global_Settings.php:928
+msgid "AM"
+msgstr "AM"
+
+#: admin/SBI_Global_Settings.php:929
+msgid "PM"
+msgstr "PM"
+
+#: admin/SBI_Global_Settings.php:930
+msgid "Clear All Caches"
+msgstr "Wyczyść wszystkie pamięci podręczne"
+
+#: admin/SBI_Global_Settings.php:933
+msgid "GDPR"
+msgstr "RODO"
+
+#: admin/SBI_Global_Settings.php:934
+msgid "Automatic"
+msgstr "Automatyczny"
+
+#: admin/SBI_Global_Settings.php:935 inc/admin/class-sbi-new-user.php:314
+#: inc/admin/class-sbi-notifications.php:567
+msgid "Yes"
+msgstr "Tak"
+
+#: admin/SBI_Global_Settings.php:936 inc/admin/class-sbi-new-user.php:320
+#: inc/admin/class-sbi-notifications.php:572
+msgid "No"
+msgstr "Nie"
+
+#: admin/SBI_Global_Settings.php:938
+msgid "No requests will be made to third-party websites. To accommodate this, some features of the plugin will be limited."
+msgstr "Nie będą wykonywane żądania do zewnętrznych witryn internetowych. W związku z tym niektóre funkcje wtyczki zostaną ograniczone."
+
+#: admin/SBI_Global_Settings.php:939
+msgid "The plugin will function as normal and load images and videos directly from Instagram"
+msgstr "Wtyczka będzie działać normalnie oraz wczytywać obrazki i filmy bezpośrednio z Instagramu"
+
+#: admin/SBI_Global_Settings.php:940
+msgid "Some Instagram Feed features will be limited for visitors to ensure GDPR compliance, until they give consent."
+msgstr "Niektóre funkcje wtyczki Instagram Feed będą ograniczone dla osób odwiedzających, aby zapewnić zgodność z RODO, dopóki nie wyrażą zgody."
+
+#: admin/SBI_Global_Settings.php:941
+msgid "What will be limited?"
+msgstr "Jakie ograniczenia zostaną zastosowane?"
+
+#: admin/SBI_Global_Settings.php:947
+msgid "Features that would be disabled or limited include: "
+msgstr "Zostaną wyłączone lub ograniczone następujące funkcje: "
+
+#: admin/SBI_Global_Settings.php:949
+msgid "Only local images (not from Instagram's CDN) will be displayed in the feed."
+msgstr "Na kanale będą wyświetlane tylko obrazki lokalne (nie z sieciowej usługi dostarczania treści Instagramu)."
+
+#: admin/SBI_Global_Settings.php:950
+msgid "Placeholder blank images will be displayed until images are available."
+msgstr "Do czasu, gdy obrazki staną się dostępne, będą wyświetlane puste obrazki zastępcze."
+
+#: admin/SBI_Global_Settings.php:951
+msgid "To view videos, visitors will click a link to view the video on Instagram."
+msgstr "Aby zobaczyć film, osoba odwiedzająca będzie musiała kliknąć odnośnik umożliwiający obejrzenie filmu z Instagramu."
+
+#: admin/SBI_Global_Settings.php:952
+msgid "Carousel posts will only show the first image in the lightbox."
+msgstr "W obszarze wpisów karuzelowych będzie wyświetlany tylko pierwszy obrazek z okna lightbox."
+
+#: admin/SBI_Global_Settings.php:953
+msgid "The maximum image resolution will be 640 pixels wide in the lightbox."
+msgstr "Maksymalna rozdzielczość obrazka w oknie lightbox to 640 pikseli szerokości."
+
+#: admin/SBI_Global_Settings.php:958
+msgid "Custom CSS"
+msgstr "Własny CSS"
+
+#: admin/SBI_Global_Settings.php:959
+msgid "Enter any custom CSS here"
+msgstr "Wpisz tutaj dowolny własny kod CSS"
+
+#: admin/SBI_Global_Settings.php:962
+msgid "Custom JS"
+msgstr "Własny JS"
+
+#: admin/SBI_Global_Settings.php:963
+msgid "Enter any custom JS here"
+msgstr "Wpisz tutaj dowolny własny kod JS"
+
+#: admin/SBI_Global_Settings.php:968
+msgid "Optimize Images"
+msgstr "Optymalizuj obrazki"
+
+#: admin/SBI_Global_Settings.php:969
+msgid "This will create multiple local copies of images in different sizes. The plugin then displays the smallest version based on the size of the feed."
+msgstr "Spowoduje to utworzenie szeregu lokalnych kopii obrazków w różnych rozmiarach. Potem wtyczka będzie wyświetlać najmniejszą wersję z uwzględnieniem wielkości kanału."
+
+#: admin/SBI_Global_Settings.php:970 inc/Builder/SBI_Feed_Builder.php:543
+msgid "Reset"
+msgstr "Zresetuj"
+
+#: admin/SBI_Global_Settings.php:973
+msgid "Usage Tracking"
+msgstr "Śledzenie użycia"
+
+#: admin/SBI_Global_Settings.php:974
+msgid "This helps to prevent plugin and theme conflicts by sending a report in the background once per week about your settings and relevant site stats. It does not send sensitive information like access tokens, email addresses, or user info. This will also not affect your site performace. <a href=\""
+msgstr "Ułatwia to zapobieganie konfliktom wtyczek i motywów dzięki wysyłaniu raz w tygodniu raportu w tle na temat ustawień i odpowiednich statystyk witryny. Poufne informacje, takie jak tokeny dostępu, adresy e-mail czy informacje o użytkownikach, nie są wysyłane. Ponadto ta funkcja nie obniża wydajności witryny. <a href=\""
+
+#: admin/SBI_Global_Settings.php:977
+msgid "AJAX theme loading fix"
+msgstr "Poprawka wczytywania motywów AJAX"
+
+#: admin/SBI_Global_Settings.php:978
+msgid "Fixes issues caused by Ajax loading themes. It can also be used to workaround JavaScript errors on the page."
+msgstr "Naprawia problemy wynikające z wczytywania motywów przez Ajax. Może też służyć do obchodzenia błędów w kodzie JavaScript na stronie."
+
+#: admin/SBI_Global_Settings.php:981
+msgid "Load Initial Posts with AJAX"
+msgstr "Wczytuj pierwsze wpisy przy użyciu technologii AJAX"
+
+#: admin/SBI_Global_Settings.php:982 admin/SBI_Global_Settings.php:998
+msgid "Initial posts will be loaded using AJAX instead of added to the page directly. If you use page caching, this will allow the feed to update according to the \"Check for new posts every\" setting on the \"Configure\" tab."
+msgstr "Pierwsze wpisy będą wczytywane przy użyciu technologii AJAX, a nie dodawane bezpośrednio do strony. Jeśli korzystasz z buforowania strony, pozwoli to na aktualizowanie kanału zgodnie z ustawieniem „Sprawdzaj dostępność nowych wpisów co” na karcie „Skonfiguruj”."
+
+#: admin/SBI_Global_Settings.php:985
+msgid "Enqueue JavaScript in head"
+msgstr "Umieść skrypt JavaScript w kolejce w nagłówku"
+
+#: admin/SBI_Global_Settings.php:986
+msgid "Add the JavaScript file for the plugin in the HTML \"head\" instead of the footer."
+msgstr "Dodaj plik JavaScript na potrzeby wtyczki w nagłówku HTML, a nie w stopce."
+
+#: admin/SBI_Global_Settings.php:989
+msgid "Enqueue CSS only on pages with the Feed"
+msgstr "Umieść kod CSS w kolejce tylko na stronach z kanałem"
+
+#: admin/SBI_Global_Settings.php:993
+msgid "JavaScript Image Loading"
+msgstr "Wczytywanie obrazków JavaScript"
+
+#: admin/SBI_Global_Settings.php:994
+msgid "Load images on the client side with JS, instead of server side."
+msgstr "Wczytuj obrazki po stronie klienta przy użyciu JS, a nie po stronie serwera."
+
+#: admin/SBI_Global_Settings.php:997
+msgid "Fix a text shortening issue caused by some themes"
+msgstr "Napraw problem ze skracaniem tekstu powodowany przez niektóre motywy"
+
+#: admin/SBI_Global_Settings.php:1001
+msgid "Admin Error Notice"
+msgstr "Powiadamianie administratora o błędach"
+
+#: admin/SBI_Global_Settings.php:1002
+msgid "This will disable or enable the feed error notice that displays in the bottom right corner of your site for logged-in admins."
+msgstr "Spowoduje to wyłączenie lub włączenie powiadomień o błędach na kanale, które są wyświetlane zalogowanym administratorom w prawym dolnym rogu witryny."
+
+#: admin/SBI_Global_Settings.php:1005
+msgid "Feed Issue Email Reports"
+msgstr "Raporty e-mail dotyczące problemów z kanałem"
+
+#: admin/SBI_Global_Settings.php:1006
+msgid "If the feed is down due to a critical issue, we will switch to a cached version and notify you based on these settings. <a href=\""
+msgstr "Jeśli kanał przestanie działać z powodu krytycznego problemu, nastąpi przełączenie na wersję z pamięci podręcznej i otrzymasz powiadomienie zgodnie z tymi ustawieniami. <a href=\""
+
+#: admin/SBI_Global_Settings.php:1007
+msgid "Send a report every"
+msgstr "Wysyłaj raport co"
+
+#: admin/SBI_Global_Settings.php:1008
+msgid "to"
+msgstr "do"
+
+#: admin/SBI_Global_Settings.php:1009
+msgid "Enter one or more email address separated by comma"
+msgstr "Wpisz adres e-mail lub kilka adresów, rozdzielając je przecinkami"
+
+#: admin/SBI_Global_Settings.php:1013
+msgid "Monday"
+msgstr "Poniedziałek"
+
+#: admin/SBI_Global_Settings.php:1017
+msgid "Tuesday"
+msgstr "Wtorek"
+
+#: admin/SBI_Global_Settings.php:1021
+msgid "Wednesday"
+msgstr "Środa"
+
+#: admin/SBI_Global_Settings.php:1025
+msgid "Thursday"
+msgstr "Czwartek"
+
+#: admin/SBI_Global_Settings.php:1029
+msgid "Friday"
+msgstr "Piątek"
+
+#: admin/SBI_Global_Settings.php:1033
+msgid "Saturday"
+msgstr "Sobota"
+
+#: admin/SBI_Global_Settings.php:1037
+msgid "Sunday"
+msgstr "Niedziela"
+
+#: admin/SBI_Global_Settings.php:1042
+msgid "Manage Data"
+msgstr "Zarządzaj danymi"
+
+#: admin/SBI_Global_Settings.php:1043
+msgid "Warning: Clicking this button will permanently delete all Instagram data, including all connected accounts, cached posts, and stored images."
+msgstr "Ostrzeżenie: kliknięcie tego przycisku spowoduje trwałe usunięcie wszystkich danych z Instagramu, w tym wszystkich połączonych kont, zbuforowanych wpisów i zapisanych obrazków."
+
+#: admin/SBI_Global_Settings.php:1044
+msgid "Delete all Platform Data"
+msgstr "Usuń wszystkie dane platformy"
+
+#: admin/SBI_Global_Settings.php:1049 inc/Builder/SBI_Feed_Builder.php:174
+#: inc/Builder/SBI_Feed_Builder.php:178
+msgid "Delete \"#\"?"
+msgstr "Usunąć „#”?"
+
+#: admin/SBI_Global_Settings.php:1050
+msgid "This source is being used in a feed on your site. If you delete this source then new posts can no longer be retrieved for these feeds."
+msgstr "To źródło jest używane na kanale w twojej witrynie. Jeśli je usuniesz, to w przypadku tego kanału nie będą już pobierane nowe wpisy."
+
+#: admin/SBI_Global_Settings.php:1053 inc/Builder/SBI_Feed_Builder.php:548
+msgid "Confirm"
+msgstr "Potwierdź"
+
+#: admin/SBI_Global_Settings.php:1057 admin/SBI_oEmbeds.php:217
+#: inc/Builder/SBI_Feed_Builder.php:549
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: admin/SBI_Global_Settings.php:1209
+msgid "No GDPR consent plugin detected. Install a compatible <a href=\""
+msgstr "Nie wykryto wtyczki zgody wymaganej w związku z RODO. Zainstaluj zgodną wtyczkę <a href=\""
+
+#: admin/SBI_Global_Settings.php:1232 admin/SBI_Support.php:382
+msgid "every 30 minutes"
+msgstr "co 30 minut"
+
+#: admin/SBI_Global_Settings.php:1235 admin/SBI_Support.php:385
+msgid "every 12 hours"
+msgstr "co 12 godzin"
+
+#: admin/SBI_Global_Settings.php:1238 admin/SBI_Support.php:388
+msgid "Next check"
+msgstr "Następne sprawdzenie"
+
+#: admin/SBI_Global_Settings.php:1238
+msgid "Note: Clicking \"Clear All Caches\" will reset this schedule."
+msgstr "Uwaga: kliknięcie pozycji „Wyczyść wszystkie pamięci podręczne\" spowoduje zresetowanie tego harmonogramu."
+
+#: admin/SBI_Global_Settings.php:1240
+msgid "Nothing currently scheduled"
+msgstr "Obecnie nic nie jest zaplanowane"
+
+#: admin/SBI_Support.php:61 admin/SBI_Support.php:62 admin/SBI_Support.php:160
+#: inc/Builder/SBI_Feed_Builder.php:1403
+msgid "Support"
+msgstr "Pomoc techniczna"
+
+#: admin/SBI_Support.php:161
+msgid "Getting Started"
+msgstr "Pierwsze kroki"
+
+#: admin/SBI_Support.php:162
+msgid "Some helpful resources to get you started"
+msgstr "Nieco pomocnych zasobów, które pomogą ci zacząć"
+
+#: admin/SBI_Support.php:163
+msgid "Docs & Troubleshooting"
+msgstr "Dokumenty i rozwiązywanie problemów"
+
+#: admin/SBI_Support.php:164
+msgid "Run into an issue? Check out our help docs."
+msgstr "Masz problem? Sprawdź nasze dokumenty pomocy."
+
+#: admin/SBI_Support.php:165
+msgid "Additional Resources"
+msgstr "Dodatkowe zasoby"
+
+#: admin/SBI_Support.php:166
+msgid "To help you get the most out of the plugin"
+msgstr "Aby pomóc ci korzystać w pełni z możliwości wtyczki"
+
+#: admin/SBI_Support.php:167
+msgid "Need more support? We’re here to help."
+msgstr "Potrzebujesz dodatkowego wsparcia? Chętnie pomożemy."
+
+#: admin/SBI_Support.php:168
+msgid "Our fast and friendly support team is always happy to help!"
+msgstr "Nasz szybki i przyjazny zespół pomocy technicznej zawsze chętnie ci pomoże!"
+
+#: admin/SBI_Support.php:169
+msgid "System Info"
+msgstr "Informacje systemowe"
+
+#: admin/SBI_Support.php:170
+msgid "Export Settings"
+msgstr "Ustawienia eksportu"
+
+#: admin/SBI_Support.php:171
+msgid "Share your plugin settings easily with Support"
+msgstr "Możesz łatwo udostępnić ustawienia wtyczki zespołowi pomocy technicznej"
+
+#: admin/SBI_Support.php:172
+msgid "Copied to clipboard"
+msgstr "Skopiowano do schowka"
+
+#: admin/SBI_Support.php:175
+msgid "Search Documentation"
+msgstr "Przeszukaj dokumentację"
+
+#: admin/SBI_Support.php:176
+msgid "More help on Getting started"
+msgstr "Więcej pomocy na początek"
+
+#: admin/SBI_Support.php:177
+msgid "View Documentation"
+msgstr "Zobacz dokumentację"
+
+#: admin/SBI_Support.php:178
+msgid "View Blog"
+msgstr "Zobacz blog"
+
+#: admin/SBI_Support.php:179
+msgid "Submit a Support Ticket"
+msgstr "Prześlij zgłoszenie"
+
+#: admin/SBI_Support.php:180
+msgid "Copied"
+msgstr "Skopiowano"
+
+#: admin/SBI_Support.php:181 inc/Builder/SBI_Feed_Builder.php:520
+msgid "Copy"
+msgstr "Kopiuj"
+
+#: admin/SBI_Support.php:183
+msgid "Expand"
+msgstr "Rozszerzenie"
+
+#: admin/SBI_Support.php:184
+msgid "Collapse"
+msgstr "Zwiń"
+
+#: admin/SBI_Support.php:207
+msgid "Creating your first Instagram feed"
+msgstr "Tworzenie twojego pierwszego kanału Instagramu"
+
+#: admin/SBI_Support.php:211
+msgid "Instagram Business Profiles (required for Hashtag and Tagged feeds)"
+msgstr "Profile firmowe na Instagramie (wymagane w przypadku kanałów z hashtagami i otagowaniem)"
+
+#: admin/SBI_Support.php:215
+msgid "Multiple User Accounts in One Feed"
+msgstr "Wiele kont użytkowników na jednym kanale"
+
+#: admin/SBI_Support.php:221
+msgid "Displaying Instagram Hashtag Feeds"
+msgstr "Wyświetlanie kanałów treści z hashtagami z Instagramu"
+
+#: admin/SBI_Support.php:225
+msgid "How to Resolve Error Messages"
+msgstr "Jak rozwiązywać problemy sygnalizowane przez komunikaty o błędach"
+
+#: admin/SBI_Support.php:229
+msgid "My Feed Stopped Working or is Empty"
+msgstr "Kanał przestał działać lub jest pusty"
+
+#: admin/SBI_Support.php:235
+msgid "Differences Between an Instagram Personal and Business Account"
+msgstr "Różnice między kontem osobistym i firmowym na Instagramie"
+
+#: admin/SBI_Support.php:239
+msgid "Display Posts With a Specific Hashtag From a Specific User Account"
+msgstr "Wyświetlaj wpisy z określonym hashtagiem z określonego konta użytkownika"
+
+#: admin/SBI_Support.php:243
+msgid "Reauthorizing our Instagram/Facebook App"
+msgstr "Ponowna autoryzacja naszej aplikacji obsługującej Instagram/Facebooka"
+
+#: admin/SBI_oEmbeds.php:61 admin/SBI_oEmbeds.php:62 admin/SBI_oEmbeds.php:187
+#: inc/Builder/SBI_Feed_Builder.php:1400
+msgid "oEmbeds"
+msgstr "Elementy oEmbed"
+
+#: admin/SBI_oEmbeds.php:188
+msgid "Use Smash Balloon to power any Instagram or Instagram oEmbeds across your site. Just click the button below and we'll do the rest.                "
+msgstr "Użyj wtyczki Smash Balloon, aby udostępnić dowolny kanał Instagramu lub element oEmbed Instagramu w swojej witrynie. Po prostu kliknij poniższy przycisk, a my zajmiemy się resztą.                "
+
+#: admin/SBI_oEmbeds.php:189
+msgid "Instagram oEmbeds are currently not being handled by Smash Balloon"
+msgstr "Elementy oEmbed Instagramu nie są obecnie obsługiwane przez Smash Balloon"
+
+#: admin/SBI_oEmbeds.php:190
+msgid "Instagram oEmbeds are turned on"
+msgstr "Elementy oEmbed Instagramu są włączone"
+
+#: admin/SBI_oEmbeds.php:191
+msgid "Facebook oEmbeds are currently not being handled by Smash Balloon"
+msgstr "Elementy oEmbed Facebooka nie są obecnie obsługiwane przez Smash Balloon"
+
+#: admin/SBI_oEmbeds.php:192
+msgid "Facebook oEmbeds are turned on"
+msgstr "Elementy oEmbed Facebooka są włączone"
+
+#: admin/SBI_oEmbeds.php:193 inc/Builder/SBI_Feed_Builder.php:1149
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:556
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:836
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:928
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1059
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1178
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1258
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:79
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:244
+msgid "Enable"
+msgstr "Włącz"
+
+#: admin/SBI_oEmbeds.php:194
+msgid "Disable"
+msgstr "Wyłącz"
+
+#: admin/SBI_oEmbeds.php:195
+msgid "What are oEmbeds?"
+msgstr "Co to jest oEmbed?"
+
+#: admin/SBI_oEmbeds.php:196
+msgid "What else can the Instagram Feed plugin do?"
+msgstr "Co jeszcze potrafi wtyczka Instagram Feed?"
+
+#: admin/SBI_oEmbeds.php:197
+msgid "When you paste a link to a Instagram or Facebook post in WordPress, it automatically displays the post instead of the URL. That is called an oEmbed."
+msgstr "Gdy wkleisz odnośnik do wpisu opublikowanego na Instagramie lub Facebooku, WordPress automatycznie wyświetli ten wpis, a nie adres URL. Funkcja ta nosi nazwę oEmbed."
+
+#: admin/SBI_oEmbeds.php:198
+msgid "Due to recent API changes from Instagram, WordPress cannot automatically embed your posts."
+msgstr "Ze względu na niedawne zmiany interfejsu API Instagramu WordPress nie może automatycznie osadzać wpisów."
+
+#: admin/SBI_oEmbeds.php:199
+msgid "However, we have added this feature to Smash Balloon to make sure your oEmbeds keep working."
+msgstr "Dodaliśmy jednak tę funkcję do wtyczki Smash Balloon, aby zapewnić dalsze działanie twoich elementów oEmbed."
+
+#: admin/SBI_oEmbeds.php:200
+msgid "Just enable it above, and all your existing and new embeds should work automatically, no other input required."
+msgstr "Po prostu włącz ją powyżej, a wszystkie dotychczasowe i przyszłe osadzenia powinny automatycznie działać — bez jakiejkolwiek dodatkowej ingerencji z twojej strony."
+
+#: admin/SBI_oEmbeds.php:201
+msgid "Display a completely customizable Instagram Feed with tons of features"
+msgstr "Wyświetl w pełni konfigurowalny kanał Instagramu z mnóstwem funkcji"
+
+#: admin/SBI_oEmbeds.php:202
+msgid "Create a custom styled feed of your Instagram posts which integrates seamlessly with your WordPress theme."
+msgstr "Utwórz własny, wystylizowany kanał z wpisami opublikowanymi na Instagramie, który płynnie zintegruje się z twoim motywem w WordPressie."
+
+#: admin/SBI_oEmbeds.php:213
+msgid "Enable Instagram oEmbeds"
+msgstr "Włącz elementy oEmbed Instagramu"
+
+#: admin/SBI_oEmbeds.php:214
+msgid "To enable Instagram oEmbeds our Instagram Feed plugin is required. Click the button below to Install it and enable Instagram oEmbeds."
+msgstr "Do włączenia elementów oEmbed Instagramu potrzebna jest nasza wtyczka Instagram Feed. Kliknij poniższy przycisk, aby ją zainstalować, i włącz elementy oEmbed Instagramu."
+
+#: admin/SBI_oEmbeds.php:215
+msgid "Install Plugin"
+msgstr "Zainstaluj wtyczkę"
+
+#: admin/SBI_oEmbeds.php:216
+msgid "Activate Plugin"
+msgstr "Włącz wtyczkę"
+
+#: admin/builder/templates/sections/footer.php:28
+#: admin/views/sections/sticky_widget.php:9
+msgid "Get All Access Bundle"
+msgstr "Uzyskaj pakiet z pełnym dostępem"
+
+#: admin/builder/templates/sections/footer.php:37
+#: admin/views/sections/sticky_widget.php:18
+msgid "Our Feeds for other platforms"
+msgstr "Nasze kanały związane z innymi platformami"
+
+#: admin/builder/templates/sections/footer.php:53
+#: admin/views/sections/sticky_widget.php:34
+msgid "Follow Us"
+msgstr "Obserwuj nas"
+
+#: inc/Builder/SBI_Feed_Builder.php:92 inc/Builder/SBI_Feed_Builder.php:93
+#: inc/Builder/SBI_Feed_Builder.php:129 inc/Builder/SBI_Feed_Builder.php:147
+#: inc/Builder/SBI_Feed_Builder.php:1398
+msgid "All Feeds"
+msgstr "Wszystkie kanały"
+
+#: inc/Builder/SBI_Feed_Builder.php:130
+msgid "Create your Feed"
+msgstr "Utwórz kanał"
+
+#: inc/Builder/SBI_Feed_Builder.php:131
+msgid "Connect your Instagram and choose a feed type"
+msgstr "Połącz swoje konto na Instagramie i wybierz rodzaj kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:132
+msgid "Customize your feed type"
+msgstr "Dostosuj rodzaj kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:133
+msgid "Choose layouts, color schemes, filters and more"
+msgstr "Wybierz układy, schematy kolorów, filtry i nie tylko"
+
+#: inc/Builder/SBI_Feed_Builder.php:134
+msgid "Embed your feed"
+msgstr "Osadź kanał"
+
+#: inc/Builder/SBI_Feed_Builder.php:135
+msgid "Easily add the feed anywhere on your website"
+msgstr "Możesz z łatwością dodać kanał w dowolnym miejscu witryny internetowej"
+
+#: inc/Builder/SBI_Feed_Builder.php:149 inc/Builder/SBI_Feed_Builder.php:545
+#: inc/Builder/SBI_Feed_Builder.php:1243
+msgid "Name"
+msgstr "Nazwa"
+
+#: inc/Builder/SBI_Feed_Builder.php:150 inc/Builder/SBI_Feed_Builder.php:526
+#: inc/Builder/SBI_Feed_Builder.php:554
+msgid "Shortcode"
+msgstr "Krótki kod"
+
+#: inc/Builder/SBI_Feed_Builder.php:151
+msgid "Instances"
+msgstr "Instancje"
+
+#: inc/Builder/SBI_Feed_Builder.php:152
+msgid "Actions"
+msgstr "Działania"
+
+#: inc/Builder/SBI_Feed_Builder.php:154
+msgid "Bulk Actions"
+msgstr "Działania zbiorcze"
+
+#: inc/Builder/SBI_Feed_Builder.php:156 inc/Builder/SBI_Feed_Saver.php:307
+#: inc/Builder/SBI_Feed_Saver.php:308
+msgid "Legacy Feeds"
+msgstr "Starsze kanały"
+
+#: inc/Builder/SBI_Feed_Builder.php:157
+msgid "What are Legacy Feeds?"
+msgstr "Czym są starsze kanały?"
+
+#: inc/Builder/SBI_Feed_Builder.php:159
+msgid "Legacy feeds are older feeds from before the version 6 update. You can edit settings for these feeds by using the \"Settings\" button to the right. These settings will apply to all legacy feeds, just like the settings before version 6, and work in the same way that they used to."
+msgstr "Starsze kanały to kanały sprzed aktualizacji do wersji 6. Możesz edytować ich ustawienia za pomocą przycisku „Ustawienia” widocznego po prawej stronie. Ustawienia te zostaną zastosowane do wszystkich starszych kanałów, podobnie jak ustawienia sprzed wersji 6, i będą działać tak samo jak wcześniej."
+
+#: inc/Builder/SBI_Feed_Builder.php:160
+msgid "You can also create a new feed, which will now have it's own individual settings. Modifying settings for new feeds will not affect other feeds."
+msgstr "Możesz też utworzyć nowy kanał, który będzie miał własne ustawienia. Modyfikacja ustawień nowych kanałów nie będzie miała wpływu na inne kanały."
+
+#: inc/Builder/SBI_Feed_Builder.php:163
+msgid "Legacy feeds represent shortcodes of old feeds found on your website before <br/>the version 6 update."
+msgstr "Starsze kanały reprezentują krótkie kody starych kanałów znalezionych w witrynie<br/>internetowej — tych sprzed aktualizacji do wersji 6."
+
+#: inc/Builder/SBI_Feed_Builder.php:164
+msgid "To edit Legacy feed settings, you will need to use the \"Settings\" button above <br/>or edit their shortcode settings directly. To delete them, simply remove the <br/>shortcode wherever it is being used on your site."
+msgstr "Aby edytować ustawienia starszego kanału, trzeba użyć powyższego przycisku „Ustawienia”<br/>lub edytować bezpośrednio ustawienia krótkiego kodu. Aby je usunąć,<br/>po prostu usuń każde wystąpienie danego krótkiego kodu w witrynie."
+
+#: inc/Builder/SBI_Feed_Builder.php:166
+msgid "Show Legacy Feeds"
+msgstr "Pokaż starsze kanały"
+
+#: inc/Builder/SBI_Feed_Builder.php:167
+msgid "Hide Legacy Feeds"
+msgstr "Ukryj starsze kanały"
+
+#: inc/Builder/SBI_Feed_Builder.php:175
+msgid "You are going to delete this source. To retrieve it, you will need to add it again. Are you sure you want to continue?"
+msgstr "Zamierzasz usunąć to źródło. Jeśli zechcesz je odzyskać, trzeba będzie ponownie je dodać. Czy na pewno chcesz kontynuować?"
+
+#: inc/Builder/SBI_Feed_Builder.php:179
+msgid "You are going to delete this feed. You will lose all the settings. Are you sure you want to continue?"
+msgstr "Zamierzasz usunąć ten kanał. Utracisz wszystkie ustawienia. Czy na pewno chcesz kontynuować?"
+
+#: inc/Builder/SBI_Feed_Builder.php:182
+msgid "Delete Feeds?"
+msgstr "Usunąć kanały?"
+
+#: inc/Builder/SBI_Feed_Builder.php:183
+msgid "You are going to delete these feeds. You will lose all the settings. Are you sure you want to continue?"
+msgstr "Zamierzasz usunąć te kanały. Utracisz wszystkie ustawienia. Czy na pewno chcesz kontynuować?"
+
+#: inc/Builder/SBI_Feed_Builder.php:186
+msgid "Are you Sure?"
+msgstr "Czy na pewno?"
+
+#: inc/Builder/SBI_Feed_Builder.php:187
+msgid "Are you sure you want to leave this page, all unsaved settings will be lost, please make sure to save before leaving."
+msgstr "Czy na pewno chcesz opuścić tę stronę? Wszystkie niezapisane ustawienia zostaną utracone, więc przed opuszczeniem strony warto je zapisać."
+
+#: inc/Builder/SBI_Feed_Builder.php:190 inc/Builder/SBI_Feed_Builder.php:204
+#: inc/Builder/SBI_Feed_Builder.php:575
+msgid "Save and Exit"
+msgstr "Zapisz i wyjdź"
+
+#: inc/Builder/SBI_Feed_Builder.php:194 inc/Builder/SBI_Feed_Builder.php:208
+msgid "Exit without Saving"
+msgstr "Wyjdź bez zapisywania"
+
+#: inc/Builder/SBI_Feed_Builder.php:200
+msgid "You have unsaved changes"
+msgstr "Masz niezapisane zmiany"
+
+#: inc/Builder/SBI_Feed_Builder.php:201
+msgid "If you exit without saving, all the changes you made will be reverted."
+msgstr "Jeśli wyjdziesz bez zapisywania, wszystkie wprowadzone zmiany zostaną wycofane."
+
+#: inc/Builder/SBI_Feed_Builder.php:215
+msgid "Create an Instagram Feed"
+msgstr "Utwórz kanał Instagramu"
+
+#: inc/Builder/SBI_Feed_Builder.php:216
+msgid "Select Feed Type"
+msgstr "Wybierz rodzaj kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:217
+msgid "Select one or more feed types. You can add or remove them later."
+msgstr "Wybierz co najmniej jeden rodzaj kanału. Możesz je później dodawać lub usuwać."
+
+#: inc/Builder/SBI_Feed_Builder.php:218
+msgid "Update Feed Type"
+msgstr "Zaktualizuj rodzaj kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:219 inc/Builder/SBI_Feed_Builder.php:501
+msgid "Add Another Source Type"
+msgstr "Dodaj kolejny rodzaj źródła"
+
+#: inc/Builder/SBI_Feed_Builder.php:222
+#, php-format
+msgid "Upgrade to the %1$sAll Access Bundle%2$s to get all of our Pro Plugins"
+msgstr "Kup %1$spakiet z pełnym dostępem%2$s, aby uzyskać wszystkie nasze wtyczki Pro"
+
+#: inc/Builder/SBI_Feed_Builder.php:223
+msgid "Includes all Smash Balloon plugins for one low price: Instagram, Facebook, Twitter, YouTube, and Social Wall"
+msgstr "Zawiera wszystkie wtyczki Smash Balloon w jednej niskiej cenie: Instagram, Facebook, Twitter, YouTube i Social Wall"
+
+#: inc/Builder/SBI_Feed_Builder.php:224
+#, php-format
+msgid "%1$sBonus%2$s Lite users get %3$s50&#37; Off%4$s automatically applied at checkout"
+msgstr "%1$sBonus%2$s Użytkownicy wersji Lite otrzymują %3$s50&#37; zniżki%4$s, która jest automatycznie stosowana na etapie płatności"
+
+#: inc/Builder/SBI_Feed_Builder.php:227
+msgid "Embed Feed"
+msgstr "Osadź kanał"
+
+#: inc/Builder/SBI_Feed_Builder.php:228
+msgid "Add the unique shortcode to any page, post, or widget:"
+msgstr "Dodaj następujący specjalny krótki kod do dowolnej strony, wpisu lub widżetu:"
+
+#: inc/Builder/SBI_Feed_Builder.php:229
+msgid "Or use the built in WordPress block or widget"
+msgstr "Lub użyj wbudowanego bloku bądź widżetu WordPressa"
+
+#: inc/Builder/SBI_Feed_Builder.php:230
+msgid "Add to a Page"
+msgstr "Dodaj do strony"
+
+#: inc/Builder/SBI_Feed_Builder.php:231
+msgid "Add to a Widget"
+msgstr "Dodaj do widżetu"
+
+#: inc/Builder/SBI_Feed_Builder.php:232
+msgid "Select Page"
+msgstr "Wybierz stronę"
+
+#: inc/Builder/SBI_Feed_Builder.php:255
+msgid "Combine all your social media channels into one"
+msgstr "Połącz wszystkie swoje kanały mediów społecznościowych w jeden"
+
+#: inc/Builder/SBI_Feed_Builder.php:256
+msgid "<span class=\"sb-social-wall\">A dash of Instagram, a sprinkle of Facebook, a spoonful of Twitter, and a dollop of YouTube, all in the same feed.</span>"
+msgstr "<span class=\"sb-social-wall\">Szczypta Instagramu, odrobina Facebooka, łyżeczka Twittera i kawałek YouTube'a – a wszystko w tym samym kanałowym tyglu.</span>"
+
+#: inc/Builder/SBI_Feed_Builder.php:257
+msgid "Instagram Pro users get 50% OFF"
+msgstr "Użytkownicy Instagram Pro otrzymują 50% ZNIŻKI"
+
+#: inc/Builder/SBI_Feed_Builder.php:262
+msgid "Upgrade to the All Access Bundle and get:"
+msgstr "Kup pakiet z pełnym dostępem, a zyskasz:"
+
+#: inc/Builder/SBI_Feed_Builder.php:264
+msgid "Custom Facebook Feed Pro"
+msgstr "Custom Facebook Feed Pro"
+
+#: inc/Builder/SBI_Feed_Builder.php:265
+msgid "All Pro Facebook Extensions"
+msgstr "Wszystkie rozszerzenia Facebook Pro"
+
+#: inc/Builder/SBI_Feed_Builder.php:266
+msgid "Custom Twitter Feeds Pro"
+msgstr "Custom Twitter Feeds Pro"
+
+#: inc/Builder/SBI_Feed_Builder.php:267
+msgid "Instagram Feed Pro"
+msgstr "Instagram Feed Pro"
+
+#: inc/Builder/SBI_Feed_Builder.php:268
+msgid "YouTube Feeds Pro"
+msgstr "YouTube Feeds Pro"
+
+#: inc/Builder/SBI_Feed_Builder.php:269
+msgid "Social Wall Pro"
+msgstr "Social Wall Pro"
+
+#: inc/Builder/SBI_Feed_Builder.php:495
+msgid "Done"
+msgstr "Gotowe"
+
+#: inc/Builder/SBI_Feed_Builder.php:497
+msgid "Dashboard"
+msgstr "Kokpit"
+
+#: inc/Builder/SBI_Feed_Builder.php:498
+msgid "Add New"
+msgstr "Dodaj"
+
+#: inc/Builder/SBI_Feed_Builder.php:499 inc/Builder/SBI_Feed_Builder.php:740
+msgid "Add Source"
+msgstr "Dodaj źródło"
+
+#: inc/Builder/SBI_Feed_Builder.php:500
+msgid "Add another Source"
+msgstr "Dodaj kolejne źródło"
+
+#: inc/Builder/SBI_Feed_Builder.php:502
+msgid "Previous"
+msgstr "Wstecz"
+
+#: inc/Builder/SBI_Feed_Builder.php:503
+msgid "Next"
+msgstr "Dalej"
+
+#: inc/Builder/SBI_Feed_Builder.php:504
+msgid "Finish"
+msgstr "Zakończ"
+
+#: inc/Builder/SBI_Feed_Builder.php:505
+msgid "New"
+msgstr "Nowy"
+
+#: inc/Builder/SBI_Feed_Builder.php:506
+msgid "Update"
+msgstr "Zaktualizuj"
+
+#: inc/Builder/SBI_Feed_Builder.php:509
+msgid "Back"
+msgstr "Wstecz"
+
+#: inc/Builder/SBI_Feed_Builder.php:510
+msgid "Back to all feeds"
+msgstr "Powrót do wszystkich kanałów"
+
+#: inc/Builder/SBI_Feed_Builder.php:511
+msgid "Create Feed"
+msgstr "Utwórz kanał"
+
+#: inc/Builder/SBI_Feed_Builder.php:513
+msgid "Change"
+msgstr "Zmień"
+
+#: inc/Builder/SBI_Feed_Builder.php:514
+msgid "Get Extension"
+msgstr "Uzyskaj rozszerzenie"
+
+#: inc/Builder/SBI_Feed_Builder.php:516
+msgid "Includes"
+msgstr "Zawiera"
+
+#: inc/Builder/SBI_Feed_Builder.php:517
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:141
+msgid "Photos"
+msgstr "Zdjęcia"
+
+#: inc/Builder/SBI_Feed_Builder.php:518
+msgid "Photo"
+msgstr "Zdjęcie"
+
+#: inc/Builder/SBI_Feed_Builder.php:519
+msgid "Apply"
+msgstr "Zastosuj"
+
+#: inc/Builder/SBI_Feed_Builder.php:521 inc/Builder/SBI_Feed_Builder.php:1244
+msgid "Edit"
+msgstr "Edytuj"
+
+#: inc/Builder/SBI_Feed_Builder.php:522
+msgid "Duplicate"
+msgstr "Zduplikuj"
+
+#: inc/Builder/SBI_Feed_Builder.php:523
+msgid "Delete"
+msgstr "Usuń"
+
+#: inc/Builder/SBI_Feed_Builder.php:524
+msgid "Remove"
+msgstr "Usuń"
+
+#: inc/Builder/SBI_Feed_Builder.php:525
+msgid "Remove Source"
+msgstr "Usuń źródło"
+
+#: inc/Builder/SBI_Feed_Builder.php:527
+msgid "Click to view Instances"
+msgstr "Kliknij, aby zobaczyć instancje"
+
+#: inc/Builder/SBI_Feed_Builder.php:528
+msgid "Used in"
+msgstr "Użyto w"
+
+#: inc/Builder/SBI_Feed_Builder.php:529
+msgid "place"
+msgstr "miejscu"
+
+#: inc/Builder/SBI_Feed_Builder.php:530
+msgid "places"
+msgstr "miejsca"
+
+#: inc/Builder/SBI_Feed_Builder.php:531
+msgid "Item"
+msgstr "Pozycja"
+
+#: inc/Builder/SBI_Feed_Builder.php:532
+msgid "Items"
+msgstr "Pozycje"
+
+#: inc/Builder/SBI_Feed_Builder.php:533 inc/email.php:63
+msgid "Learn More"
+msgstr "Dowiedz się więcej"
+
+#: inc/Builder/SBI_Feed_Builder.php:534
+msgid "Location"
+msgstr "Lokalizacja"
+
+#: inc/Builder/SBI_Feed_Builder.php:535
+msgid "Page"
+msgstr "Strona"
+
+#: inc/Builder/SBI_Feed_Builder.php:536
+msgid "Copied to Clipboard"
+msgstr "Skopiowano do schowka"
+
+#: inc/Builder/SBI_Feed_Builder.php:537
+msgid "Feed imported successfully"
+msgstr "Kanał został zaimportowany"
+
+#: inc/Builder/SBI_Feed_Builder.php:538
+msgid "Failed to import feed"
+msgstr "Nie udało się zaimportować kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:539
+msgid "Timeline"
+msgstr "Oś czasu"
+
+#: inc/Builder/SBI_Feed_Builder.php:541
+msgid "Admin"
+msgstr "Administrator"
+
+#: inc/Builder/SBI_Feed_Builder.php:542
+msgid "Member"
+msgstr "Członek"
+
+#: inc/Builder/SBI_Feed_Builder.php:544 inc/Builder/SBI_Feed_Builder.php:1144
+msgid "Preview"
+msgstr "Podgląd"
+
+#: inc/Builder/SBI_Feed_Builder.php:546
+msgid "ID"
+msgstr "Identyfikator"
+
+#: inc/Builder/SBI_Feed_Builder.php:547
+msgid "Token"
+msgstr "Token"
+
+#: inc/Builder/SBI_Feed_Builder.php:550
+msgid "Clear"
+msgstr "Wyczyść"
+
+#: inc/Builder/SBI_Feed_Builder.php:551
+msgid "Clear Feed Cache"
+msgstr "Wyczyść pamięć podręczną kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:552
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: inc/Builder/SBI_Feed_Builder.php:553
+msgid "Feed Name"
+msgstr "Nazwa kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:555
+msgid "General"
+msgstr "Ogólne"
+
+#: inc/Builder/SBI_Feed_Builder.php:556
+msgid "Feeds"
+msgstr "Kanały"
+
+#: inc/Builder/SBI_Feed_Builder.php:557
+msgid "Translation"
+msgstr "Tłumaczenie"
+
+#: inc/Builder/SBI_Feed_Builder.php:558
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:57
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+#: inc/Builder/SBI_Feed_Builder.php:559
+msgid "Error:"
+msgstr "Błąd:"
+
+#: inc/Builder/SBI_Feed_Builder.php:560
+msgid "There was an error when trying to connect to Instagram."
+msgstr "Podczas próby nawiązania połączenia z Instagramem wystąpił błąd."
+
+#: inc/Builder/SBI_Feed_Builder.php:561
+msgid "Directions on How to Resolve This Issue"
+msgstr "Wskazówki dotyczące rozwiązania tego problemu"
+
+#: inc/Builder/SBI_Feed_Builder.php:562
+msgid "Source Invalid"
+msgstr "Nieprawidłowe źródło"
+
+#: inc/Builder/SBI_Feed_Builder.php:563
+msgid "Encryption Error"
+msgstr "Błąd szyfrowania"
+
+#: inc/Builder/SBI_Feed_Builder.php:564
+msgid "Invalid"
+msgstr "Nieprawidłowe"
+
+#: inc/Builder/SBI_Feed_Builder.php:565
+msgid "Reconnect"
+msgstr "Połącz ponownie"
+
+#: inc/Builder/SBI_Feed_Builder.php:566
+msgid "feed"
+msgstr "kanale"
+
+#: inc/Builder/SBI_Feed_Builder.php:567
+msgid "Source is not used yet"
+msgstr "Źródło nie jest jeszcze używane"
+
+#: inc/Builder/SBI_Feed_Builder.php:568
+msgid "Add Image"
+msgstr "Dodaj obrazek"
+
+#: inc/Builder/SBI_Feed_Builder.php:569
+msgid "Business Account required"
+msgstr "Wymagane jest konto firmowe"
+
+#: inc/Builder/SBI_Feed_Builder.php:570
+msgid "Selected Post"
+msgstr "Wybrany wpis"
+
+#: inc/Builder/SBI_Feed_Builder.php:571
+msgid "Product Link"
+msgstr "Odnośnik do produktu"
+
+#: inc/Builder/SBI_Feed_Builder.php:572
+msgid "Add your product URL here"
+msgstr "Dodaj tutaj adres URL produktu"
+
+#: inc/Builder/SBI_Feed_Builder.php:573
+msgid "Edit Sources"
+msgstr "Edytuj źródła"
+
+#: inc/Builder/SBI_Feed_Builder.php:574
+msgid "Moderate your feed"
+msgstr "Moderuj kanał"
+
+#: inc/Builder/SBI_Feed_Builder.php:576
+msgid "Moderation Mode"
+msgstr "Tryb moderacji"
+
+#: inc/Builder/SBI_Feed_Builder.php:577
+msgid "Or Enter Post IDs to hide manually"
+msgstr "Lub wpisz identyfikatory wpisów, aby je ukryć ręcznie"
+
+#: inc/Builder/SBI_Feed_Builder.php:578
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:126
+msgid "Add words here to hide any posts containing these words"
+msgstr "Dodaj tutaj słowa, aby ukryć zawierające je wpisy"
+
+#: inc/Builder/SBI_Feed_Builder.php:579
+msgid "Filters & Moderation"
+msgstr "Filtry i moderacja"
+
+#: inc/Builder/SBI_Feed_Builder.php:580
+msgid "Top Rated"
+msgstr "Najwyżej oceniane"
+
+#: inc/Builder/SBI_Feed_Builder.php:581
+msgid "Most recent"
+msgstr "Najnowsze"
+
+#: inc/Builder/SBI_Feed_Builder.php:582
+msgid "Moderation Mode Preview"
+msgstr "Podgląd trybu moderacji"
+
+#: inc/Builder/SBI_Feed_Builder.php:583
+msgid "Shoppable Feed Preview"
+msgstr "Podgląd kanału z możliwością zakupu"
+
+#: inc/Builder/SBI_Feed_Builder.php:588
+msgid "Feed saved successfully"
+msgstr "Kanał został zapisany"
+
+#: inc/Builder/SBI_Feed_Builder.php:592
+msgid "Error saving Feed"
+msgstr "Błąd podczas zapisywania kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:596
+msgid "Preview updated successfully"
+msgstr "Podgląd został zaktualizowany"
+
+#: inc/Builder/SBI_Feed_Builder.php:600
+msgid "Carousel updated successfully"
+msgstr "Karuzela została zaktualizowana"
+
+#: inc/Builder/SBI_Feed_Builder.php:604
+msgid "Unknown error occurred"
+msgstr "Wystąpił nieznany błąd"
+
+#: inc/Builder/SBI_Feed_Builder.php:608
+msgid "Feed cache cleared"
+msgstr "Wyczyszczono pamięć podręczną kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:612
+msgid "Please select a source for your feed"
+msgstr "Wybierz źródło kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:616
+msgid "Comment cache cleared"
+msgstr "Wyczyszczono pamięć podręczną komentarzy"
+
+#: inc/Builder/SBI_Feed_Builder.php:622
+msgid "Installed & Activated"
+msgstr "Zainstalowano i włączono"
+
+#: inc/Builder/SBI_Feed_Builder.php:623
+msgid "Free"
+msgstr "bezpłatnie"
+
+#: inc/Builder/SBI_Feed_Builder.php:624
+msgid "Invalid license key"
+msgstr "Nieprawidłowy klucz licencyjny"
+
+#: inc/Builder/SBI_Feed_Builder.php:625
+msgid "License activated"
+msgstr "Włączono licencję"
+
+#: inc/Builder/SBI_Feed_Builder.php:626
+msgid "License Deactivated"
+msgstr "Wyłączono licencję"
+
+#: inc/Builder/SBI_Feed_Builder.php:629
+msgid "Carousel Layout updated"
+msgstr "Zaktualizowano układ karuzeli"
+
+#: inc/Builder/SBI_Feed_Builder.php:631
+msgid "Get more features with Custom Facebook Feed Pro"
+msgstr "Uzyskaj więcej funkcji dzięki Custom Facebook Feed Pro"
+
+#: inc/Builder/SBI_Feed_Builder.php:632
+msgid "Lite Feed Users get 50% OFF"
+msgstr "Użytkownicy wersji Lite otrzymują 50% ZNIŻKI"
+
+#: inc/Builder/SBI_Feed_Builder.php:633
+msgid "Try Demo"
+msgstr "Wypróbuj wersję demonstracyjną"
+
+#: inc/Builder/SBI_Feed_Builder.php:634
+msgid "Display images and videos in posts"
+msgstr "Wyświetlanie obrazków i filmów we wpisach"
+
+#: inc/Builder/SBI_Feed_Builder.php:635
+msgid "View likes, shares and comments"
+msgstr "Zobacz polubienia, udostępnienia i komentarze"
+
+#: inc/Builder/SBI_Feed_Builder.php:636
+msgid "All Feed Types: Photos, Albums, Events and more"
+msgstr "Wszystkie rodzaje kanałów: zdjęcia, albumy, wydarzenia i inne"
+
+#: inc/Builder/SBI_Feed_Builder.php:637
+msgid "Ability to “Load More” posts"
+msgstr "Możliwość wczytania większej liczby wpisów"
+
+#: inc/Builder/SBI_Feed_Builder.php:638
+msgid "And Much More!"
+msgstr "I wiele więcej!"
+
+#: inc/Builder/SBI_Feed_Builder.php:640
+msgid "Filter posts"
+msgstr "Filtruj wpisy"
+
+#: inc/Builder/SBI_Feed_Builder.php:641
+msgid "Popup photo/video lighbox"
+msgstr "Wyskakujące okno lightbox ze zdjęciami/filmami"
+
+#: inc/Builder/SBI_Feed_Builder.php:642
+msgid "30 day money back guarantee"
+msgstr "30-dniowa gwarancja zwrotu pieniędzy"
+
+#: inc/Builder/SBI_Feed_Builder.php:643
+msgid "Multiple post layout options"
+msgstr "Wiele opcji układu wpisów"
+
+#: inc/Builder/SBI_Feed_Builder.php:644
+msgid "Video player (HD, 360, Live)"
+msgstr "Odtwarzacz filmów (HD, 360, na żywo)"
+
+#: inc/Builder/SBI_Feed_Builder.php:645
+msgid "Fast, friendly and effective support"
+msgstr "Szybka, przyjazna i skuteczna pomoc techniczna"
+
+#: inc/Builder/SBI_Feed_Builder.php:647
+msgid "Show Features"
+msgstr "Pokaż funkcje"
+
+#: inc/Builder/SBI_Feed_Builder.php:648
+msgid "Hide Features"
+msgstr "Ukryj funkcje"
+
+#: inc/Builder/SBI_Feed_Builder.php:650
+msgid "Redirecting to connect.smashballoon.com"
+msgstr "Przekierowywanie do witryny connect.smashballoon.com"
+
+#: inc/Builder/SBI_Feed_Builder.php:651
+msgid "You will be redirected to our app so you can connect your account in 5 seconds"
+msgstr "Nastąpi przekierowanie do naszej aplikacji, gdzie możesz połączyć swoje konto w 5 sekund"
+
+#: inc/Builder/SBI_Feed_Builder.php:665
+msgid "Select one or more sources"
+msgstr "Wybierz co najmniej jedno źródło"
+
+#: inc/Builder/SBI_Feed_Builder.php:666
+msgid "Sources are Instagram accounts your feed will display content from"
+msgstr "Źródła to konta na Instagramie, z których mają pochodzić treści wyświetlane na kanale"
+
+#: inc/Builder/SBI_Feed_Builder.php:667
+msgid "Looks like you have not added any source.<br/>Use “Add Source” to add a new one."
+msgstr "Wygląda na to, że nie dodano jeszcze żadnego źródła.<br/>Aby dodać źródło, kliknij „Dodaj źródło”."
+
+#: inc/Builder/SBI_Feed_Builder.php:668
+msgid "Enter Public Hashtags"
+msgstr "Wpisz hashtagi publiczne"
+
+#: inc/Builder/SBI_Feed_Builder.php:669
+msgid "Add one or more hashtag separated by comma"
+msgstr "Dodaj hashtag lub kilka hashtagów, rozdzielając je przecinkami"
+
+#: inc/Builder/SBI_Feed_Builder.php:670
+msgid "Fetch posts that are"
+msgstr "Pobierz wpisy, które są"
+
+#: inc/Builder/SBI_Feed_Builder.php:674
+msgid "Add a source for Timeline"
+msgstr "Dodaj źródło osi czasu"
+
+#: inc/Builder/SBI_Feed_Builder.php:675
+msgid "Select or add an account you want to display the timeline for"
+msgstr "Wybierz lub dodaj konto, którego oś czasu chcesz wyświetlać"
+
+#: inc/Builder/SBI_Feed_Builder.php:678
+msgid "Add a source for Mentions"
+msgstr "Dodaj źródło wzmianek"
+
+#: inc/Builder/SBI_Feed_Builder.php:679
+msgid "Select or add an account you want to display the mentions for"
+msgstr "Wybierz lub dodaj konto, z którego wzmianki chcesz wyświetlać"
+
+#: inc/Builder/SBI_Feed_Builder.php:685
+msgid ""
+"Due to changes in Instagram’s new API, we can no<br/>\n"
+"\t\t\t\t\tlonger get mentions for personal accounts. To<br/>\n"
+"\t\t\t\t\tenable this for your account, you will need to convert it to<br/>\n"
+"\t\t\t\t\ta Business account. Learn More"
+msgstr ""
+"Ze względu na zmiany w nowym interfejsie API Instagramu nie można już<br/>\n"
+"\t\t\t\t\tuzyskiwać wzmianek w przypadku kont osobistych. Aby<br/>\n"
+"\t\t\t\t\twłączyć tę funkcję dla swojego konta, trzeba je przekonwertować<br/>\n"
+"\t\t\t\t\tna konto firmowe. Dowiedz się więcej"
+
+#: inc/Builder/SBI_Feed_Builder.php:693
+msgid "Due to Facebook limitations, it's not possible to display photo feeds from a Group, only a Page."
+msgstr "Ze względu na ograniczenia Facebooka nie można wyświetlać kanałów zdjęć z grupy — obsługiwana jest tylko strona."
+
+#: inc/Builder/SBI_Feed_Builder.php:695
+msgid "Update Source"
+msgstr "Zaktualizuj źródło"
+
+#: inc/Builder/SBI_Feed_Builder.php:696
+msgid "Select a source from your connected Facebook Pages and Groups. Or, use \"Add New\" to connect a new one."
+msgstr "Wybierz źródło spośród połączonych stron i grup na Facebooku lub użyj opcji „Dodaj”, aby ustanowić połączenie z nowym źródłem."
+
+#: inc/Builder/SBI_Feed_Builder.php:697
+msgid "Add multiple Facebook Pages or Groups to a feed with our Multifeed extension"
+msgstr "Dodaj do kanału wiele stron lub grup z Facebooka za pomocą naszego rozszerzenia Multifeed"
+
+#: inc/Builder/SBI_Feed_Builder.php:698
+msgid "Please add a source in order to display a feed. Go to the \"Settings\" tab -> \"Sources\" section -> Click \"Add New\" to connect a source."
+msgstr "Dodaj źródło, aby wyświetlić kanał. Kliknij kolejno kartę „Ustawienia” -> sekcję „Źródła” -> „Dodaj”, aby ustanowić połączenie ze źródłem."
+
+#: inc/Builder/SBI_Feed_Builder.php:702 inc/Builder/SBI_Feed_Builder.php:1771
+msgid "User Timeline"
+msgstr "Oś czasu użytkownika"
+
+#: inc/Builder/SBI_Feed_Builder.php:704
+msgid "Connect an account to show posts for it."
+msgstr "Połącz konto, aby wyświetlić dostępne na nim wpisy."
+
+#: inc/Builder/SBI_Feed_Builder.php:708
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:258
+msgid "Hashtag"
+msgstr "Hashtag"
+
+#: inc/Builder/SBI_Feed_Builder.php:710
+msgid "Add one or more hashtag separated by comma."
+msgstr "Dodaj hashtag lub kilka hashtagów, rozdzielając je przecinkami."
+
+#: inc/Builder/SBI_Feed_Builder.php:715
+msgid "Tagged"
+msgstr "Otagowanie"
+
+#: inc/Builder/SBI_Feed_Builder.php:717
+msgid "Connect an account to show tagged posts. This does not give us any permission to manage your Instagram account."
+msgstr "Połącz konto, aby wyświetlać wpisy z otagowaniem. Nie daje nam to żadnych uprawnień do zarządzania twoim kontem na Instagramie."
+
+#: inc/Builder/SBI_Feed_Builder.php:724
+msgid "Connect your Instagram Account"
+msgstr "Połącz swoje konto na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:725
+msgid "Select Account Type"
+msgstr "Wybierz rodzaj konta"
+
+#: inc/Builder/SBI_Feed_Builder.php:726
+msgid "Connect an Instagram Account"
+msgstr "Połącz konto na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:727
+msgid "This does not give us permission to manage your Instagram account, it simply allows the plugin to see a list of them and retrieve their public content from the API."
+msgstr "Nie daje nam to uprawnień do zarządzania twoim kontem na Instagramie. Dzięki temu wtyczka będzie tylko mieć dostęp do listy kont dostępnych do połączenia i będzie mogła pobierać ich publiczne treści przy użyciu interfejsu API."
+
+#: inc/Builder/SBI_Feed_Builder.php:728
+msgid "Connect"
+msgstr "Połącz"
+
+#: inc/Builder/SBI_Feed_Builder.php:729
+msgid "Enter Events Access Token"
+msgstr "Wpisz token dostępu do wydarzeń"
+
+#: inc/Builder/SBI_Feed_Builder.php:730
+#, php-format
+msgid "Due to restrictions by Facebook, you need to create a Facebook app and then paste that app Access Token here. We have a guide to help you with just that, which you can read %1$shere%2$s"
+msgstr "Ze względu na ograniczenia Facebooka trzeba utworzyć aplikację obsługującą Facebooka i wkleić tutaj token dostępu do niej. Zapoznaj się z naszym %1$sprzewodnikiem%2$s ułatwiającym wykonanie tych zadań."
+
+#: inc/Builder/SBI_Feed_Builder.php:731
+msgid "Already have a API Token and Access Key for your account?"
+msgstr "Masz już token API i klucz dostępu do swojego konta?"
+
+#: inc/Builder/SBI_Feed_Builder.php:732
+msgid "Add Account Manually"
+msgstr "Dodaj konto ręcznie"
+
+#: inc/Builder/SBI_Feed_Builder.php:733
+msgid "Select an Instagram Account"
+msgstr "Wybierz konto na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:734
+msgid "Showing"
+msgstr "Wyświetlono"
+
+#: inc/Builder/SBI_Feed_Builder.php:735 inc/Builder/SBI_Feed_Builder.php:932
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/Builder/SBI_Feed_Builder.php:736
+msgid "Businesses"
+msgstr "Małe firmy"
+
+#: inc/Builder/SBI_Feed_Builder.php:737
+msgid "Groups"
+msgstr "Grupy"
+
+#: inc/Builder/SBI_Feed_Builder.php:738
+msgid "connected to"
+msgstr "połączono z:"
+
+#: inc/Builder/SBI_Feed_Builder.php:739
+msgid "Add a Source Manually"
+msgstr "Dodaj źródło ręcznie"
+
+#: inc/Builder/SBI_Feed_Builder.php:741
+msgid "Source Type"
+msgstr "Rodzaj źródła"
+
+#: inc/Builder/SBI_Feed_Builder.php:742 inc/Builder/SBI_Feed_Builder.php:743
+msgid "Instagram Account ID"
+msgstr "Identyfikator konta na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:744
+msgid "Event Access Token"
+msgstr "Token dostępu do wydarzeń"
+
+#: inc/Builder/SBI_Feed_Builder.php:745
+msgid "Enter ID"
+msgstr "Wpisz identyfikator"
+
+#: inc/Builder/SBI_Feed_Builder.php:746
+msgid "Instagram Access Token"
+msgstr "Token dostępu do Instagramu"
+
+#: inc/Builder/SBI_Feed_Builder.php:747
+msgid "Enter Token"
+msgstr "Wpisz token"
+
+#: inc/Builder/SBI_Feed_Builder.php:748
+msgid "Add Instagram App to your group"
+msgstr "Dodaj aplikację obsługującą Instagram do swojej grupy"
+
+#: inc/Builder/SBI_Feed_Builder.php:749
+msgid "To get posts from your group, Instagram requires the \"Smash Balloon Plugin\" app to be added in your group settings. Just follow the directions here:"
+msgstr "Aby można było uzyskać wpisy z grupy, Instagram wymaga dodania aplikacji „Wtyczka Smash Balloon” w ustawieniach grupy. Postępuj zgodnie ze wskazówkami przedstawionymi w tym miejscu:"
+
+#: inc/Builder/SBI_Feed_Builder.php:751
+msgid "Go to your group settings page by "
+msgstr "Przejdź na stronę ustawień grupy: "
+
+#: inc/Builder/SBI_Feed_Builder.php:752
+#, php-format
+msgid "Search for \"Smash Balloon\" and select our app %1$s(see screenshot)%2$s"
+msgstr "Wyszukaj „Smash Balloon” i wybierz naszą aplikację %1$s(zobacz zrzut ekranu)%2$s"
+
+#: inc/Builder/SBI_Feed_Builder.php:753
+msgid "Click \"Add\" and you are done."
+msgstr "Kliknij „Dodaj” i gotowe."
+
+#: inc/Builder/SBI_Feed_Builder.php:755
+msgid "Account already exists"
+msgstr "Konto już istnieje"
+
+#: inc/Builder/SBI_Feed_Builder.php:756
+msgid "The Instagram account you added is already connected as a “Business” account. Would you like to replace it with a “Personal“ account? (Note: Personal accounts cannot be used to display Mentions or Hashtag feeds.)"
+msgstr "Dodane przez ciebie konto na Instagramie jest już połączone jako konto firmowe. Czy chcesz je zastąpić kontem osobistym? (Uwaga: w przypadku kont osobistych nie jest obsługiwane wyświetlanie kanałów ze wzmiankami ani hashtagami)."
+
+#: inc/Builder/SBI_Feed_Builder.php:757
+msgid "Replace with Personal"
+msgstr "Zastąp osobistym"
+
+#: inc/Builder/SBI_Feed_Builder.php:758
+msgid "For groups you are not an administrator of"
+msgstr "W przypadku grup, których nie jesteś administratorem"
+
+#: inc/Builder/SBI_Feed_Builder.php:759
+msgid "Due to Instagram’s limitations, you need to connect a business account to display a Mentions timeline"
+msgstr "Ze względu na ograniczenia Instagramu w celu wyświetlenia osi czasu ze wzmiankami trzeba połączyć konto firmowe"
+
+#: inc/Builder/SBI_Feed_Builder.php:760
+msgid "Due to Instagram’s limitations, you need to connect a business account to display a Hashtag feed"
+msgstr "Ze względu na ograniczenia Instagramu w celu wyświetlenia kanału z hashtagiem trzeba połączyć konto firmowe"
+
+#: inc/Builder/SBI_Feed_Builder.php:761
+msgid "Select \"Personal\" if displaying a regular feed of posts, as this can display feeds from either a Personal or Business account. For displaying a Hashtag or Tagged feed, you must have an Instagram Business account. If needed, you can convert a Personal account into a Business account by following the directions {link}here{link}."
+msgstr "Wybierz „Osobiste”, jeśli chcesz wyświetlać zwykły kanał z wpisami, ponieważ mogą w nim być wyświetlane wpisy z konta zarówno osobistego, jak i firmowego. Aby wyświetlać kanał z hashtagiem lub otagowaniem, trzeba mieć na Instagramie konto firmowe. W razie potrzeby można przekształcić konto osobiste w konto firmowe, postępując zgodnie ze wskazówkami dostępnymi {link}tutaj{link}."
+
+#: inc/Builder/SBI_Feed_Builder.php:764
+msgid "Add feeds for popular social platforms with <span>our other plugins</span>"
+msgstr "Dodaj kanały popularnych platform społecznościowych za pomocą <span>innych naszych wtyczek</span>"
+
+#: inc/Builder/SBI_Feed_Builder.php:766
+msgid "Personal"
+msgstr "Osobiste"
+
+#: inc/Builder/SBI_Feed_Builder.php:767
+msgid "Business"
+msgstr "Praca"
+
+#: inc/Builder/SBI_Feed_Builder.php:768
+msgid "I'm not sure"
+msgstr "Nie mam pewności"
+
+#: inc/Builder/SBI_Feed_Builder.php:933 inc/Builder/SBI_Feed_Builder.php:998
+msgid "Facebook Feed"
+msgstr "Facebook Feed"
+
+#: inc/Builder/SBI_Feed_Builder.php:934 inc/Builder/SBI_Feed_Builder.php:946
+#: inc/Builder/SBI_Feed_Builder.php:958
+msgid "By Smash Balloon"
+msgstr "Stworzone przez zespół Smash Balloon"
+
+#: inc/Builder/SBI_Feed_Builder.php:935
+msgid "To display a Facebook feed, our Facebook plugin is required. </br> It provides a clean and beautiful way to add your Facebook posts to your website. Grab your visitors attention and keep them engaged with your site longer."
+msgstr "Do wyświetlenia kanału Facebooka wymagana jest nasza wtyczka do Facebooka. </br> Umożliwia ona dodawanie do witryny twoich wpisów z Facebooka w piękny i estetyczny sposób. Przyciągnij uwagę gości witryny i wydłuż czas trwania ich odwiedzin."
+
+#: inc/Builder/SBI_Feed_Builder.php:944
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/Builder/SBI_Feed_Builder.php:945 inc/Builder/SBI_Feed_Builder.php:1003
+msgid "Twitter Feed"
+msgstr "Twitter Feed"
+
+#: inc/Builder/SBI_Feed_Builder.php:947
+msgid "Custom Twitter Feeds is a highly customizable way to display tweets from your Twitter account. Promote your latest content and update your site content automatically."
+msgstr "Własne kanały Twittera to bardzo elastyczny sposób wyświetlania tweetów z twojego konta na Twitterze. Promuj swoje najnowsze treści i automatycznie aktualizuj zawartość witryny."
+
+#: inc/Builder/SBI_Feed_Builder.php:956
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/Builder/SBI_Feed_Builder.php:959
+msgid "To display a YouTube feed, our YouTube plugin is required. It provides a simple yet powerful way to display videos from YouTube on your website, Increasing engagement with your channel while keeping visitors on your website."
+msgstr "Do wyświetlenia kanału YouTube wymagana jest nasza wtyczka do YouTube. Stanowi ona prosty, a przy tym zaawansowany sposób na wyświetlanie filmów z YouTube w witrynie internetowej. Dzięki temu zwiększa przywiązanie do twojego kanału na YouTube, a jednocześnie zatrzymuje gości w twojej witrynie."
+
+#: inc/Builder/SBI_Feed_Builder.php:992
+msgid "Upgrade to Pro"
+msgstr "Kup Pro"
+
+#: inc/Builder/SBI_Feed_Builder.php:1008
+msgid "YouTube Feed"
+msgstr "YouTube Feed"
+
+#: inc/Builder/SBI_Feed_Builder.php:1013
+msgid "Social Wall Plugin"
+msgstr "Wtyczka Social Wall"
+
+#: inc/Builder/SBI_Feed_Builder.php:1055
+msgid "Legacy Feed Settings"
+msgstr "Ustawienia starszych kanałów"
+
+#: inc/Builder/SBI_Feed_Builder.php:1056
+#, php-format
+msgid "These settings will impact %1$s legacy feeds on your site. You can learn more about what legacy feeds are and how they differ from new feeds %2$shere%3$s."
+msgstr "Te ustawienia będą mieć wpływ na starsze kanały (%1$s) w twojej witrynie. Więcej informacji na temat starszych kanałów i tego, czym różnią się one od nowych, znajdziesz %2$stutaj%3$s."
+
+#: inc/Builder/SBI_Feed_Builder.php:1058
+msgid "You can now create and customize feeds individually. Click \"Add New\" to get started."
+msgstr "Teraz możesz tworzyć i dostosowywać kanały indywidualnie. Kliknij „Dodaj”, aby rozpocząć."
+
+#: inc/Builder/SBI_Feed_Builder.php:1065 inc/Builder/SBI_Feed_Builder.php:1080
+msgid "How you create a feed has changed"
+msgstr "Sposób tworzenia kanału uległ zmianie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1066 inc/Builder/SBI_Feed_Builder.php:1081
+msgid "You can now create and customize feeds individually without using shortcode options."
+msgstr "Teraz możesz tworzyć i dostosowywać kanały indywidualnie bez korzystania z opcji krótkiego kodu."
+
+#: inc/Builder/SBI_Feed_Builder.php:1066 inc/Builder/SBI_Feed_Builder.php:1081
+msgid "Click \"Add New\" to get started."
+msgstr "Kliknij „Dodaj”, aby rozpocząć."
+
+#: inc/Builder/SBI_Feed_Builder.php:1071
+msgid "Your existing feed is here"
+msgstr "Twój istniejący kanał znajduje się tutaj"
+
+#: inc/Builder/SBI_Feed_Builder.php:1072
+msgid "You can edit your existing feed from here, and all changes will only apply to this feed."
+msgstr "W tym miejscu możesz zmodyfikować istniejący kanał, a wszelkie zmiany zostaną zastosowane tylko do niego."
+
+#: inc/Builder/SBI_Feed_Builder.php:1086
+msgid "Your existing feeds are under \"Legacy\" feeds"
+msgstr "Twoje istniejące kanały znajdują się w obszarze starszych kanałów"
+
+#: inc/Builder/SBI_Feed_Builder.php:1087
+msgid "You can edit the settings for any existing \"legacy\" feed (i.e. any feed created prior to this update) here."
+msgstr "W tym miejscu możesz zmodyfikować ustawienia dowolnego istniejącego „starszego” kanału (czyli każdego kanału utworzonego przed tą aktualizacją)."
+
+#: inc/Builder/SBI_Feed_Builder.php:1087
+msgid "This works just like the old settings page and affects all legacy feeds on your site."
+msgstr "Działa to tak samo jak stara strona ustawień i wpływa na wszystkie starsze kanały w witrynie."
+
+#: inc/Builder/SBI_Feed_Builder.php:1091
+msgid "Existing feeds work as normal"
+msgstr "Istniejące kanały działają normalnie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1092
+msgid "You don't need to update or change any of your existing feeds. They will continue to work as usual."
+msgstr "Nie musisz aktualizować ani zmieniać żadnych istniejących kanałów. Będą one nadal działać tak jak dotychczas."
+
+#: inc/Builder/SBI_Feed_Builder.php:1092
+msgid "This update only affects how new feeds are created and customized."
+msgstr "Ta aktualizacja wpływa tylko na sposób tworzenia i dostosowywania nowych kanałów."
+
+#: inc/Builder/SBI_Feed_Builder.php:1112
+msgid "Embedding a Feed"
+msgstr "Osadzanie kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:1113
+msgid "After you are done customizing the feed, click here to add it to a page or a widget."
+msgstr "Po dostosowaniu kanału kliknij tutaj, aby dodać go do strony lub widżetu."
+
+#: inc/Builder/SBI_Feed_Builder.php:1118 inc/Builder/SBI_Feed_Builder.php:1164
+#: inc/Builder/Tabs/SBI_Builder_Customizer_Tab.php:30
+msgid "Customize"
+msgstr "Dostosuj"
+
+#: inc/Builder/SBI_Feed_Builder.php:1119
+msgid "Change your feed layout, color scheme, or customize individual feed sections here."
+msgstr "Tutaj możesz zmienić układ lub schemat kolorów kanału albo dostosować jego poszczególne sekcje."
+
+#: inc/Builder/SBI_Feed_Builder.php:1125
+msgid "Update your feed source, filter your posts, or change advanced settings here."
+msgstr "Tutaj możesz zaktualizować źródło kanału, przefiltrować wpisy lub zmienić ustawienia zaawansowane."
+
+#: inc/Builder/SBI_Feed_Builder.php:1146
+msgid "Embed"
+msgstr "Osadź"
+
+#: inc/Builder/SBI_Feed_Builder.php:1147
+msgid "Save"
+msgstr "Zapisz"
+
+#: inc/Builder/SBI_Feed_Builder.php:1148
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:42
+msgid "Sections"
+msgstr "Sekcje"
+
+#: inc/Builder/SBI_Feed_Builder.php:1150
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:479
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:999
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1099
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1218
+msgid "Background"
+msgstr "Tło"
+
+#: inc/Builder/SBI_Feed_Builder.php:1151
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:490
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:619
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:884
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1009
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1079
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1121
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1198
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1240
+msgid "Text"
+msgstr "Tekst"
+
+#: inc/Builder/SBI_Feed_Builder.php:1152
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:445
+msgid "Inherit from Theme"
+msgstr "Odziedzicz z motywu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1153
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:895
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:965
+msgid "Size"
+msgstr "Rozmiar"
+
+#: inc/Builder/SBI_Feed_Builder.php:1154
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:629
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:910
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:979
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1089
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1208
+msgid "Color"
+msgstr "Kolor"
+
+#: inc/Builder/SBI_Feed_Builder.php:1155
+msgid "Height"
+msgstr "Wysokość"
+
+#: inc/Builder/SBI_Feed_Builder.php:1156
+msgid "Placeholder"
+msgstr "Tekst zastępczy"
+
+#: inc/Builder/SBI_Feed_Builder.php:1157
+msgid "Select"
+msgstr "Wybierz"
+
+#: inc/Builder/SBI_Feed_Builder.php:1158
+msgid "Enter Text"
+msgstr "Wpisz tekst"
+
+#: inc/Builder/SBI_Feed_Builder.php:1159
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:80
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1110
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1229
+msgid "Hover State"
+msgstr "Stan po najechaniu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1160
+msgid "Combine sources from multiple platforms using our Social Wall plugin"
+msgstr "Połącz źródła z wielu platform za pomocą wtyczki Social Wall"
+
+#: inc/Builder/SBI_Feed_Builder.php:1168
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:32
+msgid "Feed Layout"
+msgstr "Układ kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:1169
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:37
+msgid "Color Scheme"
+msgstr "Schemat kolorów"
+
+#: inc/Builder/SBI_Feed_Builder.php:1170 inc/Builder/SBI_Feed_Builder.php:1450
+#: inc/Builder/SBI_Feed_Builder.php:1566
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:46
+#: inc/class-sb-instagram-feed-locator.php:615
+msgid "Header"
+msgstr "Nagłówek"
+
+#: inc/Builder/SBI_Feed_Builder.php:1171
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:52
+msgid "Posts"
+msgstr "Wpisy"
+
+#: inc/Builder/SBI_Feed_Builder.php:1172
+msgid "Like Box"
+msgstr "Pole polubienia"
+
+#: inc/Builder/SBI_Feed_Builder.php:1173
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:90
+msgid "Load More Button"
+msgstr "Przycisk Wczytaj więcej"
+
+#: inc/Builder/SBI_Feed_Builder.php:1176
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:126
+msgid "Layout"
+msgstr "Układ"
+
+#: inc/Builder/SBI_Feed_Builder.php:1177
+msgid "List"
+msgstr "Lista"
+
+#: inc/Builder/SBI_Feed_Builder.php:1178
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:132
+msgid "Grid"
+msgstr "Siatka"
+
+#: inc/Builder/SBI_Feed_Builder.php:1179
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:142
+msgid "Masonry"
+msgstr "Mur"
+
+#: inc/Builder/SBI_Feed_Builder.php:1180
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:137
+msgid "Carousel"
+msgstr "Karuzela"
+
+#: inc/Builder/SBI_Feed_Builder.php:1181
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:327
+msgid "Feed Height"
+msgstr "Wysokość kanału"
+
+#: inc/Builder/SBI_Feed_Builder.php:1182
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:341
+msgid "Number of Posts"
+msgstr "Liczba wpisów"
+
+#: inc/Builder/SBI_Feed_Builder.php:1183
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:371
+msgid "Columns"
+msgstr "Kolumny"
+
+#: inc/Builder/SBI_Feed_Builder.php:1184
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:352
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:381
+msgid "Desktop"
+msgstr "Komputer"
+
+#: inc/Builder/SBI_Feed_Builder.php:1185
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:400
+msgid "Tablet"
+msgstr "Tablet"
+
+#: inc/Builder/SBI_Feed_Builder.php:1186
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:361
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:418
+msgid "Mobile"
+msgstr "Urządzenie mobilne"
+
+#: inc/Builder/SBI_Feed_Builder.php:1188
+msgid "Tweak Post Styles"
+msgstr "Dostosuj style wpisów"
+
+#: inc/Builder/SBI_Feed_Builder.php:1189
+msgid "Change post background, border radius, shadow etc."
+msgstr "Zmień tło wpisu, promień obramowania, cień itp."
+
+#: inc/Builder/SBI_Feed_Builder.php:1193
+msgid "Scheme"
+msgstr "Schemat"
+
+#: inc/Builder/SBI_Feed_Builder.php:1194 inc/Builder/SBI_Feed_Builder.php:1281
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:450
+msgid "Light"
+msgstr "Jasny"
+
+#: inc/Builder/SBI_Feed_Builder.php:1195 inc/Builder/SBI_Feed_Builder.php:1282
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:455
+msgid "Dark"
+msgstr "Ciemny"
+
+#: inc/Builder/SBI_Feed_Builder.php:1196 inc/Builder/SBI_Feed_Builder.php:1261
+#: inc/Builder/Tabs/SBI_Builder_Customizer_Tab.php:140
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:460
+msgid "Custom"
+msgstr "Własny"
+
+#: inc/Builder/SBI_Feed_Builder.php:1197
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:470
+msgid "Custom Palette"
+msgstr "Własna paleta"
+
+#: inc/Builder/SBI_Feed_Builder.php:1198
+msgid "Background 2"
+msgstr "Tło 2"
+
+#: inc/Builder/SBI_Feed_Builder.php:1199
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:501
+msgid "Text 2"
+msgstr "Tekst 2"
+
+#: inc/Builder/SBI_Feed_Builder.php:1200
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:512
+msgid "Link"
+msgstr "Odnośnik"
+
+#: inc/Builder/SBI_Feed_Builder.php:1202
+msgid "Overrides"
+msgstr "Zastąpienia"
+
+#: inc/Builder/SBI_Feed_Builder.php:1203
+msgid "Colors that have been overridden from individual post element settings will not change. To change them, you will have to reset overrides."
+msgstr "Kolory, które zostały zastąpione z poziomu indywidualnych ustawień elementów wpisu, nie ulegną zmianie. Aby je zmienić, należy zresetować zastąpienia."
+
+#: inc/Builder/SBI_Feed_Builder.php:1204
+msgid "Reset Overrides."
+msgstr "Zresetuj zastąpienia."
+
+#: inc/Builder/SBI_Feed_Builder.php:1208
+msgid "Header Type"
+msgstr "Rodzaj nagłówka"
+
+#: inc/Builder/SBI_Feed_Builder.php:1209
+msgid "Visual"
+msgstr "Wizualne"
+
+#: inc/Builder/SBI_Feed_Builder.php:1210 inc/Builder/SBI_Feed_Builder.php:1223
+msgid "Cover Photo"
+msgstr "Zdjęcie okładkowe"
+
+#: inc/Builder/SBI_Feed_Builder.php:1211
+msgid "Name and avatar"
+msgstr "Imię, nazwisko i awatar"
+
+#: inc/Builder/SBI_Feed_Builder.php:1212
+msgid "About (bio and Likes)"
+msgstr "Informacje (biogram i polubienia)"
+
+#: inc/Builder/SBI_Feed_Builder.php:1213 inc/Builder/SBI_Feed_Builder.php:1231
+msgid "Display outside scrollable area"
+msgstr "Wyświetl poza obszarem przewijania"
+
+#: inc/Builder/SBI_Feed_Builder.php:1214
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:953
+msgid "Icon"
+msgstr "Ikonka"
+
+#: inc/Builder/SBI_Feed_Builder.php:1215
+msgid "Icon Image"
+msgstr "Obrazek ikonki"
+
+#: inc/Builder/SBI_Feed_Builder.php:1216
+msgid "Icon Color"
+msgstr "Kolor ikonki"
+
+#: inc/Builder/SBI_Feed_Builder.php:1221
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:599
+msgid "Small"
+msgstr "Mała"
+
+#: inc/Builder/SBI_Feed_Builder.php:1222
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:601
+msgid "Large"
+msgstr "Duża"
+
+#: inc/Builder/SBI_Feed_Builder.php:1224
+msgid "Custom Width"
+msgstr "Własna szerokość"
+
+#: inc/Builder/SBI_Feed_Builder.php:1225
+msgid "By default, it is set to auto"
+msgstr "Domyślne jest ustawienie automatyczne"
+
+#: inc/Builder/SBI_Feed_Builder.php:1226
+msgid "Width"
+msgstr "Szerokość"
+
+#: inc/Builder/SBI_Feed_Builder.php:1227
+msgid "Custom CTA"
+msgstr "Własne wezwanie do działania"
+
+#: inc/Builder/SBI_Feed_Builder.php:1228
+msgid "This toggles the custom CTA like \"Show now\" and \"Contact\""
+msgstr "Ta opcja przełącza własne wezwanie do działania, takie jak „Pokaż teraz” i „Skontaktuj się”"
+
+#: inc/Builder/SBI_Feed_Builder.php:1229
+msgid "Show Fans"
+msgstr "Pokaż fanów"
+
+#: inc/Builder/SBI_Feed_Builder.php:1230
+msgid "Show visitors which of their friends follow your page"
+msgstr "Pokaż gościom, którzy spośród ich znajomych obserwują twoją stronę."
+
+#: inc/Builder/SBI_Feed_Builder.php:1232
+msgid "Make the like box fixed by moving it outside the scrollable area"
+msgstr "Ustaw pole polubienia jako nieruchome, przenosząc je poza obszar przewijania"
+
+#: inc/Builder/SBI_Feed_Builder.php:1235
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: inc/Builder/SBI_Feed_Builder.php:1236
+msgid "Half width"
+msgstr "Połowa szerokości"
+
+#: inc/Builder/SBI_Feed_Builder.php:1237
+msgid "Full width"
+msgstr "Pełna szerokość"
+
+#: inc/Builder/SBI_Feed_Builder.php:1238
+msgid "Use full width layout when post width is less than 500px"
+msgstr "Użyj układu o pełnej szerokości, gdy szerokość wpisu jest mniejsza niż 500px"
+
+#: inc/Builder/SBI_Feed_Builder.php:1239
+msgid "Post Style"
+msgstr "Styl wpisu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1240
+msgid "Edit Individual Elements"
+msgstr "Edytuj indywidualne elementy"
+
+#: inc/Builder/SBI_Feed_Builder.php:1242
+msgid "Hide or show individual elements of a post or edit their options"
+msgstr "Ukryj lub pokaż indywidualne elementy wpisu albo edytuj ich opcje"
+
+#: inc/Builder/SBI_Feed_Builder.php:1245
+msgid "Post Author"
+msgstr "Autor wpisu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1246
+msgid "Post Text"
+msgstr "Tekst wpisu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1247
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1027
+msgid "Date"
+msgstr "Data"
+
+#: inc/Builder/SBI_Feed_Builder.php:1248
+msgid "Photos/Videos"
+msgstr "Zdjęcia/filmy"
+
+#: inc/Builder/SBI_Feed_Builder.php:1249
+msgid "Likes, Shares and Comments"
+msgstr "Polubienia, udostępnienia i komentarze"
+
+#: inc/Builder/SBI_Feed_Builder.php:1250
+msgid "Event Title"
+msgstr "Tytuł wydarzenia"
+
+#: inc/Builder/SBI_Feed_Builder.php:1251
+msgid "Event Details"
+msgstr "Szczegóły wydarzenia"
+
+#: inc/Builder/SBI_Feed_Builder.php:1252
+msgid "Post Action Links"
+msgstr "Odnośniki do działań dotyczących wpisu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1253
+msgid "Shared Post Text"
+msgstr "Tekst udostępnionego wpisu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1254
+msgid "Shared Link Box"
+msgstr "Pole udostępnionego odnośnika"
+
+#: inc/Builder/SBI_Feed_Builder.php:1255
+msgid "The main text of the Instagram post"
+msgstr "Główny tekst wpisu na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1256
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:865
+msgid "Maximum Text Length"
+msgstr "Maksymalna długość tekstu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1257
+msgid "Characters"
+msgstr "Znaki"
+
+#: inc/Builder/SBI_Feed_Builder.php:1258
+msgid "Link text to Instagram post"
+msgstr "Tekst odnośnika do wpisu na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1259
+msgid "The date of the post"
+msgstr "Data wpisu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1260
+msgid "Format"
+msgstr "Format"
+
+#: inc/Builder/SBI_Feed_Builder.php:1262
+msgid "Learn more about custom formats"
+msgstr "Dowiedz się więcej o formatach własnych"
+
+#: inc/Builder/SBI_Feed_Builder.php:1263
+msgid "Add text before date"
+msgstr "Dodaj tekst przed datą"
+
+#: inc/Builder/SBI_Feed_Builder.php:1264
+msgid "E.g. Posted"
+msgstr "Np. Opublikowano"
+
+#: inc/Builder/SBI_Feed_Builder.php:1265
+msgid "Add text after date"
+msgstr "Dodaj tekst po dacie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1266
+msgid "E.g. - posted date"
+msgstr "Np. – data publikacji"
+
+#: inc/Builder/SBI_Feed_Builder.php:1268
+msgid "Timezone settings are global across all feeds. To update it use the global settings."
+msgstr "Ustawienia strefy czasowej są stosowane globalnie do wszystkich kanałów. Aby je zaktualizować, użyj ustawień globalnych."
+
+#: inc/Builder/SBI_Feed_Builder.php:1269
+msgid "Go to Global Settings"
+msgstr "Przejdź do ustawień globalnych"
+
+#: inc/Builder/SBI_Feed_Builder.php:1270
+msgid "Any photos or videos in your posts"
+msgstr "Ewentualne zdjęcia lub filmy we wpisach"
+
+#: inc/Builder/SBI_Feed_Builder.php:1271
+msgid "Use only one image per post"
+msgstr "Użyj tylko jednego obrazka na wpis"
+
+#: inc/Builder/SBI_Feed_Builder.php:1272
+msgid "The \"View on Instagram\" and \"Share\" links at the bottom of each post"
+msgstr "Odnośniki „Zobacz na Instagramie” i „Udostępnij” u dołu każdego wpisu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1273
+msgid "View on Instagram link"
+msgstr "Odnośnik Zobacz na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1274
+msgid "Toggle \"View on Instagram\" link below each post"
+msgstr "Przełącz odnośnik „Zobacz na Instagramie” pod każdym wpisem"
+
+#: inc/Builder/SBI_Feed_Builder.php:1275
+msgid "Customize Text"
+msgstr "Dostosuj tekst"
+
+#: inc/Builder/SBI_Feed_Builder.php:1276
+msgid "Share Link"
+msgstr "Odnośnik Udostępnij"
+
+#: inc/Builder/SBI_Feed_Builder.php:1277
+msgid "Toggle \"Share\" link below each post"
+msgstr "Przełącz odnośnik „Udostępnij” pod każdym wpisem"
+
+#: inc/Builder/SBI_Feed_Builder.php:1278
+msgid "The comments box displayed at the bottom of each timeline post"
+msgstr "Pole komentarzy wyświetlane u dołu każdego wpisu na osi czasu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1279
+msgid "Icon Theme"
+msgstr "Motyw ikonki"
+
+#: inc/Builder/SBI_Feed_Builder.php:1280
+msgid "Auto"
+msgstr "Automatycznie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1283
+msgid "Expand comments box by default"
+msgstr "Domyślnie rozwiń pole komentarzy"
+
+#: inc/Builder/SBI_Feed_Builder.php:1284
+msgid "Hide comment avatars"
+msgstr "Ukryj awatary w komentarzach"
+
+#: inc/Builder/SBI_Feed_Builder.php:1285
+msgid "Show comments in lightbox"
+msgstr "Pokaż komentarze w oknie lightbox"
+
+#: inc/Builder/SBI_Feed_Builder.php:1286
+msgid "The title of an event"
+msgstr "Tytuł wydarzenia"
+
+#: inc/Builder/SBI_Feed_Builder.php:1287
+msgid "The information associated with an event"
+msgstr "Informacje powiązane z wydarzeniem"
+
+#: inc/Builder/SBI_Feed_Builder.php:1288
+msgid "Text Size"
+msgstr "Rozmiar tekstu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1289
+msgid "Text Color"
+msgstr "Kolor tekstu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1290
+msgid "The link info box that's created when a link is shared in a Instagram post"
+msgstr "Pole informacji o odnośniku tworzone w przypadku udostępnienia odnośnika we wpisie na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1291
+msgid "Box Style"
+msgstr "Styl pola"
+
+#: inc/Builder/SBI_Feed_Builder.php:1292
+msgid "Remove background/border"
+msgstr "Usuń tło/obramowanie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1293
+msgid "Link Title"
+msgstr "Tytuł odnośnika"
+
+#: inc/Builder/SBI_Feed_Builder.php:1294
+msgid "Link URL"
+msgstr "Adres URL odnośnika"
+
+#: inc/Builder/SBI_Feed_Builder.php:1295
+msgid "Link Description"
+msgstr "Opis odnośnika"
+
+#: inc/Builder/SBI_Feed_Builder.php:1296
+msgid "chars"
+msgstr "znaki"
+
+#: inc/Builder/SBI_Feed_Builder.php:1297
+msgid "The description text associated with shared photos, videos, or links"
+msgstr "Tekst opisu powiązany z udostępnionymi zdjęciami, filmami lub odnośnikami"
+
+#: inc/Builder/SBI_Feed_Builder.php:1299
+msgid "Post Type"
+msgstr "Typ wpisu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1300
+msgid "boxed"
+msgstr "w polu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1301
+msgid "Regular"
+msgstr "Zwykły"
+
+#: inc/Builder/SBI_Feed_Builder.php:1302
+msgid "Indvidual Properties"
+msgstr "Właściwości indywidualne"
+
+#: inc/Builder/SBI_Feed_Builder.php:1303
+msgid "Background Color"
+msgstr "Kolor tła"
+
+#: inc/Builder/SBI_Feed_Builder.php:1304
+msgid "Border Radius"
+msgstr "Promień obramowania"
+
+#: inc/Builder/SBI_Feed_Builder.php:1305
+msgid "Box Shadow"
+msgstr "Cień pola"
+
+#: inc/Builder/SBI_Feed_Builder.php:1308
+msgid "Make your Instagram Feed Shoppable"
+msgstr "Wprowadź na swoim kanale Instagramu możliwość zakupu"
+
+#: inc/Builder/SBI_Feed_Builder.php:1309
+msgid "This feature links the post to the one specificed in your caption.<br/><br/>Don’t want to add links to the caption? You can add links manually to each post.<br/><br/>Enable it to get started."
+msgstr "Ta funkcja łączy wpis z tym określonym w podpisie.<br/><br/>Nie chcesz dodawać odnośników do podpisu? Możesz ręcznie dodawać odnośniki do każdego wpisu.<br/><br/>Włącz funkcję, aby rozpocząć."
+
+#: inc/Builder/SBI_Feed_Builder.php:1310
+msgid "Tap “Add” or “Update” on an<br/>image to add/update it’s URL"
+msgstr "Stuknij „Dodaj” lub „Aktualizuj” na obrazku,<br/>aby dodać/zaktualizować jego adres URL"
+
+#: inc/Builder/SBI_Feed_Builder.php:1401
+msgid "Extensions"
+msgstr "Rozszerzenia"
+
+#: inc/Builder/SBI_Feed_Builder.php:1452 inc/Builder/SBI_Feed_Builder.php:1568
+#: inc/class-sb-instagram-feed-locator.php:625
+msgid "Footer"
+msgstr "Stopka"
+
+#: inc/Builder/SBI_Feed_Builder.php:1454 inc/Builder/SBI_Feed_Builder.php:1570
+#: inc/class-sb-instagram-feed-locator.php:620
+msgid "Sidebar"
+msgstr "Panel boczny"
+
+#: inc/Builder/SBI_Feed_Builder.php:1456 inc/Builder/SBI_Feed_Builder.php:1572
+#: inc/class-sb-instagram-feed-locator.php:611
+msgid "Content"
+msgstr "Treść"
+
+#: inc/Builder/SBI_Feed_Builder.php:1664 inc/Builder/SBI_Feed_Builder.php:1665
+msgid "Legacy Feed"
+msgstr "Starszy kanał"
+
+#: inc/Builder/SBI_Feed_Builder.php:1664 inc/Builder/SBI_Feed_Builder.php:1665
+msgid "(unknown location)"
+msgstr "(nieznana lokalizacja)"
+
+#: inc/Builder/SBI_Feed_Builder.php:1772
+msgid "Fetch posts from your  Instagram profile"
+msgstr ""
+"Pobierz wpisy ze swojego\n"
+" profilu na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1777
+msgid "Public Hashtag"
+msgstr "Hashtag publiczny"
+
+#: inc/Builder/SBI_Feed_Builder.php:1778
+msgid "Fetch posts from a public Instagram hashtag"
+msgstr "Pobierz wpisy z publicznego hashtagu na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1779
+msgid "Hashtag feeds require a connected Instagram business account"
+msgstr "Kanały z hashtagami wymagają połączonego konta firmowego na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1785
+msgid "Tagged Posts"
+msgstr "Wpisy z otagowaniem"
+
+#: inc/Builder/SBI_Feed_Builder.php:1786
+msgid "Display posts your Instagram account has been tagged in"
+msgstr "Wyświetlaj wpisy, w których zostało otagowane twoje konto na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1787
+msgid "Tagged posts feeds require a connected Instagram business account"
+msgstr "Kanały wpisów z otagowaniem wymagają połączonego konta firmowego na Instagramie"
+
+#: inc/Builder/SBI_Feed_Builder.php:1794
+msgid "Create a feed with sources from different social platforms"
+msgstr "Utwórz kanał ze źródłami z różnych platform społecznościowych"
+
+#: inc/Builder/SBI_Feed_Saver_Manager.php:287
+msgid "Invalid JSON. Must have brackets \"{}\""
+msgstr "Nieprawidłowy kod JSON. Wymagane nawiasy „{}”"
+
+#: inc/Builder/SBI_Feed_Saver_Manager.php:608
+msgid "No feed source is included. Cannot upload feed."
+msgstr "Nie dołączono źródła kanału. Nie można przesłać kanału."
+
+#: inc/Builder/SBI_Feed_Saver_Manager.php:643
+msgid "Could not import feed. Please try again"
+msgstr "Nie udało się zaimportować kanału. Spróbuj ponownie"
+
+#: inc/Builder/SBI_Source.php:117 inc/admin/actions.php:118
+#: inc/class-sb-instagram-posts-manager.php:337
+#, php-format
+msgid "Error connecting to %s."
+msgstr "Błąd podczas nawiązywania połączenia z platformą %s."
+
+#: inc/Builder/SBI_Source.php:125 inc/admin/actions.php:114
+#: inc/admin/actions.php:124 inc/class-sb-instagram-posts-manager.php:339
+#: inc/class-sb-instagram-posts-manager.php:362
+#: inc/class-sb-instagram-posts-manager.php:366
+#: inc/class-sb-instagram-posts-manager.php:370
+#: inc/class-sb-instagram-posts-manager.php:374
+#: inc/class-sb-instagram-posts-manager.php:378
+#: inc/class-sb-instagram-posts-manager.php:1001
+#: inc/class-sb-instagram-posts-manager.php:1035
+msgid "Directions on how to resolve this issue"
+msgstr "Wskazówki dotyczące rozwiązania tego problemu"
+
+#: inc/Builder/SBI_Source.php:131
+#, php-format
+msgid "Connection Error: %s "
+msgstr "Błąd połączenia: %s "
+
+#: inc/Builder/SBI_Source.php:315 inc/Builder/SBI_Source.php:395
+msgid "Your server could not complete a remote request to Facebook's API. Your host may be blocking access or there may be a problem with your server."
+msgstr "Twój serwer nie mógł wykonać zdalnego żądania skierowanego do interfejsu API Facebooka. Twoja firma hostingowa może blokować dostęp lub mógł wystąpić problem z serwerem."
+
+#: inc/Builder/SBI_Source.php:340
+msgid "The Instagram account you are logged into is already connected as a \"business\" account. Remove the business account if you'd like to connect as a basic account instead (not recommended)."
+msgstr "Konto na Instagramie, do którego się zalogowano, jest już połączone jako konto firmowe. Usuń konto firmowe, jeśli chcesz nawiązać połączenie przy użyciu konta podstawowego (niezalecane)."
+
+#: inc/Builder/SBI_Source.php:406 inc/Builder/SBI_Source.php:477
+msgid "Couldn't find Business Profile"
+msgstr "Nie można znaleźć profilu firmowego"
+
+#: inc/Builder/SBI_Source.php:407
+#, php-format
+msgid "Uh oh. It looks like this Facebook account is not currently connected to an Instagram Business profile. Please check that you are logged into the %1$sFacebook account%2$s in this browser which is associated with your Instagram Business Profile."
+msgstr "O-o! Wygląda na to, że to konto na Facebooku obecnie nie jest połączone z profilem firmowym na Instagramie. Upewnij się, że w tej przeglądarce jesteś zalogowany/-a na %1$skonto na Facebooku%2$s powiązane z twoim profilem firmowym na Instagramie."
+
+#: inc/Builder/SBI_Source.php:478
+#, php-format
+msgid "Uh oh. It looks like this Facebook account is not currently connected to an Instagram Business profile. Please check that you are logged into the %1$sFacebook account%2$s in this browser which is associated with your Instagram Business Profile. If you are, in fact, logged-in to the correct account please make sure you have Instagram accounts connected with your Facebook account by following %3$sthis FAQ%4$s"
+msgstr "O-o! Wygląda na to, że to konto na Facebooku obecnie nie jest połączone z profilem firmowym na Instagramie. Upewnij się, że w tej przeglądarce jesteś zalogowany/-a na %1$skonto na Facebooku%2$s powiązane z Twoim profilem firmowym na Instagramie. Jeśli faktycznie jesteś zalogowany/-a na prawidłowe konto, upewnij się, że z twoim kontem na Facebooku są połączone konta na Instagramie, postępując zgodnie z %3$stym często zadawanym pytaniem%4$s"
+
+#: inc/Builder/Tabs/SBI_Builder_Customizer_Tab.php:53
+msgid "Inherit"
+msgstr "Odziedzicz"
+
+#: inc/Builder/Tabs/SBI_Builder_Customizer_Tab.php:120
+msgid "2 days ago"
+msgstr "2 dni temu"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:57
+msgid "Images and Videos"
+msgstr "Obrazki i filmy"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:64
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1035
+msgid "Caption"
+msgstr "Podpis"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:65
+msgid "Customize caption text for your posts<br/><br/>"
+msgstr "Dostosuj tekst podpisu pod swoimi wpisami<br/><br/>"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:72
+msgid "Like and Comment Summary"
+msgstr "Podsumowanie polubień i komentarzy"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:73
+msgid "The like and comment icons below each post<br/><br/>"
+msgstr "Ikonki polubień i komentarzy pod każdym wpisem<br/><br/>"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:81
+msgid "What's displayed when hovering over a post<br/><br/>"
+msgstr "Co się pojawia po najechaniu na wpis<br/><br/>"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:97
+msgid "Follow Button"
+msgstr "Przycisk obserwowania"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:104
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:147
+msgid "Highlight"
+msgstr "Wyróżnienie"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:155
+msgid "Carousel Settings"
+msgstr "Ustawienia karuzeli"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:168
+msgid "Rows"
+msgstr "Wiersze"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:182
+msgid "Loop Type"
+msgstr "Rodzaj pętli"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:185
+msgid "Rewind"
+msgstr "Przewijanie"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:186
+msgid "Infinity"
+msgstr "Nieskończoność"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:197
+msgid "Interval Time"
+msgstr "Interwał"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:204
+msgid "Show Navigation Arrows"
+msgstr "Pokaż strzałki nawigacyjne"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:217
+msgid "Show Pagination"
+msgstr "Pokaż paginację"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:230
+msgid "Enable Autoplay"
+msgstr "Włącz autoodtwarzanie"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:242
+msgid "HighLight Settings"
+msgstr "Ustawienia wyróżnienia"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:253
+msgid "Type"
+msgstr "Typ"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:256
+msgid "Pattern"
+msgstr "Wzór"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:257
+msgid "Post ID"
+msgstr "Identyfikator wpisu"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:271
+msgid "Offset"
+msgstr "Przesunięcie"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:284
+msgid "Highlight every"
+msgstr "Wyróżnij co"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:290
+msgid "Highlight posts with these IDs"
+msgstr "Wyróżnij wpisy z tymi identyfikatorami"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:303
+msgid "Highlight posts with these hashtags"
+msgstr "Wyróżnij wpisy z tymi hashtagami"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:336
+msgid "Padding"
+msgstr "Dopełnienie"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:523
+msgid "Button 1"
+msgstr "Przycisk 1"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:534
+msgid "Button 2"
+msgstr "Przycisk 2"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:574
+msgid "Header Style"
+msgstr "Styl nagłówka"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:578
+msgid "Standard"
+msgstr "Standardowe"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:582
+msgid "Boxed"
+msgstr "W polu"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:586
+msgid "Centered"
+msgstr "Wyśrodkowany"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:597
+msgid "Header Size"
+msgstr "Rozmiar nagłówka"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:600
+msgid "Medium"
+msgstr "Średni"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:612
+msgid "Use Custom Avatar"
+msgstr "Użyj własnego awatara"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:613
+msgid "Upload your own custom image to use for the avatar. This is automatically retrieved from Instagram for Business accounts, but is not available for Personal accounts."
+msgstr "Prześlij własny obrazek, którego chcesz użyć jako awatara. Jest on automatycznie pobierany z kont na Instagramie dla firm, ale nie jest dostępny w przypadku kont osobistych."
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:614
+msgid "No Image Added"
+msgstr "Nie dodano obrazka"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:643
+msgid "Primary Color"
+msgstr "Kolor podstawowy"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:660
+msgid "Secondary Color"
+msgstr "Kolor dodatkowy"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:675
+msgid "Show number of followers"
+msgstr "Pokaż liczbę obserwujących"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:694
+msgid "Show Bio Text"
+msgstr "Pokaż tekst biogramu"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:695
+msgid "Use your own custom bio text in the feed header. This is automatically retrieved from Instagram for Business accounts, but it not available for Personal accounts.\n"
+msgstr "Użyj własnego tekstu biogramu w nagłówku kanału. Jest on automatycznie pobierany z kont na Instagramie dla firm, ale nie jest dostępny w przypadku kont osobistych.\n"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:707
+msgid "Add Custom bio"
+msgstr "Dodaj własny biogram"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:727
+msgid "Show outside scrollable area"
+msgstr "Pokaż poza obszarem przewijania"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:747
+msgid "Include Stories"
+msgstr "Uwzględnij relacje"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:748
+msgid "You can view active stories by clicking the profile picture in the header. Instagram Business accounts only.<br/><br/>"
+msgstr "Możesz zobaczyć aktywne historie, klikając zdjęcie profilowe w nagłówku. Dotyczy tylko kont firmowych na Instagramie.<br/><br/>"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:750
+msgid "Add Instagram Stories"
+msgstr "Dodaj relacje z Instagramu"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:751
+msgid "Show your active stories from Instagram on your website."
+msgstr "Pokaż aktywne relacje z Instagramu w swojej witrynie internetowej."
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:752
+msgid "Note: "
+msgstr "Uwaga: "
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:753
+msgid "You need to have a business account with an active story."
+msgstr "Musisz mieć konto firmowe z aktywną relacją."
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:779
+msgid "Change Interval"
+msgstr "Częstość zmian"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:780
+msgid "This is the time a story displays for, before displaying the next one. Videos always change when the video is finished."
+msgstr "Jest to czas, przez który jest wyświetlana dana relacja, zanim zostanie wyświetlona kolejna. Film zawsze zmienia się po zakończeniu."
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:814
+msgid "Resolution"
+msgstr "Rozdzielczość"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:815
+msgid "By default we auto-detect image width and fetch a optimal resolution."
+msgstr "Domyślnie szerokość obrazka jest wykrywana automatycznie i pobierana jest optymalna rozdzielczość."
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:817
+msgid "Auto-detect (recommended)"
+msgstr "Wykryj automatycznie (zalecane)"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:818
+msgid "Thumbnail (150x150)"
+msgstr "Miniaturka (150x150)"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:819
+msgid "Medium (320x320)"
+msgstr "Średnia (320x320)"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:820
+msgid "Full size (640x640)"
+msgstr "Pełny rozmiar (640x640)"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:866
+msgid "Caption will truncate after reaching the length"
+msgstr "Podpis zostanie obcięty po osiągnięciu tej długości"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1015
+msgid "Information to display"
+msgstr "Informacje do wyświetlenia"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1023
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1031
+msgid "Instagram Icon"
+msgstr "Ikonka Instagramu"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1039
+msgid "Like/Comment Icons<br/>(Business account only)"
+msgstr "Ikonki polubień/komentarzy<br/>(tylko w przypadku konta firmowego)"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1137
+msgid "Infinite Scroll"
+msgstr "Nieskończone przewijanie"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1138
+msgid "This will load more posts automatically when the users reach the end of the feed"
+msgstr "Powoduje automatyczne wczytywanie kolejnych wpisów po dotarciu do końca kanału"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1162
+msgid "Trigger Distance"
+msgstr "Odległość wyzwalania"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1278
+msgid "Comments"
+msgstr "Komentarze"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1279
+msgid "Display comments for your posts inside the lightbox. Comments are only available for User feeds from Business accounts."
+msgstr "Wyświetlaj komentarze do swoich wpisów w oknie lightbox. Komentarze są dostępne tylko w przypadku kanałów użytkownika z kont firmowych."
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1303
+msgid "No. of Comments"
+msgstr "Liczba komentarzy"
+
+#: inc/Builder/Tabs/SBI_Customize_Tab.php:1304
+msgid "Clearing cache will remove all the saved comments in the database"
+msgstr "Wyczyszczenie pamięci podręcznej spowoduje usunięcie wszystkich komentarzy zapisanych w bazie danych"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:31
+msgid "Sources"
+msgstr "Źródła"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:36
+msgid "Filters and Moderation"
+msgstr "Filtry i moderacja"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:42
+msgid "Sort"
+msgstr "Sortuj"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:47
+msgid "Shoppable Feed"
+msgstr "Kanał z możliwością zakupu"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:90
+msgid "Allow List"
+msgstr "Lista dozwolonych"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:91
+msgid "Hides post by default so you can select the ones you want to show"
+msgstr "Domyślnie ukrywa wpisy, umożliwiając wybór tych, które chcesz pokazać"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:94
+msgid "Block List"
+msgstr "Lista zablokowanych"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:95
+msgid "Show all posts by default so you can select the ones you want to hide"
+msgstr "Domyślnie pokazuje wszystkie wpisy, umożliwiając wybór tych, które chcesz ukryć"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:108
+msgid "Filters"
+msgstr "Filtry"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:114
+msgid "Only show posts containing"
+msgstr "Pokaż tylko wpisy zawierające"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:115
+msgid "Only show posts which contain certain words or hashtags in the caption. For example, adding \"sheep, cow, dog\" will show any photos which contain either the word sheep, cow, or dog. You can separate multiple words or hashtags using commas."
+msgstr "Pokaż tylko wpisy, których podpisy zawierają określone słowa lub hashtagi. Na przykład dodanie słów „owca, krowa, pies” spowoduje wyświetlenie wszystkich zdjęć zawierających słowo „owca”, „krowa” lub „pies”. Większą liczbę słów lub hashtagów możesz rozdzielić przecinkami."
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:116
+msgid "Add words here to only show posts containing these words"
+msgstr "Dodaj tutaj słowa, aby wyświetlić tylko wpisy zawierające te słowa"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:124
+msgid "Do not show posts containing"
+msgstr "Nie pokazuj wpisów zawierających"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:125
+msgid "Remove any posts containing these text strings, separating multiple strings using commas."
+msgstr "Usuń wpisy zawierające te ciągi tekstowe. (Rozdziel większą liczbę ciągów przecinkami)."
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:134
+msgid "Show specific types of posts"
+msgstr "Pokaż określone rodzaje wpisów"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:155
+msgid "Feed Videos"
+msgstr "Filmy na kanale"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:168
+msgid "IGTV Videos"
+msgstr "Filmy IGTV"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:193
+msgid "Post Offset"
+msgstr "Przesunięcie wpisów"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:194
+msgid "This will skip the specified number of posts from displaying in the feed"
+msgstr "Powoduje pominięcie określonej liczby wpisów – nie zostaną one wyświetlone w kanale"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:212
+msgid "Sort Posts by"
+msgstr "Sortuj wpisy według"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:218
+msgid "Newest"
+msgstr "Najnowsze"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:222
+msgid "Likes"
+msgstr "Polubienia"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:226
+msgid "Random"
+msgstr "Losowo"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:286
+msgid "Max Concurrent API Requests"
+msgstr "Maksymalna liczba jednoczesnych żądań API"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:287
+msgid "Change the number of maximum concurrent API requests. Not recommended unless directed by the support team."
+msgstr "Zmień maksymalną liczbę jednoczesnych żądań API. Nie jest to zalecane, chyba że na polecenie zespołu pomocy technicznej."
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:292
+msgid "Custom Templates"
+msgstr "Własne szablony"
+
+#: inc/Builder/Tabs/SBI_Settings_Tab.php:293
+#, php-format
+msgid "The default HTML for the feed can be replaced with custom templates added to your theme's folder. Enable this setting to use these templates. Custom templates are not used in the feed editor. %1$sLearn More%2$s"
+msgstr "Domyślny kod HTML kanału można zastąpić szablonami własnymi dodanymi do katalogu motywu. Włącz to ustawienie, aby skorzystać z tych szablonów. Szablony własne nie są używane w edytorze kanału. %1$sDowiedz się więcej%2$s"
+
+#: inc/admin/actions.php:113 inc/class-sb-instagram-posts-manager.php:361
+#: inc/class-sb-instagram-posts-manager.php:377
+#: inc/class-sb-instagram-single.php:157
+#, php-format
+msgid "API error %s:"
+msgstr "Błąd API %s:"
+
+#: inc/admin/class-sbi-account-connector.php:84
+msgid "Invalid account ID"
+msgstr "Nieprawidłowy identyfikator konta"
+
+#: inc/admin/class-sbi-account-connector.php:87
+msgid "Invalid access token"
+msgstr "Nieprawidłowy token dostępu"
+
+#: inc/admin/class-sbi-new-user.php:308
+#: inc/admin/class-sbi-notifications.php:579
+msgid "Are you enjoying the Instagram Feed Plugin?"
+msgstr "Podoba ci się wtyczka Instagram Feed?"
+
+#: inc/admin/class-sbi-new-user.php:420
+#: inc/admin/class-sbi-notifications.php:600
+msgid "Glad to hear you are enjoying it. Would you consider leaving a positive review?"
+msgstr "Super, że ci się podoba! Może wystawisz jej pozytywną ocenę?"
+
+#: inc/admin/class-sbi-new-user.php:422
+msgid "Exclusive Offer! 60% OFF"
+msgstr "Oferta specjalna! 60% ZNIŻKI"
+
+#: inc/admin/class-sbi-new-user.php:446
+#: inc/admin/class-sbi-notifications.php:601
+msgid "It really helps to support the plugin and help others to discover it too!"
+msgstr "To naprawdę ułatwia wspieranie wtyczki i pomaga innym użytkownikom się z nią zapoznać!"
+
+#: inc/admin/class-sbi-new-user.php:448
+msgid "We don’t run promotions very often, but for a limited time we’re offering 60% Off our Pro version to all users of our free Instagram Feed."
+msgstr "Nie robimy promocji zbyt często, ale przez jakiś czas oferujemy 60% zniżki na wersję Pro wszystkim użytkownikom naszej bezpłatnej wtyczki Instagram Feed."
+
+#: inc/admin/class-sbi-sitehealth.php:47
+msgid "Instagram Feed Errors"
+msgstr "Błędy na kanale Instagramu"
+
+#: inc/admin/class-sbi-sitehealth.php:59
+msgid "Instagram Feed has no critical errors"
+msgstr "Kanał Instagramu nie zawiera błędów krytycznych"
+
+#: inc/admin/class-sbi-sitehealth.php:65
+msgid "No critical errors have been detected."
+msgstr "Nie wykryto żadnych błędów krytycznych."
+
+#: inc/admin/class-sbi-sitehealth.php:74
+msgid "Your Instagram Feed is experiencing an error."
+msgstr "Na twoim kanale Instagramu wystąpił błąd."
+
+#: inc/admin/class-sbi-sitehealth.php:75
+#, php-format
+msgid "A critical issue has been detected with your Instagram Feed. Visit the %1$sInstagram Feed settings page%2$s to fix the issue."
+msgstr "Wykryto krytyczny problem z twoim kanałem Instagramu. Aby go naprawić, przejdź na %1$sstronę ustawień wtyczki Instagram Feed%2$s."
+
+#: inc/admin/class-sbi-tracking.php:322
+msgid "Once Weekly"
+msgstr "Raz na tydzień"
+
+#: inc/class-sb-instagram-connected-account.php:147
+#: inc/class-sb-instagram-connected-account.php:179
+#: inc/class-sb-instagram-post.php:285
+msgid "Error saving edited image."
+msgstr "Błąd podczas zapisywania zmodyfikowanego obrazka."
+
+#: inc/class-sb-instagram-connected-account.php:167
+#: inc/class-sb-instagram-post.php:267
+msgid "Using backup editor method."
+msgstr "Użyj zapasowej metody edycji."
+
+#: inc/class-sb-instagram-connected-account.php:186
+#: inc/class-sb-instagram-post.php:293
+msgid "Error editing image."
+msgstr "Błąd podczas edytowania obrazka."
+
+#: inc/class-sb-instagram-feed-locator.php:544
+msgid "There was an error when trying to create the database tables used to locate feeds."
+msgstr "Podczas próby utworzenia tabel bazy danych służących do lokalizowania kanałów wystąpił błąd."
+
+#: inc/class-sb-instagram-feed.php:1274
+msgid "No posts found."
+msgstr "Nie znaleziono wpisów."
+
+#: inc/class-sb-instagram-feed.php:1409 inc/if-functions.php:221
+#: inc/pro/class-sbi-feed-pro.php:1055
+msgid "Error: No posts found."
+msgstr "Błąd: nie znaleziono wpisów."
+
+#: inc/class-sb-instagram-feed.php:1410 inc/pro/class-sbi-feed-pro.php:1056
+#: inc/pro/class-sbi-feed-pro.php:1086
+msgid "Make sure this account has posts available on instagram.com."
+msgstr "Upewnij się, że dla tego konta są dostępne wpisy na stronie instagram.com."
+
+#: inc/class-sb-instagram-feed.php:1411 inc/class-sb-instagram-feed.php:1412
+#: inc/class-sb-instagram-posts-manager.php:1013
+#: inc/class-sb-instagram-settings.php:527 inc/pro/class-sbi-feed-pro.php:1057
+#: inc/pro/class-sbi-feed-pro.php:1058 inc/pro/class-sbi-settings-pro.php:1354
+msgid "Click here to troubleshoot"
+msgstr "Kliknij tutaj, aby rozwiązać problem"
+
+#: inc/class-sb-instagram-gdpr-integrations.php:192
+msgid "A folder for storing resized images was not successfully created."
+msgstr "Nie udało się utworzyć katalogu do przechowywania obrazków o zmienionym rozmiarze."
+
+#: inc/class-sb-instagram-gdpr-integrations.php:195
+msgid "Tables used for storing information about resized images were not successfully created."
+msgstr "Nie udało się utworzyć tabel służących do przechowywania informacji na temat obrazków o zmienionym rozmiarze."
+
+#: inc/class-sb-instagram-gdpr-integrations.php:198
+#, php-format
+msgid "An image editor is not available on your server. Instagram Feed is unable to create local resized images. See %1$sthis FAQ%2$s for more information"
+msgstr "Na twoim serwerze nie jest dostępny edytor obrazków. Wtyczka Instagram Feed nie może tworzyć lokalnych obrazków o zmienionym rozmiarze. Więcej informacji znajdziesz w %1$ssekcji często zadawanych pytań%2$s"
+
+#: inc/class-sb-instagram-gdpr-integrations.php:203
+msgid "Retest"
+msgstr "Testuj ponownie"
+
+#: inc/class-sb-instagram-post.php:190 inc/class-sb-instagram-post.php:510
+#: inc/class-sb-instagram-post.php:521
+msgid "Error inserting post."
+msgstr "Błąd podczas wstawiania wpisu."
+
+#: inc/class-sb-instagram-post.php:439
+msgid "Error updating post."
+msgstr "Błąd podczas aktualizowania wpisu."
+
+#: inc/class-sb-instagram-post.php:510
+msgid "No database ID."
+msgstr "Brak identyfikatora bazy danych."
+
+#: inc/class-sb-instagram-posts-manager.php:336
+msgid "HTTP Error. Unable to connect to the Instagram API."
+msgstr "Błąd HTTP. Nie można połączyć się z interfejsem API Instagramu."
+
+#: inc/class-sb-instagram-posts-manager.php:336
+#: inc/class-sb-instagram-posts-manager.php:360
+msgid "Feed will not update."
+msgstr "Kanał nie zostanie zaktualizowany."
+
+#: inc/class-sb-instagram-posts-manager.php:360
+msgid "Error: Access Token is not valid or has expired."
+msgstr "Błąd: token dostępu jest nieprawidłowy lub wygasł."
+
+#: inc/class-sb-instagram-posts-manager.php:364
+msgid "Error: Hashtag limit of 30 unique hashtags per week has been reached."
+msgstr "Błąd: osiągnięto limit wynoszący 30 unikatowych hashtagów tygodniowo."
+
+#: inc/class-sb-instagram-posts-manager.php:365
+msgid "If you need to display more than 30 hashtag feeds on your site, consider connecting an additional business account from a separate Instagram Identity and Facebook page. Connecting an additional Instagram business account from the same Facebook page will not raise the limit."
+msgstr "Jeśli chcesz wyświetlić w witrynie więcej niż 30 kanałów z hashtagami, rozważ połączenie dodatkowego konta firmowego z poziomu osobnej tożsamości na Instagramie i strony na Facebooku. Połączenie dodatkowego konta firmowego na Instagramie z poziomu tej samej strony na Facebooku nie spowoduje zwiększenia limitu."
+
+#: inc/class-sb-instagram-posts-manager.php:368
+#, php-format
+msgid "Error: Connected account for the user %s does not have permission to use this feed type."
+msgstr "Błąd: połączone konto użytkownika %s nie ma uprawnień do korzystania z tego rodzaju kanału."
+
+#: inc/class-sb-instagram-posts-manager.php:369
+msgid "Try using the big blue button on the \"Configure\" tab to reconnect the account and update its permissions."
+msgstr "Spróbuj użyć dużego niebieskiego przycisku na karcie „Skonfiguruj”, aby ponownie połączyć konto i zaktualizować jego uprawnienia."
+
+#: inc/class-sb-instagram-posts-manager.php:372
+msgid "Error: Cannot retrieve posts for this hashtag."
+msgstr "Błąd: nie można pobrać wpisów odpowiadających temu hashtagowi."
+
+#: inc/class-sb-instagram-posts-manager.php:376
+msgid "There has been a problem with your Instagram Feed."
+msgstr "Wystąpił problem z twoim kanałem Instagramu."
+
+#: inc/class-sb-instagram-posts-manager.php:381
+msgid "An unknown error has occurred."
+msgstr "Wystąpił nieznany błąd."
+
+#: inc/class-sb-instagram-posts-manager.php:610 instagram-feed.php:324
+#: instagram-feed.php:344
+msgid "There was an error creating the folder for storing resized images."
+msgstr "Podczas tworzenia katalogu do przechowywania obrazków o zmienionym rozmiarze wystąpił błąd."
+
+#: inc/class-sb-instagram-posts-manager.php:980
+#, php-format
+msgid "Instagram Feed related data for the account(s) %s was removed due to permission for the Smash Balloon App on Facebook or Instagram being revoked."
+msgstr "Dane związane z wtyczką Instagram Feed dla kont(a) %s zostały usunięte z powodu cofnięcia uprawnień aplikacji Smash Balloon na Facebooku lub Instagramie."
+
+#: inc/class-sb-instagram-posts-manager.php:998
+#: inc/class-sb-instagram-posts-manager.php:1033
+msgid "View Feed and Retry"
+msgstr "Zobacz kanał i ponów próbę"
+
+#: inc/class-sb-instagram-posts-manager.php:1011
+#: inc/class-sb-instagram-settings.php:525
+#: inc/pro/class-sbi-settings-pro.php:1352
+msgid "Error: Private Instagram Account."
+msgstr "Błąd: konto prywatne na Instagramie."
+
+#: inc/class-sb-instagram-posts-manager.php:1012
+#: inc/class-sb-instagram-settings.php:526
+#, php-format
+msgid "It looks like your Instagram account is private. Instagram requires private accounts to be reauthenticated every 60 days. Refresh your account to allow it to continue updating, or %1$smake your Instagram account public%2$s."
+msgstr "Wygląda na to, że twoje konto na Instagramie jest prywatne. Instagram wymaga ponownego uwierzytelniania kont prywatnych co 60 dni. Odśwież konto, aby umożliwić jego dalsze aktualizowanie, lub %1$sprzekształć swoje konto na Instagramie w publiczne%2$s."
+
+#: inc/class-sb-instagram-settings.php:448
+#: inc/class-sb-instagram-settings.php:480
+#: inc/pro/class-sbi-settings-pro.php:901
+#: inc/pro/class-sbi-settings-pro.php:1171
+msgid "plugin Settings page"
+msgstr "stronie ustawień wtyczki"
+
+#: inc/class-sb-instagram-settings.php:451
+#: inc/pro/class-sbi-settings-pro.php:904
+#, php-format
+msgid "Error: There is no connected account for the user %s."
+msgstr "Błąd: brak połączonego konta dla użytkownika %s."
+
+#: inc/class-sb-instagram-settings.php:452
+#: inc/pro/class-sbi-settings-pro.php:905
+#, php-format
+msgid "A connected account related to the user is required to display user feeds. Please connect an account for this user on the %s."
+msgstr "Do wyświetlania kanałów użytkownika wymagane jest połączone konto powiązane z użytkownikiem. Połącz konto tego użytkownika na %s."
+
+#: inc/class-sb-instagram-settings.php:483
+#: inc/pro/class-sbi-settings-pro.php:1174
+msgid "Error: Cannot add access token directly to the shortcode."
+msgstr "Błąd: nie można dodać tokenu dostępu bezpośrednio do krótkiego kodu."
+
+#: inc/class-sb-instagram-settings.php:484
+#: inc/pro/class-sbi-settings-pro.php:1175
+#, php-format
+msgid "Due to recent Instagram platform changes, it's no longer possible to create a feed by adding the access token to the shortcode. Remove the access token from the shortcode and connect an account on the %s instead."
+msgstr "W związku z niedawnymi zmianami wprowadzonymi na platformie Instagram nie jest już możliwe utworzenie kanału przez dodanie tokenu dostępu do krótkiego kodu. Usuń token dostępu z krótkiego kodu i zamiast tego połącz konto na %s."
+
+#: inc/class-sb-instagram-settings.php:511
+#: inc/pro/class-sbi-settings-pro.php:1229
+#: inc/pro/class-sbi-settings-pro.php:1288
+#: inc/pro/class-sbi-settings-pro.php:1337
+msgid "Error: No users set."
+msgstr "Błąd: nie ustawiono użytkowników."
+
+#: inc/class-sb-instagram-settings.php:512
+#: inc/pro/class-sbi-settings-pro.php:1230
+msgid "Please visit the plugin's settings page to select a user account or add one to the shortcode - user=\"username\"."
+msgstr "Przejdź na stronę ustawień wtyczki, aby wybrać konto użytkownika, lub dodaj je do krótkiego kodu – user=\"nazwa_użytkownika\"."
+
+#: inc/class-sb-instagram-settings.php:628
+#: inc/pro/class-sbi-settings-pro.php:1666
+msgid "Load More"
+msgstr "Wczytaj więcej"
+
+#: inc/class-sb-instagram-settings.php:673 inc/if-functions.php:962
+#: inc/pro/class-sbi-settings-pro.php:1711
+msgid "Follow on Instagram"
+msgstr "Obserwuj na Instagramie"
+
+#: inc/class-sb-instagram-widget.php:23
+msgid "Display your Instagram feed"
+msgstr "Wyświetl swój kanał Instagramu"
+
+#: inc/class-sb-instagram-widget.php:62
+msgid "Add Instagram Feed Widget"
+msgstr "Dodaj widżet kanału Instagramu"
+
+#: inc/class-sb-instagram-widget.php:63
+msgid "Drag this widget to embed the Smash Balloon Instagram feed. "
+msgstr "Przeciągnij ten widżet, aby osadzić kanał Instagramu Smash Balloon. "
+
+#: inc/if-functions.php:59
+#, php-format
+msgid "Error: No feed with the ID %s found."
+msgstr "Błąd: nie znaleziono kanału o identyfikatorze %s."
+
+#: inc/if-functions.php:61
+msgid "Error: No feed found."
+msgstr "Błąd: nie znaleziono kanału."
+
+#: inc/if-functions.php:65 inc/if-functions.php:88 inc/if-functions.php:730
+msgid "This error message is only visible to WordPress admins"
+msgstr "Ten komunikat o błędzie jest widoczny tylko dla administratorów WordPressa"
+
+#: inc/if-functions.php:67
+msgid "Please go to the Instagram Feed settings page to create a feed."
+msgstr "Przejdź na stronę ustawień kanału Instagramu, aby utworzyć kanał."
+
+#: inc/if-functions.php:89
+msgid "Error: No connected account."
+msgstr "Błąd: brak połączonego konta."
+
+#: inc/if-functions.php:90
+msgid "Please go to the Instagram Feed settings page to connect an account."
+msgstr "Przejdź na stronę ustawień kanału Instagramu, aby połączyć konto."
+
+#: inc/if-functions.php:222
+msgid "No posts found that weren't hidden by your moderation settings."
+msgstr "Nie znaleziono wpisów, które nie zostały ukryte z powodu ustawień moderacji."
+
+#: inc/if-functions.php:946
+msgid "Load More..."
+msgstr "Wczytaj więcej..."
+
+#: inc/if-functions.php:1523
+msgid "Any hashtags (comma separated)"
+msgstr "Dowolne hashtagi (rozdzielone przecinkami)"
+
+#: inc/if-functions.php:1789
+msgid "Share"
+msgstr "Udostępnij"
+
+#: inc/if-functions.php:2125
+#, php-format
+msgid "Instagram Feed Report for %s"
+msgstr "Raport dotyczący kanału Instagramu – %s"
+
+#: inc/if-functions.php:2126
+msgid "There's an Issue with an Instagram Feed on Your Website"
+msgstr "Wystąpił problem z kanałem Instagramu w twojej witrynie internetowej"
+
+#: inc/if-functions.php:2127
+msgid "An Instagram feed on your website is currently unable to connect to Instagram to retrieve new posts. Don't worry, your feed is still being displayed using a cached version, but is no longer able to display new posts."
+msgstr "Kanał Instagramu w twojej witrynie internetowej obecnie nie może się połączyć z Instagramem w celu pobrania nowych wpisów. Nie martw się: twój kanał nadal jest wyświetlany z wersji zapisanej w pamięci podręcznej, ale wyświetlanie nowych wpisów już nie jest możliwe."
+
+#: inc/if-functions.php:2128
+#, php-format
+msgid "This is caused by an issue with your Instagram account connecting to the Instagram API. For information on the exact issue and directions on how to resolve it, please visit the %sInstagram Feed settings page%s on your website."
+msgstr "Przyczyną tej sytuacji jest problem dotyczący połączenia twojego konta na Instagramie z interfejsem API Instagramu. Aby uzyskać dokładne informacje na temat tego problemu i wskazówki umożliwiające jego rozwiązanie, przejdź na %sstronę ustawień kanału Instagramu%s w swojej witrynie internetowej."
+
+#: inc/if-functions.php:2130
+msgid "Your Private Instagram Feed Account Needs to be Reauthenticated"
+msgstr "Twoje konto prywatne powiązane z kanałem Instagramu wymaga ponownego uwierzytelnienia"
+
+#: inc/if-functions.php:2131
+msgid "Access Token Refresh Needed"
+msgstr "Wymagane odświeżenie tokenu dostępu"
+
+#: inc/if-functions.php:2132
+msgid "As your Instagram account is set to be \"Private\", Instagram requires that you reauthenticate your account every 60 days. This a courtesy email to let you know that you need to take action to allow the Instagram feed on your website to continue updating. If you don't refresh your account, then a backup cache will be displayed instead."
+msgstr "Ponieważ twoje konto na Instagramie jest ustawione jako prywatne, Instagram wymaga jego ponownego uwierzytelniania co 60 dni. To jest grzecznościowy e-mail informujący, że musisz podjąć działania, aby umożliwić dalsze aktualizowanie kanału Instagramu umieszczonego w twojej witrynie internetowej. Jeśli nie odświeżysz konta, zamiast niego zostanie wyświetlona treść z zapasowej pamięci podręcznej."
+
+#: inc/if-functions.php:2133
+#, php-format
+msgid "To prevent your account expiring every 60 days %sswitch your account to be public%s. For more information and to refresh your account, click here to visit the %sInstagram Feed settings page%s on your website."
+msgstr "Aby zapobiec wygasaniu konta co 60 dni, %sprzestaw konto na publiczne%s. Aby uzyskać więcej informacji i odświeżyć konto, kliknij tutaj w celu przejścia na %sstronę ustawień kanału Instagramu%s w swojej witrynie internetowej."
+
+#: inc/pro/class-sbi-feed-pro.php:1069
+msgid "Use <a href=\"https://smashballoon.com/guide-to-moderation-mode/\">moderation mode</a> to add posts to your whitelist."
+msgstr "Użyj <a href=\"https://smashballoon.com/guide-to-moderation-mode/\">trybu moderacji</a>, aby dodać wpisy do białej listy."
+
+#: inc/pro/class-sbi-feed-pro.php:1073
+msgid "You may be filtering out too many posts or there could be a cache conflict. See <a href=\"https://smashballoon.com/post-filtering-not-working/\">this page</a> for troubleshooting steps."
+msgstr "Być może odfiltrowujesz zbyt wiele wpisów lub wystąpił konflikt pamięci podręcznej. Zajrzyj na <a href=\"https://smashballoon.com/post-filtering-not-working/\">tę stronę</a>, aby uzyskać kroki umożliwiające rozwiązanie problemu."
+
+#: inc/pro/class-sbi-feed-pro.php:1080 inc/pro/class-sbi-feed-pro.php:1082
+msgid "No posts made to this hashtag within the last 24 hours."
+msgstr "Brak wpisów z tym hashtagiem w ciągu ostatnich 24 godzin."
+
+#: inc/pro/class-sbi-feed-pro.php:1083
+msgid "No posts made to this hashtag."
+msgstr "Brak wpisów z tym hashtagiem."
+
+#: inc/pro/class-sbi-settings-pro.php:965
+msgid "Error: There are no business accounts connected."
+msgstr "Błąd: nie połączono konta firmowego."
+
+#: inc/pro/class-sbi-settings-pro.php:966
+#, php-format
+msgid "A business account is required to display hashtag feeds. Please visit %s to learn how to connect a business account."
+msgstr "Do wyświetlania kanałów z hashtagami jest wymagane konto firmowe. Przejdź na %s, aby się dowiedzieć, jak połączyć konto firmowe."
+
+#: inc/pro/class-sbi-settings-pro.php:966
+msgid "this page"
+msgstr "tę stronę"
+
+#: inc/pro/class-sbi-settings-pro.php:1210
+msgid "Error: No Feed ID Set."
+msgstr "Błąd: nie ustawiono identyfikatora kanału."
+
+#: inc/pro/class-sbi-settings-pro.php:1211
+#: inc/pro/class-sbi-settings-pro.php:1218
+#: inc/pro/class-sbi-settings-pro.php:1237
+msgid "Visit the Instagram Feed settings page to see which feeds have been created and how to embed them."
+msgstr "Przejdź na stronę ustawień kanału Instagram, aby zobaczyć, jakie kanały zostały utworzone i jak je osadzić."
+
+#: inc/pro/class-sbi-settings-pro.php:1217
+#: inc/pro/class-sbi-settings-pro.php:1236
+msgid "Error: Invalid Feed ID."
+msgstr "Błąd: nieprawidłowy identyfikator kanału."
+
+#: inc/pro/class-sbi-settings-pro.php:1265
+msgid "Error: No hashtags set."
+msgstr "Błąd: nie ustawiono hashtagów."
+
+#: inc/pro/class-sbi-settings-pro.php:1266
+msgid "Please visit the plugin's settings page to enter a hashtag or add one to the shortcode - hashtag=\"example\"."
+msgstr "Przejdź na stronę ustawień wtyczki, aby wpisać hashtag lub dodać go do krótkiego kodu – hashtag=\"przykład\"."
+
+#: inc/pro/class-sbi-settings-pro.php:1289
+#: inc/pro/class-sbi-settings-pro.php:1338
+msgid "Please visit the plugin's settings page to select a user account or add one to the shortcode - tagged=\"username\"."
+msgstr "Przejdź na stronę ustawień wtyczki, aby wybrać konto użytkownika lub dodać je do krótkiego kodu – tagged=\"nazwa_użytkownika\"."
+
+#: inc/pro/class-sbi-settings-pro.php:1353
+#, php-format
+msgid "It looks like your Instagram account is private. Instagram requires private accounts to be reauthenticated every 60 days. Refresh your account to allow it to continue updating, or %smake your Instagram account public%s."
+msgstr "Wygląda na to, że twoje konto na Instagramie jest prywatne. Instagram wymaga ponownego uwierzytelniania kont prywatnych co 60 dni. Odśwież konto, aby umożliwić jego dalsze aktualizowanie, lub %sprzekształć swoje konto na Instagramie w publiczne%s."
+
+#: instagram-feed.php:262
+msgid "Weekly"
+msgstr "Co tydzień"
+
+#: instagram-feed.php:460 instagram-feed.php:487
+msgid "There was an error when trying to create the database tables used for resizing images."
+msgstr "Podczas próby utworzenia tabel bazy danych służących do zmiany rozmiaru obrazków wystąpił błąd."
+
+#: templates/item.php:36 templates/item.php:47
+#, php-format
+msgid "Instagram post %s"
+msgstr "Wpis na Instagramie – %s"
+
+#: templates/item.php:99
+msgid "View"
+msgstr "Zobacz"
+
+#: widget.php:15
+msgid "Instagram Feed (Legacy)"
+msgstr "Kanał Instagramu (starsza wersja)"
+
+#: widget.php:16
+msgid "Display your legacy Instagram feeds"
+msgstr "Wyświetl swoje starsze kanały Instagramu"
+
+#: widget.php:42
+msgid "Title:"
+msgstr "Tytuł:"

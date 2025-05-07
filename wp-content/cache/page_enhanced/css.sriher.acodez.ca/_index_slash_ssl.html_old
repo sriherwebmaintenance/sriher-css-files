@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="theme-color" content="#1D35AA"/>
+	<link rel="stylesheet" href="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/css/styles.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/style.css" type="text/css" media="screen" />
+	<style>
+			</style>
+
+	<link rel="alternate" type="application/rss+xml" title="Sports Science RSS Feed" href="https://css.sriher.acodez.ca/feed/" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="pingback" href="https://css.sriher.acodez.ca/xmlrpc.php" />
+	<title>Sports Science</title>
+<meta name='robots' content='noindex, nofollow' />
+<link rel="alternate" type="application/rss+xml" title="Sports Science &raquo; Feed" href="https://css.sriher.acodez.ca/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sports Science &raquo; Comments Feed" href="https://css.sriher.acodez.ca/comments/feed/" />
+<link rel='stylesheet' id='sbi_styles-css' href='https://css.sriher.acodez.ca/wp-content/plugins/instagram-feed-pro/css/sbi-styles.min.css?ver=6.4'  media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://css.sriher.acodez.ca/wp-includes/css/dist/block-library/style.min.css'  media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://css.sriher.acodez.ca/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.7'  media='all' />
+<link rel='stylesheet' id='ubermenu-css' href='https://css.sriher.acodez.ca/wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css?ver=3.7.7'  media='all' />
+<link rel='stylesheet' id='ubermenu-grey-white-css' href='https://css.sriher.acodez.ca/wp-content/plugins/ubermenu/assets/css/skins/blackwhite.css'  media='all' />
+<link rel='stylesheet' id='ubermenu-font-awesome-all-css' href='https://css.sriher.acodez.ca/wp-content/plugins/ubermenu/assets/fontawesome/css/all.min.css'  media='all' />
+<link rel="https://api.w.org/" href="https://css.sriher.acodez.ca/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://css.sriher.acodez.ca/wp-json/wp/v2/pages/5" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://css.sriher.acodez.ca/xmlrpc.php?rsd" />
+
+<link rel="canonical" href="https://css.sriher.acodez.ca/" />
+<link rel='shortlink' href='https://css.sriher.acodez.ca/' />
+<style id="ubermenu-custom-generated-css">
+/** Font Awesome 4 Compatibility **/
+.fa{font-style:normal;font-variant:normal;font-weight:normal;font-family:FontAwesome;}
+
+/** UberMenu Custom Menu Item Styles (Menu Item Settings) **/
+/* 500 */    .ubermenu .ubermenu-item.ubermenu-item-500 > .ubermenu-target { color:#00318f; }
+
+/* Status: Loaded from Transient */
+
+</style><link rel="icon" href="https://css.sriher.acodez.ca/wp-content/uploads/2023/10/favicon.png" sizes="32x32" />
+<link rel="icon" href="https://css.sriher.acodez.ca/wp-content/uploads/2023/10/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://css.sriher.acodez.ca/wp-content/uploads/2023/10/favicon.png" />
+<meta name="msapplication-TileImage" content="https://css.sriher.acodez.ca/wp-content/uploads/2023/10/favicon.png" />
+	<script>
+					</script>
+
+</head>
+<body class="home page-template page-template-templates page-template-home page-template-templateshome-php page page-id-5 wp-custom-logo">
+<div class="preloader">
+	<span class="loaderLogo">
+					<a href="https://css.sriher.acodez.ca/" class="custom-logo-link" rel="home" aria-current="page"><img width="327" height="61" src="https://css.sriher.acodez.ca/wp-content/uploads/2023/10/logo.png" class="custom-logo" alt="Sports Science" decoding="async" /></a>			</span>
+</div>
+
+<header class="header">
+	<!-- Header content Here -->
+	<div class="container">
+		<div class="header-content">
+			<div class="logo">
+				<a href="https://css.sriher.acodez.ca/" class="custom-logo-link" rel="home" aria-current="page"><img width="327" height="61" src="https://css.sriher.acodez.ca/wp-content/uploads/2023/10/logo.png" class="custom-logo" alt="Sports Science" decoding="async" /></a>				<div class="toggler">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="menu-items">
+				
+<!-- UberMenu [Configuration:main] [Theme Loc:header_menu] [Integration:auto] -->
+<button class="ubermenu-responsive-toggle ubermenu-responsive-toggle-main ubermenu-skin-grey-white ubermenu-loc-header_menu ubermenu-responsive-toggle-content-align-left ubermenu-responsive-toggle-align-full " tabindex="0" data-ubermenu-target="ubermenu-main-2-header_menu-2"><i class="fas fa-bars" ></i>Menu</button><nav id="ubermenu-main-2-header_menu-2" class="ubermenu ubermenu-nojs ubermenu-main ubermenu-menu-2 ubermenu-loc-header_menu ubermenu-responsive ubermenu-responsive-default ubermenu-responsive-collapse ubermenu-horizontal ubermenu-transition-shift ubermenu-trigger-hover_intent ubermenu-skin-grey-white  ubermenu-bar-align-full ubermenu-items-align-auto ubermenu-disable-submenu-scroll ubermenu-sub-indicators ubermenu-retractors-responsive ubermenu-submenu-indicator-closes"><ul id="ubermenu-nav-main-2-header_menu" class="ubermenu-nav" data-title="Main Menu"><li id="menu-item-35" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-35 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/about-us/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">About</span></a></li><li id="menu-item-510" class="academy drop-down ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-510 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Academy</span><i class='ubermenu-sub-indicator fas fa-angle-down'></i></a><ul  class="ubermenu-submenu ubermenu-submenu-id-510 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width"  ><li id="menu-item-514" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-514 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/academy/cricket-academy/"><span class="ubermenu-target-title ubermenu-target-text">Cricket</span></a></li><li id="menu-item-513" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-513 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/academy/hockey-academy/"><span class="ubermenu-target-title ubermenu-target-text">Hockey</span></a></li><li id="menu-item-512" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-512 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/academy/shooting-academy/"><span class="ubermenu-target-title ubermenu-target-text">Shooting</span></a></li><li id="menu-item-511" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-511 ubermenu-item-auto ubermenu-item-header ubermenu-item-level-1 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/academy/rowing-academy/"><span class="ubermenu-target-title ubermenu-target-text">Rowing</span></a></li></ul></li><li id="menu-item-33" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-33 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/education/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Education</span></a></li><li id="menu-item-279" class="drop-down ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-279 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-mega" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://css.sriher.acodez.ca/services/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Services</span><i class='ubermenu-sub-indicator fas fa-angle-down'></i></a><ul  class="ubermenu-submenu ubermenu-submenu-id-279 ubermenu-submenu-type-auto ubermenu-submenu-type-mega ubermenu-submenu-drop ubermenu-submenu-align-full_width"  ><li class=" service-left ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-496 ubermenu-item-level-1 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-496"><ul  class="ubermenu-submenu ubermenu-submenu-id-496 ubermenu-submenu-type-stack"  ><li id="menu-item-500" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-500 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-target-with-image ubermenu-item-layout-default ubermenu-item-layout-image_above" href="#"><img class="ubermenu-image ubermenu-image-size-full" src="https://css.sriher.acodez.ca/wp-content/uploads/2024/06/Rectangle-302.png" width="274" height="183" alt="Rectangle 302"  /><span class="ubermenu-target-title ubermenu-target-text">Services</span></a><div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded"><h4>Services</h4>
+<p>Cutting-edge performance analysis, tailored training programs, and sports nutrition expertise for peak athletic performance</p>
+<a href="">Read More</a></div></li></ul></li><li class=" service-right ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-has-children ubermenu-item-494 ubermenu-item-level-1 ubermenu-column ubermenu-column-1-4 ubermenu-has-submenu-stack ubermenu-item-type-column ubermenu-column-id-494"><ul  class="ubermenu-submenu ubermenu-submenu-id-494 ubermenu-submenu-type-stack"  ><li id="menu-item-488" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-services ubermenu-item-488 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/services/high-performance-centre/"><span class="ubermenu-target-title ubermenu-target-text">High Performance Centre</span></a></li><li id="menu-item-485" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-services ubermenu-item-485 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/services/biomechanics/"><span class="ubermenu-target-title ubermenu-target-text">Biomechanics</span></a></li><li id="menu-item-490" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-services ubermenu-item-490 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/services/sports-medicine/"><span class="ubermenu-target-title ubermenu-target-text">Sports Medicine</span></a></li><li id="menu-item-484" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-services ubermenu-item-484 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/services/arthroscopy/"><span class="ubermenu-target-title ubermenu-target-text">Arthroscopy</span></a></li><li id="menu-item-486" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-services ubermenu-item-486 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/services/exercise-physiology/"><span class="ubermenu-target-title ubermenu-target-text">Exercise Physiology</span></a></li><li id="menu-item-493" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-services ubermenu-item-493 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/services/sports-rehab/"><span class="ubermenu-target-title ubermenu-target-text">Sports Rehab</span></a></li><li id="menu-item-487" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-services ubermenu-item-487 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/services/fitness-centre/"><span class="ubermenu-target-title ubermenu-target-text">Fitness Centre</span></a></li><li id="menu-item-491" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-services ubermenu-item-491 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/services/sports-nutrition/"><span class="ubermenu-target-title ubermenu-target-text">Sports Nutrition</span></a></li><li id="menu-item-492" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-services ubermenu-item-492 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/services/sports-psychology/"><span class="ubermenu-target-title ubermenu-target-text">Sports Psychology</span></a></li></ul></li></ul></li><li id="menu-item-31" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-31 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/team/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Team</span></a></li><li id="menu-item-30" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-30 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/media/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Media</span></a></li><li id="menu-item-29" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-29 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://css.sriher.acodez.ca/contact/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Contact</span></a></li><li id="menu-item-36" class="talk ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-36 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="http://talk-to-us" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">Talk to us</span></a></li></ul></nav>
+<!-- End UberMenu -->
+			</div>
+			<div style="display:none" class="mobile-menu">
+				<ul id="menu-mobile-menu" class="menu"><li id="menu-item-525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-525"><a href="https://css.sriher.acodez.ca/about-us/">About Us</a></li>
+<li id="menu-item-526" class="academy drop-down menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-526"><a href="#">Academy</a>
+<ul class="sub-menu">
+	<li id="menu-item-527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-527"><a href="https://css.sriher.acodez.ca/academy/cricket-academy/">Cricket</a></li>
+	<li id="menu-item-528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-528"><a href="https://css.sriher.acodez.ca/academy/hockey-academy/">Hockey</a></li>
+	<li id="menu-item-529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-529"><a href="https://css.sriher.acodez.ca/academy/rowing-academy/">Rowing</a></li>
+	<li id="menu-item-530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-530"><a href="https://css.sriher.acodez.ca/academy/shooting-academy/">Shooting</a></li>
+</ul>
+</li>
+<li id="menu-item-531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-531"><a href="https://css.sriher.acodez.ca/education/">Education</a></li>
+<li id="menu-item-532" class="drop-down menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-532"><a href="https://css.sriher.acodez.ca/services/">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-539" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-539"><a href="https://css.sriher.acodez.ca/services/overview/">Overview</a></li>
+	<li id="menu-item-534" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-534"><a href="https://css.sriher.acodez.ca/services/arthroscopy/">Arthroscopy</a></li>
+	<li id="menu-item-535" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-535"><a href="https://css.sriher.acodez.ca/services/biomechanics/">Biomechanics</a></li>
+	<li id="menu-item-536" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-536"><a href="https://css.sriher.acodez.ca/services/exercise-physiology/">Exercise Physiology</a></li>
+	<li id="menu-item-537" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-537"><a href="https://css.sriher.acodez.ca/services/fitness-centre/">Fitness Centre</a></li>
+	<li id="menu-item-538" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-538"><a href="https://css.sriher.acodez.ca/services/high-performance-centre/">High Performance Centre</a></li>
+	<li id="menu-item-540" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-540"><a href="https://css.sriher.acodez.ca/services/sports-medicine/">Sports Medicine</a></li>
+	<li id="menu-item-541" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-541"><a href="https://css.sriher.acodez.ca/services/sports-nutrition/">Sports Nutrition</a></li>
+	<li id="menu-item-542" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-542"><a href="https://css.sriher.acodez.ca/services/sports-psychology/">Sports Psychology</a></li>
+	<li id="menu-item-543" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-543"><a href="https://css.sriher.acodez.ca/services/sports-rehab/">Sports Rehab</a></li>
+</ul>
+</li>
+<li id="menu-item-546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-546"><a href="https://css.sriher.acodez.ca/team/">Team</a></li>
+<li id="menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-544"><a href="https://css.sriher.acodez.ca/media/">Media</a></li>
+<li id="menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-547"><a href="https://css.sriher.acodez.ca/contact/">Contact</a></li>
+</ul>			</div>
+		</div>
+	</div>
+
+
+</header>
+
+<div class="home_page">
+
+
+
+    <section class="homeBanner">
+        <div class="container">
+                            <div class="swiper banner-slider">
+                    <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                <div class="content">
+                                                                            <div class="image">
+                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/runner.png"
+                                            alt="runner"
+                                            title="runner">
+                                        </div>
+                                                                        <div class="text">
+                                                                                    <span>YOUR BEST COACH </span>
+                                                                                                                            <h1 class="main">Academy of Sports Training</h1>
+                                                                                                                            <a href="https://css.sriher.acodez.ca/academy/">EXPLORE</a>
+                                                                            </div>
+                                </div>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <div class="content">
+                                                                            <div class="image">
+                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/runner.png"
+                                            alt="runner"
+                                            title="runner">
+                                        </div>
+                                                                        <div class="text">
+                                                                                    <span>YOUR BEST COACH </span>
+                                                                                                                            <h1 class="main">Academy of Sports Training</h1>
+                                                                                                                            <a href="https://css.sriher.acodez.ca/academy/">EXPLORE</a>
+                                                                            </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            
+
+
+                            <div class="bannerAbout">
+                    <div class="aboutContent">
+                                                    <div class="aboutUs">
+                                                                    <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/about-icon.svg" alt="about-icon">
+                                                                <div class="text" data-aos="fade-up" data-aos-duration="1000">
+                                                                            <h2>About Us</h2>
+<p>Built on a legacy of 30 years &#8211; Sri Ramachandra Centre for Sports Science, a world-class hub for sports sciences</p>
+                                                                                                                <a href="https://css.sriher.acodez.ca/about-us/">Read More <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none"><path d="M0.791016 1L5.02202 5L0.791016 9" stroke="white" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                                                                    </div>
+                            </div>
+                                                                            <div class="education">
+                                                                    <div class="image">
+                                        <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/sports-edu.png"
+                                            alt="sports-edu-res"
+                                            title="sports-edu"  id="sports-edu-res">
+                                    </div>
+                                                                <div class="text" data-aos="fade-up" data-aos-duration="1000">
+                                                                            <h2>Sports Education</h2>
+<p>Experience an innovative curriculum from Sri Ramachandra crafted to international standards, inspired by leading universities worldwide.</p>
+                                                                                                                <a href="https://css.sriher.acodez.ca/education/">Read More <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none"><path d="M1 1L5.231 5L1 9" stroke="#0050DD" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                                                                    </div>
+                            </div>
+                                                                            <div class="joinNow">
+                                                                    <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/academy-feature.svg" alt="academy-feature">
+                                                                <div class="text" data-aos="fade-up" data-aos-duration="1000">
+                                                                            <h2>Join now, and elevate your game at our essential <span>sports academy</span></h2>
+                                                                                                                <a href="https://css.sriher.acodez.ca/careers/">ENROLL NOW</a>
+                                                                    </div>
+                            </div>
+                                            </div>
+                </div>
+                    </div>
+
+
+
+
+                    <div class="sports">
+                <div class="container">
+                                            <h2 data-aos="fade-up" data-aos-duration="1000">Unleash Your Potential. Explore our Sports Academy</h2>
+                                                                <div class="desktopsportsContent">
+                                                                                                <a href="#" class="sports-link"><span>Cricket</span></a>
+                                                                                                                                <a href="#" class="sports-link"><span>Hockey</span></a>
+                                                                                                                                <a href="#" class="sports-link"><span>Shooting</span></a>
+                                                                                                                                <a href="#" class="sports-link"><span>Rowing</span></a>
+                                                                                    </div>
+                                    </div>
+                <div class="mobile-sports">
+                    <div id="sports-main">
+                        <div id="div1">
+                            &nbsp; &nbsp;<img src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/images/home/banner/Sports.png" alt="">
+                        </div>
+                        <div id="div2">
+                            &nbsp; &nbsp;<img src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/images/home/banner/Sports.png" alt="">
+                        </div>
+                    </div>
+                                            <div class="swiper sports-slider">
+                            <div class="swiper-wrapper">
+                                                                                                            <div class="swiper-slide">
+                                            <div class="title">
+                                                <div class="link"><a href="#" class="sports-link"><span>Cricket</span></a></div>
+                                            </div>
+                                        </div>
+                                                                                                                                                <div class="swiper-slide">
+                                            <div class="title">
+                                                <div class="link"><a href="#" class="sports-link"><span>Hockey</span></a></div>
+                                            </div>
+                                        </div>
+                                                                                                                                                <div class="swiper-slide">
+                                            <div class="title">
+                                                <div class="link"><a href="#" class="sports-link"><span>Shooting</span></a></div>
+                                            </div>
+                                        </div>
+                                                                                                                                                <div class="swiper-slide">
+                                            <div class="title">
+                                                <div class="link"><a href="#" class="sports-link"><span>Rowing</span></a></div>
+                                            </div>
+                                        </div>
+                                                                                                </div>
+                        </div>
+                                    </div>
+            </div>
+        </section>
+    
+            <section class="start-sporting-career">
+            <div class="container">
+                <div class="careerContent">
+                                            <h2 data-aos="fade-up" data-aos-duration="1000">Start Your Sporting Career with Us Today</h2>
+                                                                <div class="courses" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" >
+                            <h3>B. Sc. (Hons) Sports and Exercise Science</h3>
+<h3>M.Sc. Sports and Exercise Psychology</h3>
+<h3>Master of Sports Physiotherapy &#8211; MPT (Sports)</h3>
+<h3>Other Allied Courses</h3>
+                        </div>
+                                    </div>
+            </div>
+        </section>
+    
+
+            <section class="our-services">
+            <div class="container">
+                                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <h2>OUR SERVICES</h2>
+<p>Cutting-edge performance analysis, tailored training programs, and sports nutrition expertise for peak athletic performance</p>
+                    </div>
+                                                    <div class="services-content" data-aos="fade-up" data-aos-duration="1000">
+                                                    <a href="https://css.sriher.acodez.ca/services/high-performance-centre/">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/perform.svg"
+                                            alt="Sriher sports services"
+                                            title="perform">
+                                                                                                                <h3>High Performance Centre</h3>
+                                                                    </div>
+                            </a>
+                                                    <a href="https://css.sriher.acodez.ca/services/biomechanics/">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/bio.svg"
+                                            alt="Sriher sports services"
+                                            title="bio">
+                                                                                                                <h3>Biomechanics</h3>
+                                                                    </div>
+                            </a>
+                                                    <a href="https://css.sriher.acodez.ca/services/sports-medicine/">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/medicine.svg"
+                                            alt="Sriher sports services"
+                                            title="medicine">
+                                                                                                                <h3>Sports Medicine</h3>
+                                                                    </div>
+                            </a>
+                                                    <a href="https://css.sriher.acodez.ca/services/arthroscopy/">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2024/05/arthro.svg"
+                                            alt="Sriher sports services"
+                                            title="arthro">
+                                                                                                                <h3>Arthroscopy</h3>
+                                                                    </div>
+                            </a>
+                                                    <a href="https://css.sriher.acodez.ca/services/exercise-physiology/">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/exercise.svg"
+                                            alt="Sriher sports services"
+                                            title="exercise">
+                                                                                                                <h3>Exercise Physiology</h3>
+                                                                    </div>
+                            </a>
+                                                    <a href="https://css.sriher.acodez.ca/services/sports-rehab/">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/rehab.svg"
+                                            alt="Sriher sports services"
+                                            title="rehab">
+                                                                                                                <h3>Sports Rehab</h3>
+                                                                    </div>
+                            </a>
+                                                    <a href="https://css.sriher.acodez.ca/services/fitness-centre/">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2024/05/fitness.svg"
+                                            alt="Sriher sports services"
+                                            title="fitness">
+                                                                                                                <h3>Fitness Centre</h3>
+                                                                    </div>
+                            </a>
+                                                    <a href="https://css.sriher.acodez.ca/services/sports-nutrition/">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/nutrition.svg"
+                                            alt="Sriher sports services"
+                                            title="nutrition">
+                                                                                                                <h3>Sports Nutrition</h3>
+                                                                    </div>
+                            </a>
+                                                    <a href="https://css.sriher.acodez.ca/services/sports-psychology/">
+                                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/psychology.svg"
+                                            alt="Sriher sports services"
+                                            title="psychology">
+                                                                                                                <h3>Sports Psychology</h3>
+                                                                    </div>
+                            </a>
+                                            </div>
+                            </div>
+        </section>
+    
+
+            <section class="gallery">
+            <div class="container">
+                                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <h2>GALLERY</h2>
+<p>Capture the excitement! Relive inspiring moments from our vibrant sports academy in this gallery</p>
+                    </div>
+                
+                <div class="gallery-content" data-aos="fade-up" data-aos-duration="1000">
+                                            <div class="large-image">
+                            <div class="image">
+                                <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/g1.png"
+                                alt="image"
+                                title="g1">
+                            </div>
+                        </div>
+                                                                <div class="grid">
+                                                                                                <div class="image">
+                                    <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/g2.png"
+                                alt="image"
+                                title="g2">
+                                    </div>
+                                                                                                                                <div class="image">
+                                    <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/g3.png"
+                                alt="image"
+                                title="g3">
+                                    </div>
+                                                                                                                                <div class="image">
+                                    <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/g4.png"
+                                alt="image"
+                                title="g4">
+                                    </div>
+                                                                                                                                <div class="image">
+                                    <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/g5.png"
+                                alt="image"
+                                title="g5">
+                                    </div>
+                                                                                    </div>
+                                    </div>
+                <span><a href="https://css.sriher.acodez.ca/gallery/">VIEW MORE</a></span>
+            </div>
+        </section>
+    
+
+
+
+            <section class="in-the-spotlight">
+            <div class="container">
+                                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <h2>IN THE SPOTLIGHT</h2>
+<p>The Doctor&#8217;s Perspective on Our Organisation</p>
+                    </div>
+                
+                                    <div class="swiper spotlight-slider">
+                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                    <div class="spotContent">
+                                                                                    <div class="image">
+                                                <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/surgeon.png"
+                                                alt="image"
+                                                title="surgeon">
+                                            </div>
+                                                                                                                            <div class="text">
+                                                <img src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/images/home/spotlight/quotes.svg" alt="quotes">
+                                                <p>As passionate physicians and sports enthusiasts, we thrive on empowering athletes, forging champions, and nurturing excellence in our dynamic sports centre.<br />
+Join the journey!</p>
+<h3>Dr. John Doe</h3>
+<h4>Senior Surgeon</h4>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                                            <div class="swiper-slide">
+                                    <div class="spotContent">
+                                                                                    <div class="image">
+                                                <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/surgeon.png"
+                                                alt="image"
+                                                title="surgeon">
+                                            </div>
+                                                                                                                            <div class="text">
+                                                <img src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/images/home/spotlight/quotes.svg" alt="quotes">
+                                                <p>As passionate physicians and sports enthusiasts, we thrive on empowering athletes, forging champions, and nurturing excellence in our dynamic sports centre.<br />
+Join the journey!</p>
+<h3>Dr. John Doe</h3>
+<h4>Senior Surgeon</h4>
+                                            </div>
+                                                                            </div>
+                                </div>
+                                                    </div>
+                    </div>
+                            </div>
+        </section>
+    
+
+
+    <section class="latest">
+        <div class="container">
+                        <div class="latestNews">
+                                <div class="heading">
+                                        <h2>LATEST NEWS</h2>
+                                        <a href="https://css.sriher.acodez.ca/news" class="desk-viewall">View all News <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none"><path d="M1 1L5 5L1 9" stroke="#007FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                </div>
+                <div class="newsContent">
+                                    <div class="card">
+                                                    <div class="image">
+                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2024/04/news1.png" alt="image">
+                            </div>
+                                                <div class="text" data-aos="fade-up" data-aos-duration="1000">
+                            <h4>IASMCON 2022 &#8211; 42nd Annual Conference Of Indian Association Of Sports Medicine</h4>
+                            <a href="https://css.sriher.acodez.ca/iasmcon-2022-42nd-annual-conference-of-indian-association-of-sports-medicine/">Read more <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none"><path d="M1.45312 1.59741L5.33044 5.329L1.45312 9.06059" stroke="#007FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                        </div>
+                    </div>
+                                        <div class="card">
+                                                    <div class="image">
+                                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2024/04/news2.png" alt="image">
+                            </div>
+                                                <div class="text" data-aos="fade-up" data-aos-duration="1000">
+                            <h4>The Inspiring Story Of SRCSS Rower Rose Mastica Meril From Being The Daughter Of A Fisherman To Representing</h4>
+                            <a href="https://css.sriher.acodez.ca/the-inspiring-story-of-srcss-rower-rose-mastica-meril-from-being-the-daughter-of-a-fisherman-to-representing/">Read more <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none"><path d="M1.45312 1.59741L5.33044 5.329L1.45312 9.06059" stroke="#007FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                        </div>
+                    </div>
+                                    </div>
+                                <a href="" class="mobile-viewall">View all News <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none"><path d="M1 1L5 5L1 9" stroke="#007FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+
+                            <div class="latestEvents">
+                    <div class="heading">
+                                                    <h3>LATEST EVENTS</h3>
+                                                <a href="#" class="desk-viewall">View all Events <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none"><path d="M1 1L5 5L1 9" stroke="#007FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    </div>
+                                            <div class="eventsContent">
+                                                            <div class="card">
+                                                                            <div class="image">
+                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/event1.png"
+                                                alt="event"
+                                                title="event1">
+                                        </div>
+                                                                                                                <div class="text" data-aos="fade-up" data-aos-duration="1000">
+                                            <a href="#">
+                                                <h4>3 Aug 2023 &#8211; 3:00 pm-5:00 pm</h4>
+<p>Protective effect of Grapeseed extract on lead acetate induced testicular toxicity</p>
+                                            </a>
+                                        </div>
+                                                                    </div>
+                                                            <div class="card">
+                                                                            <div class="image">
+                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/event2.png"
+                                                alt="event"
+                                                title="event2">
+                                        </div>
+                                                                                                                <div class="text" data-aos="fade-up" data-aos-duration="1000">
+                                            <a href="#">
+                                                <h4>3 Aug 2023 &#8211; 9:00 am-5:00 pm</h4>
+<p>ERASE-2023 Virtual International Webinar</p>
+                                            </a>
+                                        </div>
+                                                                    </div>
+                                                            <div class="card">
+                                                                            <div class="image">
+                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/event3.png"
+                                                alt="event"
+                                                title="event3">
+                                        </div>
+                                                                                                                <div class="text" data-aos="fade-up" data-aos-duration="1000">
+                                            <a href="#">
+                                                <h4>4 Aug 2023 &#8211; 9:00 am-5:00 pm</h4>
+<p>TRENTA Curtain Raiser 2023 will be held at SRIHER Campus</p>
+                                            </a>
+                                        </div>
+                                                                    </div>
+                                                    </div>
+                                        <a href="#" class="mobile-viewall">View all Events <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none"><path d="M1 1L5 5L1 9" stroke="#007FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                </div>
+                    </div>
+    </section>
+
+
+            <section class="associated-partners">
+            <div class="container">
+                                    <h2>ASSOCIATED PARTNERS</h2>
+                                <div class="swiper partners-slider">
+                                            <div class="swiper-wrapper">
+                                                                                                <div class="swiper-slide">
+                                        <div class="image">
+                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/bccii.png"
+                                                alt="partner logo"
+                                                title="bccii">
+                                        </div>
+                                    </div>
+                                                                                                                                <div class="swiper-slide">
+                                        <div class="image">
+                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/icc.png"
+                                                alt="partner logo"
+                                                title="icc">
+                                        </div>
+                                    </div>
+                                                                                                                                <div class="swiper-slide">
+                                        <div class="image">
+                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/afc.png"
+                                                alt="partner logo"
+                                                title="afc">
+                                        </div>
+                                    </div>
+                                                                                                                                <div class="swiper-slide">
+                                        <div class="image">
+                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/capetown.png"
+                                                alt="partner logo"
+                                                title="capetown">
+                                        </div>
+                                    </div>
+                                                                                                                                <div class="swiper-slide">
+                                        <div class="image">
+                                            <img src="https://css.sriher.acodez.ca/wp-content/uploads/2023/12/eta.png"
+                                                alt="partner logo"
+                                                title="eta">
+                                        </div>
+                                    </div>
+                                                                                    </div>
+                                    </div>
+            </div>
+        </section>
+    
+
+</div>
+
+
+	<section class="start-journey">
+        <div class="container">
+							<div class="content	">
+					<h2>Start Your Journey to Sporting Greatness Now!</h2>
+<a href="https://css.sriher.acodez.ca/education/">EXPLORE COURSES</a></p>
+				</div>
+			
+        </div>
+    </section>
+	<footer>
+		<div class="container">
+			<div class="footer-wrap">
+					<div class="footer-content">
+						<div class="footer-left">
+															<img src="https://css.sriher.acodez.ca/wp-content/uploads/2024/04/footer-logo.svg" alt="footer-logo">
+							
+
+																							<p>Sri Ramachandra Centre for Sports Science 1, Ramachandra Nagar, Porur Chennai 600 116, INDIA</p>
+<ul>
+<li>Phone :<a href="tel:+91-44-4592 8650">+91-44-4592 8650 Ext. 7962</a></li>
+<li>Mobile No :<a href="tel:+91-98409 99830">+91-98409 99830</a></li>
+<li>Fax :<a href="tel:+91- 44-2476 7008">+91- 44-2476 7008</a></li>
+<li>Email :<a id="email" href="mailto:info@csstrucoach.in">info@csstrucoach.in</a></li>
+</ul>
+													</div>
+						<div class="footer-right">
+							<div class="card">
+																<h3>ACADEMY</h3>
+								<ul id="menu-academy" class="menu"><li id="menu-item-564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564"><a href="https://css.sriher.acodez.ca/academy/cricket-academy/">Cricket</a></li>
+<li id="menu-item-565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-565"><a href="https://css.sriher.acodez.ca/academy/hockey-academy/">Hockey</a></li>
+<li id="menu-item-566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-566"><a href="https://css.sriher.acodez.ca/academy/rowing-academy/">Rowing</a></li>
+<li id="menu-item-567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567"><a href="https://css.sriher.acodez.ca/academy/shooting-academy/">Shooting</a></li>
+</ul>							</div>
+							<div class="card">
+																<h3>EDUCATION</h3>
+								<ul id="menu-education" class="menu"><li id="menu-item-446" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-446"><a href="https://css.sriher.acodez.ca/education/">Sports Programmes</a></li>
+<li id="menu-item-378" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-378"><a href="#">Research Projects &#038;<br /> Publications</a></li>
+</ul>							</div>
+							<div class="card">
+																<h3>SERVICES</h3>
+								<ul id="menu-services" class="menu"><li id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-447"><a href="https://css.sriher.acodez.ca/services/overview/">Overview</a></li>
+<li id="menu-item-380" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-380"><a href="https://css.sriher.acodez.ca/services/high-performance-centre/">High Performance Centre</a></li>
+<li id="menu-item-448" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-448"><a href="https://css.sriher.acodez.ca/services/biomechanics/">Biomechanics</a></li>
+<li id="menu-item-449" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-449"><a href="https://css.sriher.acodez.ca/services/sports-medicine/">Sports Medicine</a></li>
+<li id="menu-item-450" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-450"><a href="https://css.sriher.acodez.ca/services/arthroscopy/">Arthroscopy</a></li>
+<li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-451"><a href="https://css.sriher.acodez.ca/services/exercise-physiology/">Exercise Physiology</a></li>
+<li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-452"><a href="https://css.sriher.acodez.ca/services/sports-rehab/">Sports Rehab</a></li>
+<li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-453"><a href="https://css.sriher.acodez.ca/services/fitness-centre/">Fitness Centre</a></li>
+<li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-454"><a href="https://css.sriher.acodez.ca/services/sports-nutrition/">Sports Nutrition</a></li>
+<li id="menu-item-455" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-455"><a href="https://css.sriher.acodez.ca/services/sports-psychology/">Sports Psychology</a></li>
+</ul>							</div>
+							<div class="card">
+																<h3>NAVIGATION</h3>
+								<ul id="menu-navigation" class="menu"><li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-381"><a href="https://css.sriher.acodez.ca/" aria-current="page">Home</a></li>
+<li id="menu-item-382" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"><a href="https://css.sriher.acodez.ca/about-us/">About</a></li>
+<li id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a href="https://css.sriher.acodez.ca/team/">Team</a></li>
+<li id="menu-item-563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-563"><a href="https://css.sriher.acodez.ca/gallery/">Gallery</a></li>
+<li id="menu-item-386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a href="https://css.sriher.acodez.ca/news/">News</a></li>
+<li id="menu-item-385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"><a href="https://css.sriher.acodez.ca/events/">Events</a></li>
+<li id="menu-item-474" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-474"><a href="#">Downloads</a></li>
+<li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a href="https://css.sriher.acodez.ca/careers/">Careers</a></li>
+<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="https://css.sriher.acodez.ca/contact/">Contact</a></li>
+</ul>							</div>
+						</div>
+					</div>
+					<div class="footer-bottom">
+						<div class="left">
+							<p>© 2024  Sri Ramachandra Centre for Sports Science</p>
+							<span>
+								<a href="https://css.sriher.acodez.ca/privacy-policy/">Privacy Policy | </a>
+								<a href="#">Terms & Conditions</a>							</span>
+						</div>
+													<div class="right">
+																	<a href="#"><img src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/images/footer/social-fb.svg" alt="social-fb"></a>
+																									<a href="#"><img src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/images/footer/social-tw.svg" alt="social-tw"></a>
+																									<a href="#"><img src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/images/footer/social-yt.svg" alt="social-yt"></a>
+																									<a href="#"><img src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/images/footer/social-ig.svg" alt="social-ig"></a>
+															</div>
+											</div>
+			</div>
+		</div>
+		<script  src="https://css.sriher.acodez.ca/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script  src="https://css.sriher.acodez.ca/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script  id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script  src="https://css.sriher.acodez.ca/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.7" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/css.sriher.acodez.ca\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script  src="https://css.sriher.acodez.ca/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.7" id="contact-form-7-js"></script>
+<script  src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/js/jquery.js" id="jquery-js"></script>
+<script  src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/js/migrate.js" id="jquery-migrate-js"></script>
+<script  src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/js/common.js" id="common_scripts-js"></script>
+<script  src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/js/jquery.magnific-popup.min.js" id="magnificPopup-js"></script>
+<script  src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/js/aos.js" id="aos-js"></script>
+<script  src="https://www.google.com/recaptcha/api.js?render=6LfOz8spAAAAABEbKkV7NEzELB3aBGlA8RQyQrct&amp;ver=3.0" id="google-recaptcha-js"></script>
+<script  src="https://css.sriher.acodez.ca/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-extra">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LfOz8spAAAAABEbKkV7NEzELB3aBGlA8RQyQrct","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script  src="https://css.sriher.acodez.ca/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.9.7" id="wpcf7-recaptcha-js"></script>
+<script type="text/javascript" id="ubermenu-js-extra">
+/* <![CDATA[ */
+var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"300","intent_interval":"100","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","submenu_indicator_close_mobile":"on","collapse_after_scroll":"on","v":"3.7.7","configurations":["main"],"ajax_url":"https:\/\/css.sriher.acodez.ca\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/css.sriher.acodez.ca\/wp-content\/plugins\/ubermenu\/","disable_mobile":"off","prefix_boost":"","use_core_svgs":"off","aria_role_navigation":"off","aria_nav_label":"off","aria_expanded":"off","aria_hidden":"off","aria_controls":"","aria_responsive_toggle":"off","icon_tag":"i","esc_close_mobile":"on","theme_locations":{"header_menu":"Header Menu","footer_first_col_menu":"Footer first column Menu","footer_second_col_menu":"Footer second column Menu","footer_third_col_menu":"Footer third column Menu","footer_fourth_col_menu":"Footer fourth column Menu","mobile_menu":"Mobile Menu"}};
+/* ]]> */
+</script>
+<script  src="https://css.sriher.acodez.ca/wp-content/plugins/ubermenu/assets/js/ubermenu.min.js?ver=3.7.7" id="ubermenu-js"></script>
+<script  src="https://css.sriher.acodez.ca/wp-content/themes/cssTheme/js/swiper-bundle.min.js" id="Swiper-js"></script>
+<!-- Custom Feeds for Instagram JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://css.sriher.acodez.ca/wp-admin/admin-ajax.php";
+
+</script>
+        <script>
+            $(document).ready(function() {
+
+                $('.popup').magnificPopup({
+                    type:'inline',
+                    midClick: true,
+                    delegate: 'a',
+                    gallery: {
+                        enabled: true
+                    },
+                });
+                $('#sportsmain').width($('#div1').width());
+
+                var swiper = new Swiper(".banner-slider", {
+                    autoplay:true,
+                    speed:1500,
+                    loop:true,
+                    delay:5000,
+                });
+                var swiper = new Swiper(".spotlight-slider", {
+                    autoplay:true,
+                    speed:1500,
+                    loop:true,
+                });
+                var swiper = new Swiper(".partners-slider", {
+                    autoplay:true,
+                    speed:1500,
+                    loop:true,
+                    slidesPerView:5,
+                    spaceBetween:80,
+                    breakpoints: {
+                        2000: {
+                            slidesPerView:5,
+                            spaceBetween:80,
+                        },
+                        1200: {
+                            slidesPerView:5,
+                            spaceBetween:80,
+                        },
+                        990: {
+                            slidesPerView:5,
+                            spaceBetween:80,
+                        },
+                        768: {
+                            slidesPerView:3,
+                            spaceBetween:0,
+                        },
+                        650: {
+                            slidesPerView:2,
+                            spaceBetween:0,
+                        },
+                        200:{
+                            slidesPerView:1,
+                            spaceBetween:0,
+                        },
+                    }
+                });
+                var swiper = new Swiper(".sports-slider", {
+                    speed: 2000,
+                    // parallax: true,
+                    slidesPerView:1,
+                    // slidesPerGroupSkip: 2,
+                    autoplay:true,
+                    loop:true,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+
+                // AOS.init({
+                //     once:true,
+                // });
+            })
+
+        </script>
+		<script>
+		//global cutom js
+		
+		//individual page custom js
+			</script>
+	</footer>
+</body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using Disk: Enhanced 
+
+Served from: css.sriher.acodez.ca @ 2024-07-19 06:00:45 by W3 Total Cache
+-->

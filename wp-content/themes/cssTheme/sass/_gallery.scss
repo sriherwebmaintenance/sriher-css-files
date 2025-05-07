@@ -1,0 +1,64 @@
+#sb_instagram{
+	padding:80px 0 100px !important;
+	@media screen and (max-width:1000px){
+		padding:50px 0 !important;
+		
+	}
+}
+.sb_instagram_header{
+	padding-top:0 !important;
+}
+.sbi_bio_info{
+	display:none !important;
+}
+.sbi_follow_btn {
+	display:none !important;
+}
+.sbi_feedtheme_title_wrapper{
+	h3{
+		font-size:35px !important;
+		font-family:"Inter",sans-serif !important;
+		color:#000F93 !important;
+		font-weight:bold !important;
+		text-transform:capitalize !important;
+	@media screen and (max-width:1200px){
+			font-size:30px !important;
+		}
+		@media screen and (max-width:768px){
+			font-size:25px !important;
+		}
+	}
+}
+
+.sbi_item{
+	box-shadow: 0px 4px 17px 0px rgba(212, 217, 228, 0.49) !important;
+	border-radius:12px !important;
+}
+
+.sbi_caption_wrap{
+	padding:30px !important;
+	@media screen and (max-width:1000px){
+		padding:15px !important;
+	}
+}
+
+.sbi_caption{
+	font-family:"Inter",sans-serif !important;
+	font-size:16px !important;
+	font-weight:400 !important;
+	line-height:24px !important;
+	color:#5067B1 !important;
+	@media screen and (max-width:1000px){
+		font-size:14px !important;
+	}
+}
+
+.sbi_info{
+	text-align:left !important;
+}
+
+.sb_instagram_header.sbi_medium .sbi_header_img,
+.sb_instagram_header.sbi_medium .sbi_header_img img{
+	width:55px !important;
+	height:55px !important;
+}

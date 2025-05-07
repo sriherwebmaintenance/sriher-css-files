@@ -1,0 +1,447 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin grayscale_element($value) {
+    -webkit-filter: #{"grayscale(#{$value})"};
+    -moz-filter: #{"grayscale(#{$value})"};
+    filter:#{"grayscale(#{$value})"};
+}
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+@mixin x-appearance ($value) {
+	-webkit-appearance: $value;
+	   -moz-appearance: $value;
+	        appearance: $value;
+}
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}  
+}
+@mixin prefix($declarations, $prefixes: ()) {
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    // Output standard non-prefixed declaration
+    #{$property}: $value;
+  }
+}
+@mixin transform($transforms) {
+  -webkit-transform: $transforms;
+  -moz-transform: $transforms;
+  -ms-transform: $transforms;
+  transform: $transforms;
+}
+// =============================================
+// Mixin - Breakpoint
+// =============================================
+
+$mq-support: true !default;
+$mq-fixed-value: 1024px !default;
+
+@mixin bp($feature, $value) {
+    // Set global device param
+    $media: only screen;
+
+    // Media queries supported
+    @if $mq-support == true {
+
+        @media #{$media} and ($feature: $value) {
+            @content;
+        }
+
+        // Media queries not supported
+    } @else {
+
+        @if $feature == 'min-width' {
+            @if $value <= $mq-fixed-value {
+                @content;
+            }
+        } @else if $feature == 'max-width' {
+            @if $value >= $mq-fixed-value {
+                @content;
+            }
+        }
+
+    }
+}
+
+@mixin loadingOverlay($opacity: 0.8) {
+    &:before,
+    &:after {
+        content:'';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    &:before {
+        background-color: white;
+        opacity: $opacity;
+        z-index:2;
+    }
+
+    &:after {
+        background-image: url('../images/opc-ajax-loader.gif');
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index:3;
+    }
+
+    &.loading {
+        position: relative;
+
+        &:before,
+        &:after {
+            display: block;
+        }
+    }
+}
+@mixin not-selectable {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+// =============================================
+// Mixin - Triangle
+// =============================================
+
+@mixin triangle($direction: up, $size: 5px, $color: #000000) {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    display: block;
+
+    @if $direction == up {
+        border-right: $size solid transparent;
+        border-left: $size solid transparent;
+        border-bottom: $size solid $color;
+        border-top: none;
+    }
+
+    @if $direction == down {
+        border-right: $size solid transparent;
+        border-left: $size solid transparent;
+        border-top: $size solid $color;
+        border-bottom: none;
+    }
+
+    @if $direction == right {
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-left: $size solid $color;
+        border-right: none;
+    }
+
+    @if $direction == left {
+        border-top: $size solid transparent;
+        border-bottom: $size solid transparent;
+        border-right: $size solid $color;
+        border-left: none;
+    }
+}
+// =============================================
+// Mixin - Typography
+// =============================================
+
+@mixin h1 {
+
+}
+
+@mixin h2 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.7%;
+    font-family: $primary-font;
+    @media screen and (max-width:$bp-lmedium) {
+        font-size: 19px;
+    }
+    
+}
+
+@mixin h3 {
+    color: $grey_color;
+    font-family: $primary-font;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.7%;
+}
+
+@mixin h4 {
+    color: #003C6B;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+@mixin h5 {
+    color: #003C6B;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+@mixin h6 {
+    color: #003C6B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+@mixin pSmall{
+    color: rgba(30, 30, 30, 0.80);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    @media screen and (max-width:$bp-lmedium) {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+@mixin pBig{
+    color: rgba(30, 30, 30, 0.80);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    @media screen and (max-width:$bp-lmedium) {
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
+@mixin pWhite{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+    max-width: 820px;
+    margin: 0 auto;
+    width: 100%;
+    @media screen and (max-width:$bp-lmedium) {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    @media screen and (max-width:$bp-small) {
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+@mixin buttonPrimary{
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #161E66;
+    color: #00318F;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.74px;
+    text-transform: uppercase;
+    line-height: normal;
+    background: transparent;
+    padding: 15px 20px;
+    margin: 40px 0 0;
+    width: 100%;
+    max-width: 165px;
+    transition: all 0.5s ease-in-out;
+    &:hover,
+    &:focus
+    {
+        color: #fff;
+        box-shadow: inset 0 -6em 0 0 #161E66;
+    }
+    @media screen and (max-width:$bp-lmedium) {
+        font-size: 14px;
+        // max-width: 120px;
+        margin-top: 40px;
+    }
+    @media screen and (max-width:$bp-medium) {
+        margin-top:20px;
+    }
+}
+@mixin buttonPrimaryWhite{
+    display: block;
+    border-radius: 7px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.74px;
+    text-transform: uppercase;
+    line-height: normal;
+    background: transparent;
+    padding: 26px 20px;
+    margin: 40px 0 0;
+    width: 100%;
+    max-width: 270px;
+    transition: all 0.5s ease-in-out;
+    &:hover,
+    &:focus
+    {
+        color: #161E66;
+        box-shadow: inset 0 -6em 0 0 #fff;
+    }
+    @media screen and (max-width:$bp-lmedium) {
+        font-size: 14px;
+        max-width: 225px;
+    }
+    @media screen and (max-width:$bp-medium) {
+        margin:20px 0 0;
+    }
+}
+@mixin pWhiteSmall{
+    color:$white-color;
+    font-family: $primary-font;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.7974;
+}
+@mixin pBlueSmall{
+    color: #00318F;
+    font-family: $primary-font;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.8;
+    @media screen  and (max-width:$bp-xsmall){
+        font-size: 14px;
+    }
+}
+@mixin sectionHeading{
+    color: #000F93;
+    text-align: center;
+    font-family: $primary-font;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.7%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    @media screen and (max-width:$bp-small) {
+        font-size: 28px;
+        line-height: 26px;
+    }
+    @media screen and (max-width:$bp-xxxsmall) {
+        font-size: 22px;
+    }
+}
+@mixin sectionHeadingSmall{
+    color: #000F93;
+    font-family: $primary-font;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+@mixin sectionText{
+    color: #00318F;
+    text-align: center;
+    font-family: $primary-font;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding: 30px 0 0;
+    max-width: 480px;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.8;
+    @media screen and (max-width:$bp-small) {
+        padding: 20px 0 0;
+    }
+}
+@mixin innerPageH1{
+    color: #000F93;
+    text-align: center;
+    font-family: $primary-font;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55.48px;
+    margin-bottom: 12px;
+}
+@mixin innerPageH2{
+    color: #000F93;
+    font-family: $primary-font;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    @media screen and (max-width:$bp-lmedium) {
+        font-size: 30px;
+    }
+    @media screen and (max-width:$bp-xsmall) {
+        font-size: 25px;
+        
+    }
+}
+@mixin readLink{
+    color: #007FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.7%;
+    display: block;
+    svg{
+        margin-left: 13px;
+        transition: all 0.5s ease-in-out;
+    }
+    &:hover{
+        svg{
+            position: relative;
+            transform: translateX(5px);
+        }
+    }
+}

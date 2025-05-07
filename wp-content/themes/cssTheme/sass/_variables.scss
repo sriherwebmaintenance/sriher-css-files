@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+/****Font Colors***/
+$primary_color: #0050DD;
+$secondary_color:#000F93;
+$heading_color: #000000;
+$link_color: #141D70;
+/****Font Colors***/
+/****Default Colors***/
+$red_color: #ec121a;
+$blue_color: #00f;
+$white_color: #fff;
+$offwhite_color:rgba(255, 255, 255, 0.7);
+$yellow_color: #ff0;
+$black_color: #000;
+$grey_color:#AED3F8;
+/****Default Colors***/
+/****Background Colors***/
+$background_color: #ffffff;
+$table_bgcolor: #f9f9f9;
+$th_bgcolor: #e0f0f7;
+$table_bordercolor: darken($table_bgcolor, 15%);
+/****Background Colors***/
+/****Site Fonts***/
+$primary_font: 'Inter', sans-serif;
+$secondary_font: 'Public sans', sans-serif;
+$heading_font: 'Jost', sans-serif;
+
+/****SiteFonts***/
+/****Button Styles***/
+$button_background: #1D35AA;
+$button_color: #fff;
+$button_border: #1D35AA;
+/****Button Styles***/
+/****Menu Styles***/
+$menu_width: 200px;
+$menu_background: #fff;
+$submenu_background: #ed7c5d;
+$menulink_background: #fff;
+$menulink_color: #ac1f2d;
+$submenulink_color: #fff;
+$submenu_border_color: #cffcfc;
+/****Menu Styles***/
+
+$border-color: rgba($black_color, 0.5);
+
+// =============================================
+// Primary Break Points
+// =============================================
+
+// These should be used with the bp (max-width, xx) mixin
+// where a min-width is used, remember to +1 to break correctly.
+// If these are changed, they must also be updated in app.js
+$bp-xxxsmall:350px;
+$bp-xxsmall:450px;
+$bp-xsmall: 576px;
+$bp-small: 768px;
+$bp-medium: 992px;
+$bp-lmedium: 1150px;
+$bp-large:1300px;
+$bp-xlarge: 1800px;
+/**********************************/
+$container-width: 1200px;
+$grid_gap: 0 20px;
+
+$primary-background: #DFF4FF;
+$secondary-background:#f2f1f1;
+
+
+
+
